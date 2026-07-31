@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "description": "Prompts are classified on independent axes so the library can grow without forcing one item into a single rigid category.",
+  "axes": {
+    "use_cases": {
+      "label": "Use case",
+      "label_zh": "使用场景",
+      "values": {
+        "brand-marketing": {
+          "label": "Brand & Marketing",
+          "label_zh": "品牌与营销"
+        },
+        "film-storytelling": {
+          "label": "Film & Storytelling",
+          "label_zh": "影视与叙事"
+        },
+        "music-performance": {
+          "label": "Music & Performance",
+          "label_zh": "音乐与表演"
+        },
+        "education-tutorial": {
+          "label": "Education & Tutorial",
+          "label_zh": "教育与教程"
+        },
+        "creative-experiment": {
+          "label": "Creative Experiment",
+          "label_zh": "创意实验"
+        },
+        "product-demo": {
+          "label": "Product Demo",
+          "label_zh": "产品演示"
+        }
+      }
+    },
+    "workflows": {
+      "label": "Workflow",
+      "label_zh": "创作工作流",
+      "values": {
+        "text-to-video": {
+          "label": "Text to Video",
+          "label_zh": "文生视频"
+        },
+        "image-to-video": {
+          "label": "Image to Video",
+          "label_zh": "图生视频"
+        },
+        "multi-image-reference": {
+          "label": "Multi-image Reference",
+          "label_zh": "多图参考"
+        },
+        "video-reference": {
+          "label": "Video Reference",
+          "label_zh": "视频参考"
+        },
+        "multimodal-reference": {
+          "label": "Multimodal Reference",
+          "label_zh": "多模态参考"
+        },
+        "video-editing": {
+          "label": "Video Editing",
+          "label_zh": "视频编辑"
+        },
+        "audio-driven": {
+          "label": "Audio-driven",
+          "label_zh": "音频驱动"
+        }
+      }
+    },
+    "techniques": {
+      "label": "Technique",
+      "label_zh": "创作技法",
+      "values": {
+        "match-cut": {
+          "label": "Match Cut",
+          "label_zh": "匹配剪辑"
+        },
+        "one-take": {
+          "label": "One Take",
+          "label_zh": "一镜到底"
+        },
+        "timecoded-storyboard": {
+          "label": "Timecoded Storyboard",
+          "label_zh": "时间轴分镜"
+        },
+        "camera-control": {
+          "label": "Camera Control",
+          "label_zh": "运镜控制"
+        },
+        "multi-shot": {
+          "label": "Multi-shot",
+          "label_zh": "多镜头"
+        },
+        "lip-sync": {
+          "label": "Lip Sync",
+          "label_zh": "口型同步"
+        },
+        "multilingual-audio": {
+          "label": "Multilingual Audio",
+          "label_zh": "多语言音频"
+        },
+        "character-consistency": {
+          "label": "Character Consistency",
+          "label_zh": "角色一致性"
+        },
+        "product-consistency": {
+          "label": "Product Consistency",
+          "label_zh": "产品一致性"
+        },
+        "visual-effects": {
+          "label": "Visual Effects",
+          "label_zh": "视觉特效"
+        },
+        "motion-reference": {
+          "label": "Motion Reference",
+          "label_zh": "动作参考"
+        },
+        "hard-cut": {
+          "label": "Hard Cut",
+          "label_zh": "硬切"
+        },
+        "sound-design": {
+          "label": "Sound Design",
+          "label_zh": "声音设计"
+        }
+      }
+    }
+  }
+}

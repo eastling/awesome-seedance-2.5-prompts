@@ -1,0 +1,54 @@
+name: Submit a Seedance 2.5 prompt
+description: Propose a source-linked Seedance 2.5 example
+title: "[Prompt] "
+labels:
+  - submission
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Original source URL
+      description: Link to the original post or official page, not a repost.
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Original author
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt
+      description: Paste the complete prompt or editing instruction.
+    validations:
+      required: true
+  - type: input
+    id: video
+    attributes:
+      label: Result video URL
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Input references and settings
+      description: Describe any images, videos, audio, duration, and aspect ratio.
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence
+      options:
+        - Official source
+        - Original creator explicitly names Seedance 2.5
+        - Reproduced by submitter
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Attribution and media
+      options:
+        - label: I provided the original source and did not upload third-party media without permission.
+          required: true

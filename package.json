@@ -1,0 +1,15 @@
+{
+  "name": "awesome-seedance-2.5-prompts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A source-linked collection of Seedance 2.5 prompts and official examples.",
+  "scripts": {
+    "generate": "node scripts/generate-readme.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check": "npm run validate && npm run generate && git diff --exit-code -- README.md README_zh.md"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
