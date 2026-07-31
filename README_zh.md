@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-15-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-17-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,19 +17,20 @@
 
 ### 按使用场景
 
-- **创意实验** — 12
-- **影视与叙事** — 8
-- **品牌与营销** — 6
-- **产品演示** — 2
+- **创意实验** — 13
+- **影视与叙事** — 9
+- **品牌与营销** — 7
+- **产品演示** — 3
 - **教育与教程** — 1
 - **音乐与表演** — 1
 
 ### 按工作流
 
-- **文生视频** — 5
+- **文生视频** — 6
 - **图生视频** — 4
 - **多图参考** — 4
-- **多模态参考** — 1
+- **多模态参考** — 2
+- **音频驱动** — 1
 - **视频编辑** — 1
 - **视频参考** — 1
 
@@ -656,6 +657,56 @@ The choreography becomes almost impossible to follow. Dozens of rapid exchanges.
 Everything suddenly slows. The two warriors cross paths one final time. Silence. A single decisive strike. The camera follows the blade in extreme slow motion before rapidly pulling back into an enormous aerial shot revealing the devastated city beneath dark skies. Dust slowly settles. Hard cut to black.
 
 Sound design: colossal cinematic orchestra blended with modern hybrid percussion, taiko drums, distorted synth pulses, thunderous impacts, rushing wind, metallic blade clashes, explosive shockwaves, collapsing buildings, debris showers, aggressive cinematic whooshes, deep bass hits, brief silence before the final strike, overwhelming orchestral finale with massive surround sound.
+```
+
+---
+
+### 16. 发光全球网络品牌片
+
+一支从太空俯瞰地球的品牌片，以优雅的蓝金色连接路径包裹全球，并避开服务器、代码和区块链的陈词滥调。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 品牌与营销 · 产品演示 |
+| 工作流 | 文生视频 |
+| 创作技法 | 运镜控制 · 视觉特效 |
+| 规格 | 20s · 16:9 |
+| 发布者 | OpenGPU Network (@openGPUnetwork) |
+
+
+[观看成片](https://x.com/openGPUnetwork/status/2083148415412879447) · [原始来源](https://x.com/openGPUnetwork/status/2083148415412879447)
+
+#### 提示词
+
+```text
+Create a cinematic video showing a beautiful global network of OpenGPU connections spreading across the world. Start with Earth from space at night. Elegant streams of light connect every continent. Soft glowing nodes and flowing blue-gold paths. Premium, clean, alive. No code, no servers, no blockchain clichés. End with Earth fully wrapped in a luminous mesh.
+```
+
+---
+
+### 17. 播客访谈变成橄榄球混战
+
+一场西班牙语播客访谈从长发笑料升级为橄榄球队混战，最后以一声命令和全员化作羽毛收束。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 图片 + 音频 · 3 个参考素材 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 多模态参考 · 音频驱动 |
+| 创作技法 | 角色一致性 · 口型同步 · 多镜头 · 视觉特效 · 声音设计 |
+| 规格 | 30s · 16:9 |
+| 发布者 | Nabilidoso (@Nabilidosoo) |
+
+
+[观看成片](https://x.com/Nabilidosoo/status/2083148007843774669) · [原始来源](https://x.com/Nabilidosoo/status/2083148007843774669)
+
+#### 提示词
+
+```text
+El entrevistador esta en su podcast entrevistando a @8993a3ce-444a-414b-9800-6798a9c997eb y le pregunta con su voz @0949c9e6-24ae-4895-b567-94aa844e0150: " Buenas mi gente, tenemos un nuevo modelo de IA y hemos traido a un experto en ello, Nabil cuentanos" y entonces el invitado dice con su voz @8993a3ce-444a-414b-9800-6798a9c997eb: "Buenas jordi, la verdad que es una cosa de locos. Gracias a este modelo puedo hacer cosas como esta" y se levanta chasquea los dedos y le sale pelo. Se sienta y dice con su voz @7ac71528-ba91-42ec-92e1-89875ed6e49f: "inténtalo tú" y jordi se levanta y chasquea los dedos y entra un equipo de rugby en el podcast y nabil y jordi empiezan a empujarse con el equipo entero como en una pelea. De repente la camara enfoca a nabil en medio de la pelea y este con su voz @7ac71528-ba91-42ec-92e1-89875ed6e49fdice :" Esto solo es posible con el nuevo modelo de seedance, que loco!" y le da un empujon al que tiene encima forcejeando. De repente jordi en medio de la pelea grita con su voz @0949c9e6-24ae-4895-b567-94aa844e0150: "STOP" y todos los de rugby se convierten en plumas que caen al suelo. Jordi y Nabil se miran y les entra un ataque de risa
 ```
 
 

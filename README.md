@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-15-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-17-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,19 +17,20 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 12
-- **Film & Storytelling** — 8
-- **Brand & Marketing** — 6
-- **Product Demo** — 2
+- **Creative Experiment** — 13
+- **Film & Storytelling** — 9
+- **Brand & Marketing** — 7
+- **Product Demo** — 3
 - **Education & Tutorial** — 1
 - **Music & Performance** — 1
 
 ### By workflow
 
-- **Text to Video** — 5
+- **Text to Video** — 6
 - **Image to Video** — 4
 - **Multi-image Reference** — 4
-- **Multimodal Reference** — 1
+- **Multimodal Reference** — 2
+- **Audio-driven** — 1
 - **Video Editing** — 1
 - **Video Reference** — 1
 
@@ -656,6 +657,56 @@ The choreography becomes almost impossible to follow. Dozens of rapid exchanges.
 Everything suddenly slows. The two warriors cross paths one final time. Silence. A single decisive strike. The camera follows the blade in extreme slow motion before rapidly pulling back into an enormous aerial shot revealing the devastated city beneath dark skies. Dust slowly settles. Hard cut to black.
 
 Sound design: colossal cinematic orchestra blended with modern hybrid percussion, taiko drums, distorted synth pulses, thunderous impacts, rushing wind, metallic blade clashes, explosive shockwaves, collapsing buildings, debris showers, aggressive cinematic whooshes, deep bass hits, brief silence before the final strike, overwhelming orchestral finale with massive surround sound.
+```
+
+---
+
+### 16. Luminous Global Network Brand Film
+
+A space-view brand film wraps Earth in elegant blue-gold connection paths, avoiding literal infrastructure and blockchain imagery.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Brand & Marketing · Product Demo |
+| Workflow | Text to Video |
+| Techniques | Camera Control · Visual Effects |
+| Format | 20s · 16:9 |
+| Publisher | OpenGPU Network (@openGPUnetwork) |
+
+
+[Watch result](https://x.com/openGPUnetwork/status/2083148415412879447) · [Original source](https://x.com/openGPUnetwork/status/2083148415412879447)
+
+#### Prompt
+
+```text
+Create a cinematic video showing a beautiful global network of OpenGPU connections spreading across the world. Start with Earth from space at night. Elegant streams of light connect every continent. Soft glowing nodes and flowing blue-gold paths. Premium, clean, alive. No code, no servers, no blockchain clichés. End with Earth fully wrapped in a luminous mesh.
+```
+
+---
+
+### 17. Podcast Interview Turns into Rugby Chaos
+
+A Spanish podcast interview escalates from a hair-growth gag into a rugby-team brawl, then resolves with a shouted command and a feather transformation.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Image + Audio · 3 references |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Multimodal Reference · Audio-driven |
+| Techniques | Character Consistency · Lip Sync · Multi-shot · Visual Effects · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | Nabilidoso (@Nabilidosoo) |
+
+
+[Watch result](https://x.com/Nabilidosoo/status/2083148007843774669) · [Original source](https://x.com/Nabilidosoo/status/2083148007843774669)
+
+#### Prompt
+
+```text
+El entrevistador esta en su podcast entrevistando a @8993a3ce-444a-414b-9800-6798a9c997eb y le pregunta con su voz @0949c9e6-24ae-4895-b567-94aa844e0150: " Buenas mi gente, tenemos un nuevo modelo de IA y hemos traido a un experto en ello, Nabil cuentanos" y entonces el invitado dice con su voz @8993a3ce-444a-414b-9800-6798a9c997eb: "Buenas jordi, la verdad que es una cosa de locos. Gracias a este modelo puedo hacer cosas como esta" y se levanta chasquea los dedos y le sale pelo. Se sienta y dice con su voz @7ac71528-ba91-42ec-92e1-89875ed6e49f: "inténtalo tú" y jordi se levanta y chasquea los dedos y entra un equipo de rugby en el podcast y nabil y jordi empiezan a empujarse con el equipo entero como en una pelea. De repente la camara enfoca a nabil en medio de la pelea y este con su voz @7ac71528-ba91-42ec-92e1-89875ed6e49fdice :" Esto solo es posible con el nuevo modelo de seedance, que loco!" y le da un empujon al que tiene encima forcejeando. De repente jordi en medio de la pelea grita con su voz @0949c9e6-24ae-4895-b567-94aa844e0150: "STOP" y todos los de rugby se convierten en plumas que caen al suelo. Jordi y Nabil se miran y les entra un ataque de risa
 ```
 
 
