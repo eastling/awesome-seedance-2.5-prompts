@@ -331,7 +331,3 @@ New Seedance 2.5 examples are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) a
 ## License and attribution
 
 Repository code is licensed under the [MIT License](LICENSE). Included prompts, reference media, and videos are not relicensed by their inclusion here; they remain subject to their original publishers' terms. See [NOTICE.md](NOTICE.md).
-
----
-
-First release: 10 official Seedance 2.5 examples. This README is generated from structured prompt files.

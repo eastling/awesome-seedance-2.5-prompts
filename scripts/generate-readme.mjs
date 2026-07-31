@@ -146,10 +146,6 @@ ${contribution}
 ## ${zh ? "许可与归属" : "License and attribution"}
 
 ${zh ? "仓库代码采用 [MIT License](LICENSE)。收录的提示词、参考素材和视频不因进入本仓库而被重新授权；它们仍受原始发布者的条款约束。详情见 [NOTICE.md](NOTICE.md)。" : "Repository code is licensed under the [MIT License](LICENSE). Included prompts, reference media, and videos are not relicensed by their inclusion here; they remain subject to their original publishers' terms. See [NOTICE.md](NOTICE.md)."}
-
----
-
-${zh ? `首批收录 ${prompts.length} 条官方 Seedance 2.5 案例。README 由结构化 Prompt 文件自动生成。` : `First release: ${prompts.length} official Seedance 2.5 examples. This README is generated from structured prompt files.`}
 `;
 }
 
