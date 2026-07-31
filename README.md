@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-17-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-19-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,8 +17,8 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 13
-- **Film & Storytelling** — 9
+- **Creative Experiment** — 15
+- **Film & Storytelling** — 11
 - **Brand & Marketing** — 7
 - **Product Demo** — 3
 - **Education & Tutorial** — 1
@@ -26,9 +26,9 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By workflow
 
-- **Text to Video** — 6
+- **Text to Video** — 7
+- **Multi-image Reference** — 5
 - **Image to Video** — 4
-- **Multi-image Reference** — 4
 - **Multimodal Reference** — 2
 - **Audio-driven** — 1
 - **Video Editing** — 1
@@ -707,6 +707,123 @@ A Spanish podcast interview escalates from a hair-growth gag into a rugby-team b
 
 ```text
 El entrevistador esta en su podcast entrevistando a @8993a3ce-444a-414b-9800-6798a9c997eb y le pregunta con su voz @0949c9e6-24ae-4895-b567-94aa844e0150: " Buenas mi gente, tenemos un nuevo modelo de IA y hemos traido a un experto en ello, Nabil cuentanos" y entonces el invitado dice con su voz @8993a3ce-444a-414b-9800-6798a9c997eb: "Buenas jordi, la verdad que es una cosa de locos. Gracias a este modelo puedo hacer cosas como esta" y se levanta chasquea los dedos y le sale pelo. Se sienta y dice con su voz @7ac71528-ba91-42ec-92e1-89875ed6e49f: "inténtalo tú" y jordi se levanta y chasquea los dedos y entra un equipo de rugby en el podcast y nabil y jordi empiezan a empujarse con el equipo entero como en una pelea. De repente la camara enfoca a nabil en medio de la pelea y este con su voz @7ac71528-ba91-42ec-92e1-89875ed6e49fdice :" Esto solo es posible con el nuevo modelo de seedance, que loco!" y le da un empujon al que tiene encima forcejeando. De repente jordi en medio de la pelea grita con su voz @0949c9e6-24ae-4895-b567-94aa844e0150: "STOP" y todos los de rugby se convierten en plumas que caen al suelo. Jordi y Nabil se miran y les entra un ataque de risa
+```
+
+---
+
+### 18. Three-Language Break-Room Cake Mystery
+
+Three locked cartoon characters trade English, Spanish, and French dialogue in a 30-second cake-theft comedy with precise lip sync and audio cues.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Multilingual Audio · Lip Sync · Character Consistency · Camera Control · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | Jay Nwabueze (@jaynwabueze) |
+
+
+[Watch result](https://x.com/jaynwabueze/status/2083166430522921048) · [Original source](https://x.com/jaynwabueze/status/2083166430522921048) · [Prompt source](https://x.com/jaynwabueze/status/2083166434880839733)
+
+#### Prompt
+
+```text
+High-quality 3D animated cartoon, stylized modern family-animation film look, oversized heads, huge expressive eyes, exaggerated proportions, smooth rounded clay-like 3D surfaces, subsurface scattering skin, vibrant saturated colors, warm cinematic animated lighting.
+
+NOT realistic, NOT live action. 30 seconds, snappy comedic pacing.
+
+LOCATION: a bright office break room, cheerful cartoon kitchen counter, a small round table, an open fridge door behind them. On the table sits a white plate holding nothing but crumbs and a smear of chocolate frosting.
+
+CHARACTERS (locked, no drift):
+
+MAYA — woman, oversized round head, curly dark hair, green blazer, huge suspicious eyes, arms folded. Speaks English.
+
+DIEGO — tall skinny man, light blue shirt, enormous eyebrows, very dramatic hand gestures. Speaks Spanish.
+
+LUC — short round man, grey knit sweater, sweet innocent face, a tiny smear of chocolate frosting on his cheek that he never notices. Speaks French.
+
+COLOR 60:30:10 — 60% bright clean office whites and warm wood / 30% soft mint-green wall / 10% accent of Maya's green blazer and the chocolate frosting.
+
+0–4s: wide shot. All three stand around the table staring down at the empty plate in dramatic silence. Slow push-in on the crumbs like a crime scene. Tense low strings.
+
+4–8s: MAYA leans in, eyes narrowing, and says in English: "Okay. Which one of you ate the last slice?" Cut to her suspicious glare.
+
+8–13s: DIEGO throws both hands up theatrically, offended, and says in Spanish: "¿Yo? ¡Yo ni siquiera como azúcar!" He clutches his chest, scandalised.
+
+13–18s: LUC blinks innocently, shrugs with total sincerity, and says in French: "Moi non plus. Je suis complètement innocent." The frosting is clearly visible on his cheek. Diego slowly turns and stares at him.
+
+18–23s: MAYA points at Luc's face without a word. Beat of silence. LUC touches his cheek, looks at his finger, and freezes, eyes going enormous.
+
+23–27s: LUC, quietly, in French: "...Bon. J'ai peut-être goûté un petit morceau." Maya and Diego both explode in overlapping outrage.
+
+27–30s: Luc slowly licks the frosting off his finger anyway, completely unrepentant, as the other two throw their arms up. Freeze on his guilty little smile.
+
+CAMERA: slow push-in on the plate, then natural shot-reverse-shot coverage cutting to whoever speaks, a wide two-shot on the accusation, tight close-up on Luc's frozen face, wide comedic final shot on all three.
+
+AUDIO: tense low comedic strings during the standoff, a dramatic sting on Maya's question, cartoon gasp from Diego, dead silence during the pointing beat, overlapping outraged shouting at the end, one cheeky little xylophone note on the final lick. Each character's lips match their own line and language precisely. No background music over the dialogue.
+
+FORBIDDEN: no auto-generated subtitles, no background music bed, no voice crossing to the wrong character, no design drift, no realistic or live-action rendering, no named studio references, no readable text or logos.
+```
+
+---
+
+### 19. Dusk Countryside Heartbreak
+
+Two referenced characters move through a restrained countryside breakup scene with tightly tracked touch, jewelry continuity, blocking, dialogue, and ambient sound.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Image · 2 references |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Multi-image Reference |
+| Techniques | Multi-shot · Character Consistency · Camera Control · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | taruma sakti (@tarumainfo) |
+
+
+[Watch result](https://x.com/tarumainfo/status/2083165453153931689) · [Original source](https://x.com/tarumainfo/status/2083165453153931689) · [Prompt source](https://dreamina.capcut.com/ai-tool/work-detail/7668614240588074260?workDetailType=AiVideo&itemType=53&isShared=1)
+
+#### Prompt
+
+```text
+Create a melancholic, high-drama cinematic scene starring ROBERT as Robert and SARAH as Sarah experiencing a quiet, devastating emotional heartbreak. Maintain spatial logic during physical touch and rejection. Track the precise location of the hands, wedding bands, and Sarah's pendant across cuts.
+
+[AESTHETIC]
+Medium: 35mm film, soft organic grain, naturalistic texture
+Palette: Pale amber horizon, cold blue-grey sky, dried ochre grass, sage green, dark navy
+Lighting: Late dusk, natural low-contrast ambient light with fading horizon warmth
+Location: Vast English countryside wildflower field, dry stalks, dead seed heads
+Wardrobe (Robert): White linen shirt, dark olive wool jacket, tan chinos, leather bracelet on right wrist, wedding band on left hand
+Wardrobe (Sarah): Navy anorak, muted sage-green dress, gold pendant necklace, wedding band on left hand
+Sound: Foley and ambient only. No music. Wind through dry grass, crunching footsteps, raw dialogue
+
+[OPENING]
+WS, TRACKING BACKWARD head-on at their walking pace. The low horizon sits in the upper third of the frame under a cooling sky. Sarah is frame-left, arms folded tight across her chest, eyes forward. Robert is frame-right, half a step behind her, gazing intensely at her profile.
+
+[EXECUTION]
+[CAM] WS, TRACKING BACKWARD -> [ACT] Robert glances down at his own hand, then looks back at Sarah. Wind blows hair across Sarah's cheek; she ignores it -> [ENV] Fading amber light on the dry weeds, constant wind hum.
+
+[CAM] MCU, LOCKOFF, eye level on Sarah's profile from her left -> [ACT] Sarah keeps her gaze locked forward, her chin lifting slightly as she speaks -> [AUDIO] Sarah: "When did you find out." -> [ENV] Wind rustling.
+
+[CAM] MCU, HANDHELD, OTS from behind Robert's left shoulder -> [ACT] Robert reaches his right hand across to touch Sarah's left arm sleeve. Sarah instantly pulls her arm away without breaking stride, opening a physical gap. Robert's hand hangs in the empty air -> [AUDIO] Robert: "Sarah, can we just—" -> Sarah: "I asked you when."
+
+[CAM] MCU, LOCKOFF, slight low angle, three-quarter view of Robert -> [ACT] Robert drops his hand back to his side, letting out a long, visible exhale through his nose. His eyes shift to the right, jaw tightening -> [AUDIO] Robert: "...February. The week before Venice."
+
+[CAM] WS, STEADICAM SIDE-TRACKING -> [ACT] Sarah now ahead of Robert. Her arms unfold and her right hand presses flat against the gold pendant at her collarbone. Her stride slows down, her weight hesitating on her next step -> [AUDIO] Footsteps crunching slower on dry soil
+
+[CAM] MCU, eye level on Sarah -> [ACT] Sarah abruptly plants her left foot and pivots her body right to face Robert head-on, eyes locking onto him. Robert steps into the right edge of the frame, pulling up inches from her face -> [AUDIO] Sarah: "(sigh) ... You held my hand, on every bridge in that city."
+
+[CAM] MS, HANDHELD, profile view, Robert Frame-Right, Sarah Frame-Left -> [ACT] Sarah's arms hang at her sides, her right hand making a sharp flicking gesture as she speaks. Robert steps half a pace forward, leaning in desperately -> [AUDIO] Sarah: "You laughed at that waiter who spilled the wine." -> Robert: "Because I meant all of it—"
+
+[CAM] MCU, eye level, on Sarah -> [ACT] Sarah's eyes fill with tears, her lower lip trembling as her voice drops to a raw, quiet tone -> [AUDIO] Sarah: "Every day... EVERY DAY! you didn't tell me was a day you let me live in a world that doesn't exist." -> [ENV] Cold howling wind.
+
+[CAM] MCU, OTS HANDHELD, over Sarah's left shoulder looking at Robert -> [ACT] Robert's mouth parts, jaw working silently as he searches her eyes. Sarah slowly drops her chin, breaking eye contact and turning away -> [AUDIO] Breath catching, ambient wind.
+
+[CAM] WS, perpendicular to their path -> [ACT] Robert remains frozen center-frame. Sarah walks past him, she continues walking right-to-left, increasing the physical distance -> [AUDIO] Wind rustling, footsteps fading
 ```
 
 
