@@ -27,6 +27,7 @@ const prompts = await loadPrompts();
 const taxonomy = await loadTaxonomy();
 const ids = new Set();
 const slugs = new Set();
+const sourceUrls = new Set();
 const allowedEvidence = new Set(["official", "creator-confirmed", "reproduced"]);
 const allowedInputTypes = new Set(["text", "image", "video", "audio"]);
 
@@ -41,8 +42,12 @@ for (const prompt of prompts) {
 
   if (ids.has(prompt.id)) throw new Error(`${prompt.filename}: duplicate id ${prompt.id}`);
   if (slugs.has(prompt.slug)) throw new Error(`${prompt.filename}: duplicate slug ${prompt.slug}`);
+  if (prompt.source_type !== "official" && sourceUrls.has(prompt.source_url)) {
+    throw new Error(`${prompt.filename}: duplicate source_url ${prompt.source_url}`);
+  }
   ids.add(prompt.id);
   slugs.add(prompt.slug);
+  if (prompt.source_type !== "official") sourceUrls.add(prompt.source_url);
 
   if (!allowedEvidence.has(prompt.evidence)) {
     throw new Error(`${prompt.filename}: unsupported evidence level ${prompt.evidence}`);
@@ -76,6 +81,14 @@ for (const prompt of prompts) {
       if (url.protocol !== "https:") throw new Error();
     } catch {
       throw new Error(`${prompt.filename}: ${field} must be an HTTPS URL`);
+    }
+  }
+  if (prompt.prompt_source_url) {
+    try {
+      const url = new URL(prompt.prompt_source_url);
+      if (url.protocol !== "https:") throw new Error();
+    } catch {
+      throw new Error(`${prompt.filename}: prompt_source_url must be an HTTPS URL`);
     }
   }
 

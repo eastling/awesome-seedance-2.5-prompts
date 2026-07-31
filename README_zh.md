@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-12-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-15-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,18 +17,18 @@
 
 ### 按使用场景
 
-- **创意实验** — 9
+- **创意实验** — 12
+- **影视与叙事** — 8
 - **品牌与营销** — 6
-- **影视与叙事** — 5
 - **产品演示** — 2
 - **教育与教程** — 1
 - **音乐与表演** — 1
 
 ### 按工作流
 
-- **文生视频** — 4
-- **图生视频** — 3
-- **多图参考** — 3
+- **文生视频** — 5
+- **图生视频** — 4
+- **多图参考** — 4
 - **多模态参考** — 1
 - **视频编辑** — 1
 - **视频参考** — 1
@@ -503,6 +503,159 @@ Finally, she stops, smiles softly, and looks directly into the lens.
 The scene freezes.
 
 Text appears on screen: "Every version of me was always here."
+```
+
+---
+
+### 13. 第一人称牵手穿越六个世界
+
+一位女性牵着摄影者，以不间断的第一人称手持镜头穿过六个硬边空间入口，从派对一路加速至寂静山巅。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 图片 · 1 个参考素材 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 图生视频 |
+| 创作技法 | 一镜到底 · 运镜控制 · 角色一致性 · 视觉特效 · 声音设计 |
+| 规格 | 30s · 2.39:1 |
+| 发布者 | Adil Alimzhanov (@adilinthewild) |
+
+
+[观看成片](https://x.com/adilinthewild/status/2083120787737972851) · [原始来源](https://x.com/adilinthewild/status/2083120787737972851)
+
+#### 提示词
+
+```text
+image_1 is the first frame. The woman from image_1 — straight black hair, white short-sleeve collared shirt, navy pleated skirt, brown belt, braided bracelet — is holding the camera operator's hand and pulling him forward through the world. Camera is first-person POV, loose handheld, her hand visible in the lower right of frame gripping the operator's wrist, pulling. She walks ahead, glancing back over her shoulder occasionally. She walks, then runs, then sprints as the scale of the world gets bigger and more overwhelming.
+
+Every few seconds a vertical floor-to-ceiling insert appears ahead floating in open air — no border, no frame, no door, no arch, just a hard rectangular cut in space where one world ends and another begins — and she pulls him straight through it into the next world. Six locations total, one continuous uncut shot.
+
+Location 1 — 1970s apartment party interior from image_1: warm amber light, sequin curtain, strangers in background, she turns and pulls him out of the room forward.
+
+Location 2 — Petra, Jordan, midday: the narrow Siq canyon walls rising hundreds of meters on both sides, sunlight cutting down in a single strip, she runs pulling him through the corridor of ancient rock.
+
+Location 3 — Shibuya crossing, Tokyo, rush hour: hundreds of people crossing in every direction, she weaves pulling him through the crowd, neon signs and screens overhead in daylight.
+
+Location 4 — Sahara desert at golden hour: vast open dunes, no horizon line visible, wind moving the sand, she runs pulling him up a dune face, her skirt and hair flying.
+
+Location 5 — Venice, Italy, acqua alta flooding: St Mark's Square underwater, ankle-deep reflective water, pigeons displaced onto benches, she splashes forward pulling him across the flooded piazza.
+
+Location 6 — top of a mountain at dawn, clouds below: nothing ahead but open sky and light. She slows to a walk. Then stops. Still holding his hand. She turns and looks directly into the camera — directly at him — for the first time. Silence.
+
+Sound: party ambience fading, then canyon echo of running footsteps, then Tokyo crowd noise and distant traffic, then open desert wind, then Venice water splash and bells, then pure silence and wind at altitude. Her breathing gets heavier location by location.
+
+Style: photorealistic cinematic, 2.39:1 Cinemascope, warm film grain consistent across all six spaces, first-person handheld POV, one unbroken take from start to finish.
+```
+
+---
+
+### 14. 暗黑幻想摩托追逐
+
+五张视觉参考锁定角色与载具，通过十二个镜头完成巨型城市追逐、导弹爆炸、翻滚落地和魔法符文反击。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 图片 · 5 个参考素材 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 多图参考 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 角色一致性 · 运镜控制 · 视觉特效 · 声音设计 |
+| 规格 | 30s · 16:9 |
+| 发布者 | RafaSimon (@rafalors) |
+
+
+[观看成片](https://x.com/rafalors/status/2083119527848751220) · [原始来源](https://x.com/rafalors/status/2083119527848751220) · [提示词来源](https://x.com/rafalors/status/2083119532202418489)
+
+#### 提示词
+
+```text
+Use the provided references consistently across the full 30 seconds: Image 1 is the first faceless black-armored chaser rider; Image 2 is Kestrel's charcoal courier motorcycle with amber light strip; Image 3 is the dark chaser motorcycle with red taillight and no amber; Image 4 is Kestrel, the broad-shouldered slicked-back male hero in a single-shouldered charcoal jacket with an amber sash; Image 5 is the second faceless black-armored chaser variant. Kestrel stays in front and the two dark pursuit riders stay behind or beside him as visual pressure.
+
+Create an original high-speed dark-fantasy motorcycle pursuit scene, 30 seconds, very fast-paced, readable, designed as an edit-friendly trailer cut with rapid cinematic shots. No background music, no soundtrack music, no subtitles, no text, no logos.
+
+Setting: elevated highway through a dense dystopian megacity, monolithic concrete arcologies, industrial haze, flat overcast daylight, no rain, imposing and orderly rather than chaotic. Empty roadway, brutal concrete barriers, smoke, sparks, glowing energy trails, and stylized road-impact flashes.
+
+FAST 12-SHOT STRUCTURE:
+
+SHOT 1, 0:00–0:02 — Cold open. A bright energy flare streaks past the camera toward the highway, motion-blurred, then blooms behind Kestrel's bike in a dramatic orange-black shockwave. Camera shakes. Kestrel is already in front, escaping.
+
+SHOT 2, 0:02–0:04 — High aerial reveal. Three motorcycles tear along the elevated highway far below, Kestrel's amber light strip visible at the front, two matte-black pursuit bikes behind in staggered formation. Camera dive accelerates downward.
+
+SHOT 3, 0:04–0:06 — Extreme low road-level shot. The hero bike blasts over the lens, amber strip streaking; two dark pursuit bikes thunder after him with red taillights and black armor. Heavy motion blur, road grit, heat shimmer.
+
+SHOT 4, 0:06–0:08 — Close-up on Kestrel. Slicked-back wet ash-grey hair, sharp masculine face, amber sash whipping violently, gloved hand twisting the throttle. His eyes stay calm while light flashes bloom behind him.
+
+SHOT 5, 0:08–0:11 — Rear chase cam. The left pursuit rider closes in tight and releases a bright warning energy streak. Kestrel drops his shoulder and leans the bike underneath it; the streak passes his shoulder and showers sparks from the concrete barrier.
+
+SHOT 6, 0:11–0:14 — Side-by-side pressure. The right pursuit rider surges up beside Kestrel and forces him toward the lane edge. Kestrel kicks the side of his bike frame and snaps the bike sideways in a controlled drift, narrowly avoiding contact while staying ahead. The camera whip-pans with the movement.
+
+SHOT 7, 0:14–0:17 — Front tracking angle looking backward. A heavier guided light trail launches from behind, weaving between the bikes with a bright trail. Kestrel cuts through a narrow gap between broken road plates. The guided light hits the road ahead and erupts into concrete dust, debris mist, and black smoke.
+
+SHOT 8, 0:17–0:20 — Hero stunt beat. Kestrel and the charcoal motorcycle punch through the blast wash. The bike performs one clean slow-motion barrel-roll through smoke and flying road dust, amber strip glowing, then lands hard with sparks and instantly accelerates. Make the rotation clean and physically readable.
+
+SHOT 9, 0:20–0:22 — Pursuit rider close-ups. Rapid cuts: faceless black mirrored visor reflecting Kestrel's amber light; armored gauntlet gripping throttle; red taillight streak; tire sliding through sparks. The two pursuit riders regroup behind him, still closing.
+
+SHOT 10, 0:22–0:25 — Power reveal. Low side profile at extreme speed. Kestrel rises upright on the moving bike, balanced and confident, turning backward toward the two riders. Four compact golden magical sigils bloom around his shoulders and hands, spinning like hot geometric halos. The road and city blur around him.
+
+SHOT 11, 0:25–0:28 — Climax escape. The golden sigils fire concentrated beams backward down the highway. The beams carve glowing lines through the haze and strike the road around the pursuing bikes, creating a wall of golden-orange light, smoke, sparks, and shockwave energy. The two pursuit riders disappear into the smoke and fall far behind, ending the chase. Keep it stylized, non-graphic, cinematic, and readable.
+
+SHOT 12, 0:28–0:30 — Final hero exit. Medium rear tracking beside Kestrel. He drops back into the seat, leans low over the charcoal bike, gives a small confident smirk, then rockets away down the elevated highway. Smoke columns recede behind him. End with forward acceleration, no title card.
+
+Visual style: original premium dark-fantasy action cinema, high quality Unreal Engine cinematic render, modern high-end fantasy game visual quality, not copying any existing franchise characters, armor, weapons, symbols, or scenes. Anamorphic lens, speed-ramped action, rapid cinematic cuts, whip-pan transitions, camera shake from road impacts, heavy motion blur, atmospheric haze, film grain, cinematic color grade, strong silhouettes, consistent character and vehicle design, dynamic but readable action, no rain.
+
+Audio instruction: no background music, no soundtrack music. If audio is generated, use only sparse cinematic sound effects such as engine roars, wind rush, energy pulses, road-impact booms, tire skids, debris impacts, and magical beam crackle.
+```
+
+---
+
+### 15. 废墟都市电影级动漫决斗
+
+一场 30 秒高规格动漫决斗，以作画级动作、速度渐变、屋顶坍塌、能量碰撞和最终静默一击持续升级。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 匹配剪辑 · 运镜控制 · 视觉特效 · 声音设计 |
+| 规格 | 30s · 16:9 |
+| 发布者 | OscarAI (@Artedeingenio) |
+
+
+[观看成片](https://x.com/Artedeingenio/status/2083119776058970157) · [原始来源](https://x.com/Artedeingenio/status/2083119776058970157) · [提示词来源](https://x.com/Artedeingenio/status/2083119779208925226)
+
+#### 提示词
+
+```text
+30-second cinematic anime action sequence, breathtaking high-budget anime film, ultra-dynamic editing, fluid sakuga animation, spectacular fight choreography, seamless kinetic camera movement, aggressive speed ramps, rapid match cuts, whip pans, rotating camera moves, dramatic perspective shifts, cinematic lens distortion, volumetric lighting, dust, sparks, debris, explosive impacts, emotionally intense, premium animation quality, no dialogue.
+
+0–5s
+
+A ruined futuristic city stands silent beneath storm clouds. Two lone warriors face each other hundreds of meters apart. The camera rapidly alternates between extreme wide shots, close-ups of determined eyes, hands tightening around weapons, feet scraping broken concrete, fluttering coats and drifting dust. A heartbeat. Absolute silence.
+
+5–10s
+
+Both fighters explode forward simultaneously. The camera races alongside them before instantly switching to overhead drone views, impossible low angles beneath their feet, first-person perspectives, and ultra-fast lateral tracking shots. Shockwaves ripple across the ground as they collide. The first impact sends debris flying in every direction.
+
+10–15s
+
+An overwhelming combat montage. Lightning-fast sword strikes. Acrobatic flips. Mid-air clashes. Wall running. Buildings collapse around them. The camera never stays still: continuous orbit shots, rapid whip pans, rotating 360-degree movements, crash zooms, Dutch angles, seamless transitions through clouds of dust and sparks. Constant speed ramps amplify every decisive strike.
+
+15–20s
+
+The battle escalates. Energy erupts with every collision. One fighter launches the other through multiple rooftops. The camera follows in a single uninterrupted shot before cutting to an extreme close-up as both instantly reappear, colliding again in mid-air. Fragments of glass, steel and concrete freeze momentarily before exploding outward.
+
+20–25s
+
+The choreography becomes almost impossible to follow. Dozens of rapid exchanges. The camera jumps between ultra-wide cinematic compositions, intimate facial close-ups, spinning aerial shots, slow-motion impacts, handheld ground-level tracking, and impossible anime-style perspective shifts. Every cut increases the intensity. The music reaches its peak.
+
+25–30s
+
+Everything suddenly slows. The two warriors cross paths one final time. Silence. A single decisive strike. The camera follows the blade in extreme slow motion before rapidly pulling back into an enormous aerial shot revealing the devastated city beneath dark skies. Dust slowly settles. Hard cut to black.
+
+Sound design: colossal cinematic orchestra blended with modern hybrid percussion, taiko drums, distorted synth pulses, thunderous impacts, rushing wind, metallic blade clashes, explosive shockwaves, collapsing buildings, debris showers, aggressive cinematic whooshes, deep bass hits, brief silence before the final strike, overwhelming orchestral finale with massive surround sound.
 ```
 
 

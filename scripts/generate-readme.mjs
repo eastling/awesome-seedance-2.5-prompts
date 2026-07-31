@@ -33,6 +33,9 @@ function promptBlock(prompt, index, locale) {
   const sourceLabel = official ? (zh ? "官方来源" : "Official source") : (zh ? "原始来源" : "Original source");
   const videoLabel = zh ? "观看成片" : "Watch result";
   const promptLabel = zh ? "提示词" : "Prompt";
+  const promptSource = prompt.prompt_source_url
+    ? ` · [${zh ? "提示词来源" : "Prompt source"}](${prompt.prompt_source_url})`
+    : "";
   const previewUrl = prompt.thumbnail_url || thumbnailUrl(prompt.video_url);
   const preview = previewUrl
     ? `<a href="${prompt.video_url}">
@@ -64,7 +67,7 @@ ${description}
 | ${zh ? "发布者" : "Publisher"} | ${prompt.source_publisher} |
 
 ${preview}
-[${videoLabel}](${prompt.video_url}) · [${sourceLabel}](${prompt.source_url})
+[${videoLabel}](${prompt.video_url}) · [${sourceLabel}](${prompt.source_url})${promptSource}
 
 #### ${promptLabel}
 
