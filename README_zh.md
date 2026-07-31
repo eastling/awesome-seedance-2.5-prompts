@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-23-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-24-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,9 +17,9 @@
 
 ### 按使用场景
 
-- **创意实验** — 19
+- **创意实验** — 20
 - **影视与叙事** — 15
-- **品牌与营销** — 7
+- **品牌与营销** — 8
 - **产品演示** — 3
 - **教育与教程** — 1
 - **音乐与表演** — 1
@@ -27,7 +27,7 @@
 ### 按工作流
 
 - **文生视频** — 8
-- **图生视频** — 6
+- **图生视频** — 7
 - **多图参考** — 6
 - **多模态参考** — 2
 - **音频驱动** — 1
@@ -1038,6 +1038,37 @@ She moves through a cramped, dirty corridor with graffiti-covered walls, peeling
 She pushes through the exit and steps into the cold London night. Outside the club, groups of people stand smoking, talking, drifting in and out of the entrance. Streetlight mixes with spill from the doorway and practical urban light. She walks to the nearest dirty exterior wall and pauses. With slightly shaky hands, she lights a cigarette. The flame briefly illuminates her face. She takes a drag, leans back against the wall, then slowly slides down into a seated position on the pavement. The camera follows her downward and settles at her level, then holds. She sits smoking in silence, looking past the moving crowd into the distance, disconnected from everything around her. People continue crossing the frame, talking, laughing and smoking nearby, but she feels completely alone inside the busy environment. The sound transitions from overwhelming club techno, to muffled bass and corridor ambience, to distant low-frequency vibration outside mixed with cigarette lighter clicks, breathing, street ambience, footsteps and indistinct smoker chatter. No dialogue.
 
 The overall image should feel raw, naturalistic and grounded, with visible film grain, slight exposure fluctuation, realistic skin texture and subtle handheld instability. Avoid glossy polish, commercial beauty lighting and music-video slickness.
+```
+
+---
+
+### 24. 零提示词布加迪时尚运镜
+
+将一张 AI 生成的时尚人像作为唯一参考图，不输入视频提示词，直接生成 10 秒 Seedance 2.5 运镜成片。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 图片 · 1 个参考素材 |
+| 使用场景 | 品牌与营销 · 创意实验 |
+| 工作流 | 图生视频 |
+| 创作技法 | 运镜控制 · 角色一致性 · 产品一致性 |
+| 规格 | 10s · 3:4 |
+| 发布者 | John (@johnAGI168) |
+
+
+[观看成片](https://x.com/johnAGI168/status/2083226179369083027) · [原始来源](https://x.com/johnAGI168/status/2083226179369083027) · [提示词来源](https://x.com/johnAGI168/status/2083208741764075662)
+
+#### 提示词
+
+```text
+Reference-image creation prompt (GPT Image 2):
+
+Photorealistic 3:4 full-body luxury fashion portrait of an exceptionally beautiful adult East Asian woman sitting elegantly on the front hood of a glossy purple-and-black Bugatti Chiron inside a high-end underground parking garage. She has a refined sweet face, fair luminous skin, large almond-shaped eyes, soft pink lips and very long silver-gray hair with subtle lavender tips, flowing past her waist in loose waves. Her figure is naturally voluptuous and feminine, with a full bust, narrow waist and softly rounded hips. She wears a fitted deep-purple long-sleeve top with an elegant V-neckline, paired with a glossy lavender high-waisted asymmetrical wrap skirt featuring a high front slit and long flowing hem, sheer black pantyhose and glossy black strappy platform stilettos. She sits on the front edge of the hood with both hands resting beside her, torso upright with a gentle back arch. Her long legs extend diagonally toward the camera and cross neatly at the ankles. She looks directly at the camera with a calm, confident and subtly alluring expression. Immaculate VIP underground parking garage, polished dark stone floor, architectural concrete columns, black wall panels, linear LED ceiling lights and soft reflections across the Bugatti’s sculpted bodywork. Cool cinematic lighting with subtle purple highlights, shallow depth of field, high-end editorial photography, realistic skin, hair, sheer fabric and automotive details, accurate anatomy and hands, no anime, no text, no watermark.
+
+Seedance 2.5 workflow:
+
+Use one resulting 3:4 image as the sole image input. Leave the video prompt empty and generate a 10-second video.
 ```
 
 
