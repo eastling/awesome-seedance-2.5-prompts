@@ -56,5 +56,7 @@ export async function loadTaxonomy() {
 }
 
 export function thumbnailUrl(videoUrl) {
+  const url = new URL(videoUrl);
+  if (!url.hostname.endsWith(".volces.com")) return null;
   return `${videoUrl}?x-tos-process=video/snapshot,t_0,f_jpg,w_1280,h_720,m_fast`;
 }

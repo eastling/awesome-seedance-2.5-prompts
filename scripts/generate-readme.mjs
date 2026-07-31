@@ -29,9 +29,17 @@ function promptBlock(prompt, index, locale) {
   const title = zh ? prompt.title_zh : prompt.title;
   const description = zh ? prompt.description_zh : prompt.description;
   const evidence = evidenceLabels[prompt.evidence][locale];
-  const sourceLabel = zh ? "官方来源" : "Official source";
-  const videoLabel = zh ? "观看官方视频" : "Watch official video";
-  const promptLabel = zh ? "提示词（官方英文版）" : "Prompt";
+  const official = prompt.evidence === "official";
+  const sourceLabel = official ? (zh ? "官方来源" : "Official source") : (zh ? "原始来源" : "Original source");
+  const videoLabel = zh ? "观看成片" : "Watch result";
+  const promptLabel = zh ? "提示词" : "Prompt";
+  const previewUrl = prompt.thumbnail_url || thumbnailUrl(prompt.video_url);
+  const preview = previewUrl
+    ? `<a href="${prompt.video_url}">
+  <img src="${previewUrl}" width="720" alt="${title}">
+</a>
+`
+    : "";
   const inputs = prompt.input_types
     .map((value) => inputTypeLabels[value][locale])
     .join(" + ");
@@ -55,10 +63,7 @@ ${description}
 | ${zh ? "规格" : "Format"} | ${prompt.duration_seconds}s · ${prompt.aspect_ratio} |
 | ${zh ? "发布者" : "Publisher"} | ${prompt.source_publisher} |
 
-<a href="${prompt.video_url}">
-  <img src="${thumbnailUrl(prompt.video_url)}" width="720" alt="${title}">
-</a>
-
+${preview}
 [${videoLabel}](${prompt.video_url}) · [${sourceLabel}](${prompt.source_url})
 
 #### ${promptLabel}
@@ -88,14 +93,14 @@ function generate(locale) {
   const zh = locale === "zh";
   const title = zh ? "Awesome Seedance 2.5 Prompts" : "Awesome Seedance 2.5 Prompts";
   const intro = zh
-    ? "一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、官方成片、输入方式和多轴分类，方便查找、比较与复现。"
-    : "A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, official output, input workflow, and multi-axis classification.";
+    ? "一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。"
+    : "A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.";
   const languageSwitch = zh
     ? "[English](README.md) · **简体中文**"
     : "**English** · [简体中文](README_zh.md)";
   const browseTitle = zh ? "分类浏览" : "Browse the collection";
   const evidenceTitle = zh ? "证据等级" : "Evidence levels";
-  const collectionTitle = zh ? "首批官方案例" : "Official launch collection";
+  const collectionTitle = zh ? "案例合集" : "Prompt collection";
   const contribution = zh
     ? "欢迎提交新的 Seedance 2.5 案例。请阅读 [贡献指南](CONTRIBUTING.md)，并使用 [Prompt 投稿表单](https://github.com/eastling/awesome-seedance-2.5-prompts/issues/new?template=submit-prompt.yml)。"
     : "New Seedance 2.5 examples are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and use the [prompt submission form](https://github.com/eastling/awesome-seedance-2.5-prompts/issues/new?template=submit-prompt.yml).";
@@ -106,12 +111,12 @@ function generate(locale) {
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-${prompts.length}-blue)](#official-launch-collection)
+[![Prompts](https://img.shields.io/badge/prompts-${prompts.length}-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 ${intro}
 
-> ${zh ? "视频由官方地址提供，本仓库首版不重新托管媒体文件。第三方内容仍归原作者或发布者所有。" : "Videos are linked from official sources and are not re-hosted in this first release. Third-party content remains the property of its original author or publisher."}
+> ${zh ? "成片链接指向原始来源，本仓库不重新托管媒体文件。第三方内容仍归原作者或发布者所有。" : "Result videos link to their original sources and are not re-hosted. Third-party content remains the property of its original author or publisher."}
 
 ## ${browseTitle}
 
@@ -133,7 +138,7 @@ ${categorySummary("workflows", locale)}
 | \`Creator-confirmed\` | ${zh ? "原作者明确说明使用 Seedance 2.5，并提供提示词和结果。" : "The original creator explicitly names Seedance 2.5 and provides the prompt and result."} |
 | \`Reproduced\` | ${zh ? "维护者在 Seedance 2.5 中重新运行并记录结果。" : "Maintainers reran the prompt with Seedance 2.5 and recorded the result."} |
 
-<a id="official-launch-collection"></a>
+<a id="prompt-collection"></a>
 
 ## ${collectionTitle}
 
