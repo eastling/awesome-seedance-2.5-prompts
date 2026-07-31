@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-19-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-22-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,8 +17,8 @@
 
 ### 按使用场景
 
-- **创意实验** — 15
-- **影视与叙事** — 11
+- **创意实验** — 18
+- **影视与叙事** — 14
 - **品牌与营销** — 7
 - **产品演示** — 3
 - **教育与教程** — 1
@@ -27,8 +27,8 @@
 ### 按工作流
 
 - **文生视频** — 7
-- **多图参考** — 5
-- **图生视频** — 4
+- **图生视频** — 6
+- **多图参考** — 6
 - **多模态参考** — 2
 - **音频驱动** — 1
 - **视频编辑** — 1
@@ -824,6 +824,181 @@ WS, TRACKING BACKWARD head-on at their walking pace. The low horizon sits in the
 [CAM] MCU, OTS HANDHELD, over Sarah's left shoulder looking at Robert -> [ACT] Robert's mouth parts, jaw working silently as he searches her eyes. Sarah slowly drops her chin, breaking eye contact and turning away -> [AUDIO] Breath catching, ambient wind.
 
 [CAM] WS, perpendicular to their path -> [ACT] Robert remains frozen center-frame. Sarah walks past him, she continues walking right-to-left, increasing the physical distance -> [AUDIO] Wind rustling, footsteps fading
+```
+
+---
+
+### 20. 午夜清算
+
+两个参考角色在雨夜空中连廊展开企业惊悚对峙，通过严格走位、道具连续性和动作匹配剪辑维持叙事逻辑。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 图片 · 2 个参考素材 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 多图参考 |
+| 创作技法 | 多镜头 · 匹配剪辑 · 角色一致性 · 运镜控制 · 声音设计 |
+| 规格 | 30s · 16:9 |
+| 发布者 | taruma sakti (@tarumainfo) |
+
+
+[观看成片](https://dreamina.capcut.com/ai-tool/work-detail/7668644297599749397?workDetailType=AiVideo&itemType=53&isShared=1) · [原始来源](https://x.com/tarumainfo/status/2083181384009662530) · [提示词来源](https://dreamina.capcut.com/ai-tool/work-detail/7668644297599749397?workDetailType=AiVideo&itemType=53&isShared=1)
+
+#### 提示词
+
+```text
+Create a tense corporate drama scene featuring ARTHUR as ARTHUR, a disgraced financial strategist, and ROBERT as ROBERT, a cold senior partner, confronting each other on a rain-drenched skyscraper skybridge late at night.
+
+[LOGIC]
+Ensure rigid spatial continuity across the narrow glass skybridge walkway. Maintain screen direction with Arthur moving backward on frame-left and Robert advancing relentlessly along frame-right on a strict 180-degree axis. Preserve prop states: the wet audit file remains crumpled in Arthur's right hand once gripped, and Robert's silver briefcase stays locked in his left hand. Ensure match-on-action cuts between shots, matching head turns, heavy breathing, and physical proximity seamlessly.
+
+[AESTHETIC]
+Medium: 35mm anamorphic film style, cold atmospheric corporate thriller
+Palette: Steel blue, obsidian black, cold cyan, neon amber reflections
+Lighting: High-contrast chiaroscuro, wet glass reflections, distant sodium city lights
+Location: High-altitude glass skybridge, structural steel trusses, rain-streaked curtain walls
+Wardrobe: Arthur wears a dark charcoal trench coat over a wrinkled cream dress shirt without a tie; Robert wears a double-breasted graphite wool suit with a burgundy silk tie and a sleek titanium audio band on his right temple
+Audio: Diegetic sound only; ambient rain hitting glass, muffled wind, echoing shoe leather, rhythmic HVAC hum, suppressed vocal rasps, no music
+
+[OPENING]
+Medium wide tracking shot along the glass skybridge corridor. Frame-left, Arthur steps backward in a hurried posture, holding a wet document stack in his right hand. Frame-right, Robert walks forward with steady momentum, holding a silver briefcase in his left hand. Rain streams down the exterior curtain wall, casting blue reflections across the polished floor.
+
+[EXECUTION]
+[CAM 01] MS, tracking backward -> [ACT] Arthur shoves wet papers against Robert's chest aggressively -> [AUDIO] ARTHUR: (gasping) "...and my signature is right on the ledger!" -> [ACT] Robert brushes Arthur's arm away cleanly.
+
+[CAM 01] -> [ACT] Robert maintains his forward stride calmly -> [AUDIO] ROBERT: (scoffing) "...you signed those authorization forms willingly, Arthur." -> [ENV] Raindrops strike the exterior glass loudly.
+
+[CAM 01] -> [ACT] Arthur steps backward rapidly while pointing a trembling finger -> [AUDIO] ARTHUR: (snarls) "...because you swore it was routine audit compliance!" -> [ACT] Arthur stumbles slightly on the sleek floor.
+
+[CAM 01] -> [ACT] Robert steps around Arthur without breaking stride -> [AUDIO] ROBERT: (cold sigh) "...innocence is a luxury for junior associates." -> [ACT] Robert shifts his silver briefcase to his outer hip.
+
+[CAM 02] MCU, OTS on Robert -> [ACT] Arthur pivots violently to block Robert's path -> [AUDIO] ARTHUR: (choking back tears) "...the board planned this throwaway sacrifice months ago!" -> [ACT] Arthur's chest heaves heavily.
+
+[CAM 02] -> [ACT] Robert stops briefly, leaning in close -> [AUDIO] ROBERT: (hissing whisper) "...someone had to take the fall for the shortfall." -> [ACT] Robert narrows his eyes with cold detachment.
+
+[CAM 02] -> [ACT] Arthur grabs Robert's suit lapel frantically -> [AUDIO] ARTHUR: (desperate rasp) "...you built my whole career just to destroy it!" -> [ACT] Robert grips Arthur's wrist firmly.
+
+[CAM 02] -> [ACT] Robert pries Arthur's hand off his lapel cold-bloodedly -> [AUDIO] ROBERT: (disdainful exhale) "...I built an asset, and I liquidated it." -> [ENV] A distant lightning flash illuminates the glass ceiling.
+
+[CAM 03] WS, low-angle static -> [ACT] Robert steps past Arthur briskly into the dark corridor -> [AUDIO] ARTHUR (O.S.): (gutted groan) "...look at me when you kill my life!" -> [ACT] Arthur freezes completely in mid-track.
+
+[CAM 03] -> [ACT] Robert continues walking away without turning his head -> [AUDIO] ROBERT: (smoothly) "...clear your desk before security arrives at midnight." -> [ACT] Robert's footsteps echo rhythmically down the hall.
+
+[CAM 03] -> [ACT] Arthur slowly crumples the wet papers tightly inside his right fist -> [AUDIO] ARTHUR: (trembling exhale) "...you rot in hell, Robert." -> [ACT] The paper crushes into a dense wet ball.
+
+[CAM 03] -> [ACT] Arthur stands alone in the center of the vast empty skybridge -> [AUDIO] ROBERT (O.S.): (faint chuckle) "...goodnight, Arthur." -> [ENV] Water drips steadily from the steel ceiling girders.
+```
+
+---
+
+### 21. 高速 FPV 一镜到底穿越
+
+同一女主角在 30 秒竖屏一镜到底中高速穿越十三个世界，以具体物体作为无缝传送口，并让尾帧重新接回开场眼睛。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 图片 · 1 个参考素材 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 图生视频 |
+| 创作技法 | 一镜到底 · 时间轴分镜 · 匹配剪辑 · 角色一致性 · 运镜控制 · 视觉特效 · 声音设计 |
+| 规格 | 30s · 9:16 |
+| 发布者 | John (@johnAGI168) |
+
+
+[观看成片](https://x.com/johnAGI168/status/2083178644130640005) · [原始来源](https://x.com/johnAGI168/status/2083178644130640005)
+
+#### 提示词
+
+```text
+【风格】高速FPV一镜到底穿越（Hyperspeed FPV One-Take Portal Travel），虚幻引擎5写实渲染，8K，运动模糊拉满，每次穿越用"冲进物体/被吸入"做无缝转场，禁止黑屏硬切，竖屏9:16
+
+【时长】30秒
+
+【角色】同一位亚洲女性（每个世界换形态换装，但脸100%锁定，观众能一眼认出是同一个人）
+
+【核心机制】镜头是一颗永不停下的高速飞行体，全程向前冲，每约2秒穿过一个"传送口"(瞳孔/水面/火焰/裂缝/门)进入下一个截然不同的世界，一镜到底不断
+
+[00:00-00:01] 怼脸极特写：她的眼睛猛地睁开，镜头急速推入瞳孔，被吸进黑洞般的瞳孔深处。
+
+[00:01-00:03] 冲出瞳孔→热带雨林瀑布，她抓着藤蔓从瀑布后荡出，水花糊镜头。
+
+[00:03-00:05] 穿过水花→赛博朋克霓虹雨夜，她穿发光机甲踩在飞行摩托上贴脸掠过镜头。
+
+[00:05-00:07] 冲进一块霓虹广告牌→深海，她一身鲛人鳞尾与巨鲸并肩下潜，气泡upward飞过。
+
+[00:07-00:09] 钻进鲸鱼喷出的气柱→金色沙漠风暴，她骑改装越野车碾过沙丘腾空。
+
+[00:09-00:11] 冲进扬起的沙墙→零重力空间站，她太空服漂浮翻转，地球在她背后转。
+
+[00:11-00:13] 钻进舷窗反光→古代宫殿，她红衣长袖凌空甩袖起舞，红绸缠满整个画面。
+
+[00:13-00:15] 冲进红绸漩涡→活火山口，她跃过喷发的熔岩，火星拖成流星线。
+
+[00:15-00:17] 穿过火星→极光雪原，她策一匹白马狂奔，雪雾在马蹄下炸开。
+
+[00:17-00:19] 钻进雪雾→蒸汽朋克钟楼内部，齿轮咬合，她踩着转动的巨齿轮跳跃。
+
+[00:19-00:21] 冲进钟表齿轮缝→末日废土，她持长刀在沙暴中回身劈开镜头前的什么。
+
+[00:21-00:23] 刀光劈开画面→水墨江湖，一切变黑白水墨，她一袭白衣立于竹尖，墨点飞溅。
+
+[00:23-00:25] 钻进一滴墨→未来都市天际线，她张开机械双翼从摩天楼顶一跃而下俯冲。
+
+[00:25-00:28] 俯冲穿过云层→所有世界的碎片像玻璃一样向中心坍缩,汇成一个亮点。
+
+[00:28-00:30] 亮点收缩回她的瞳孔——镜头猛地拉回到开头那张脸,她眨了一下眼,嘴角一勾。画面定格,可无缝接回第0秒。
+
+音效：全程无BGM，只有高频呼啸风声+每次穿越"轰"的一声穿透音+材质环境音(水/火/风/金属)，最后眨眼一声轻响戛然而止。
+
+【导演备注】
+1.节奏铁律：镜头全程向前高速冲，绝不停顿、绝不减速停留，每个世界只停留约2秒立刻穿入下一个；
+2.转场铁律：每次切换必须用"冲进/穿过一个具体物体"完成无缝转场(瞳孔/水花/气柱/沙墙/红绸/火星/墨滴)，禁止黑屏、禁止闪白、禁止叠化；
+3.身份锁定：@图1脸部五官全程100%一致，只换服装形态，观众每个世界都要能认出是同一个她；
+4.物理真实：水花、沙、火星、雪雾、红绸都要真实惯性和运动模糊；
+5.首尾帧对齐做无缝循环。
+
+【负面提示词】黑屏转场，闪白，叠化，镜头停顿减速，换脸，五官漂移，认不出同一人，真实地标品牌，可读文字，水印，塑料CG，卡顿掉帧，多余手指，未成年人形象。
+```
+
+---
+
+### 22. 涂鸦怪兽城市大战
+
+三次 30 秒生成组成一场手绘怪兽大战，每段都将上一段尾帧作为下一段起始图，以保持动作与场景衔接。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 图片 · 2 个参考素材 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 图生视频 |
+| 创作技法 | 多镜头 · 匹配剪辑 · 角色一致性 · 视觉特效 |
+| 规格 | 71s · 16:9 |
+| 发布者 | WHORANGE (@whorange__) |
+
+
+[观看成片](https://x.com/whorange__/status/2083177210563952753) · [原始来源](https://x.com/whorange__/status/2083177210563952753) · [提示词来源](https://x.com/whorange__/status/2083177214988976366)
+
+#### 提示词
+
+```text
+Prompt 1:
+
+A military force invades the city. Tanks, soldiers, and fighter jets attack a giant blue monster. Fearless, the monster smashes streets, destroys tanks and aircraft, and terrorizes the city.
+
+Workflow tip: Save the last frame of video 1, then use it as the start frame for video 2.
+
+Prompt 2:
+
+Use [Image] as the start frame. As the giant blue monster continues attacking the city, a giant green monster suddenly charges in.
+
+Repeat the same trick: Use the last frame of Video 2 as the Start Frame for Video 3.
+
+Prompt 3:
+
+Use [Image] as the start frame. The two giant monsters clash in a brutal fight. The green monster dominates at first, but the blue monster eventually overpowers it. The final frame shows the blue monster standing on its defeated opponent with one arm raised in victory.
 ```
 
 
