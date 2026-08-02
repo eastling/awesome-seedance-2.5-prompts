@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-42-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-44-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,16 +17,16 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 35
-- **Film & Storytelling** — 29
-- **Brand & Marketing** — 11
-- **Product Demo** — 5
+- **Creative Experiment** — 36
+- **Film & Storytelling** — 30
+- **Brand & Marketing** — 12
+- **Product Demo** — 6
 - **Education & Tutorial** — 2
 - **Music & Performance** — 2
 
 ### By workflow
 
-- **Text to Video** — 21
+- **Text to Video** — 23
 - **Image to Video** — 11
 - **Multi-image Reference** — 7
 - **Multimodal Reference** — 2
@@ -1879,6 +1879,76 @@ A high-energy urban fashion film follows a model through New York with an ultra-
 
 ```text
 A 15 second urban fashion film shot on dynamic ultra wide fisheye lens capturing a trendy female model strutting through New York street corners. She wears a black crop top low rise baggy white cargo pants high top sneakers silver sunglasses and large over ear headphones around her neck. High energy camera movements include extreme low angle worm eye perspective fast tracking whip pans tilt ups and energetic jump cuts. Scene alternates between bright natural daylight along urban brick storefronts with graffiti shutter doors and moody evening streetlights featuring subtle neon glow. Fast motion city traffic blurred in background. Fluid transitions include quick lens light leaks digital HUD music player UI overlays dynamic trailing light effects and a triple visual echo effect of the model. Photorealistic skin texture natural movement crisp urban ambient audio synced with rhythmic electronic music beats 16 ratio high contrast cinematic grading.
+```
+
+---
+
+### 43. Ink Drop to Cyberpunk Dragon
+
+A single continuous tracking shot transforms a falling ink drop into living calligraphy, liquid ribbons, a floating dragon, and neon graffiti before swallowing the camera.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Creative Experiment · Film & Storytelling |
+| Workflow | Text to Video |
+| Techniques | One Take · Camera Control · Visual Effects |
+| Format | 30s · 16:9 |
+| Publisher | Pan (@sebatheepan) |
+
+
+[Watch result](https://x.com/sebatheepan/status/2083877876550561800) · [Original source](https://x.com/sebatheepan/status/2083877876550561800) · [Prompt source](https://x.com/sebatheepan/status/2083877878517670041)
+
+#### Prompt
+
+```text
+A single drop of black ink falls onto a blank sheet of paper in extreme close-up. It spreads into intricate calligraphy that rapidly forms into living brush strokes. The strokes lift off the paper, becoming three-dimensional liquid ribbons that whip through the air, wrapping around floating books and scrolls that open and dissolve into swirling galaxies of letters. The ribbons accelerate, weaving a massive floating calligraphy dragon that coils through a storm of flying pages. The dragon dives, smashing through the paper world into a neon-lit cyberpunk city where the same ink now crawls across skyscrapers as living graffiti, reforming into the dragon’s face that opens its mouth and swallows the camera into pure black, only for a single glowing character to appear and explode into light. Continuous tracking, accelerating camera, constant liquid morphing and particle chaos.
+```
+
+---
+
+### 44. Family Baozi Breakfast Commercial
+
+A 15-second vertical food commercial keeps four family members consistent while coordinating macro product shots, Mandarin narration, character dialogue, and precise lip sync.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Brand & Marketing · Product Demo |
+| Workflow | Text to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Character Consistency · Product Consistency · Lip Sync · Multilingual Audio · Sound Design |
+| Format | 15s · 9:16 |
+| Publisher | Kent Dhani (@kentdhani) |
+
+
+[Watch result](https://x.com/kentdhani/status/2083875538435985692) · [Original source](https://x.com/kentdhani/status/2083875538435985692) · [Prompt source](https://x.com/kentdhani/status/2083875542663582142)
+
+#### Prompt
+
+```text
+Create a 15-second vertical 9:16 photorealistic Chinese baozi breakfast commercial in 4K at 24fps.
+
+Use the same four Chinese family members throughout: a young woman around 24 years old with shoulder-length dark hair, a cream blouse, and a pastel cardigan; a mother around 46 years old with a neat low bun and beige blouse; a father around 48 years old with short black hair and a light-gray shirt; and a young man around 22 years old wearing a light-blue overshirt over a white shirt. Preserve their exact faces, hairstyles, ages, clothing, and body proportions in every scene. Their acting must feel warm, restrained, believable, and naturally affectionate.
+
+The featured product is freshly steamed Chinese pork-and-scallion baozi with fluffy white dough, neat pleated tops, fully cooked juicy filling, and gentle realistic steam.
+
+From 0.0–2.0 seconds, show a wide establishing shot of the family seated around a bright round wooden table. A bamboo steamer filled with baozi sits at the center as morning sunlight enters through large windows. An off-screen Mandarin female narrator says: 「清晨，从一笼热气开始。」 Only the narrator speaks. All visible mouths remain still.
+
+From 2.0–4.0 seconds, cut to a medium close-up of the young woman presenting the bamboo steamer toward the camera with a friendly smile. She says clearly in Mandarin: 「刚出笼的包子，快尝尝！」 The narrator remains completely silent. Use precise Mandarin lip synchronization.
+
+From 4.0–6.0 seconds, show an extreme macro shot of a hand opening the bamboo-steamer lid as warm steam reveals several soft white baozi. The narrator says: 「皮薄松软，热气腾腾。」 No visible person speaks.
+
+From 6.0–8.0 seconds, show the family sharing baozi with wooden chopsticks. The father serves one to the mother and says: 「大家一起吃吧。」 Only the father speaks.
+
+From 8.0–10.0 seconds, show the young man taking one natural bite, swallowing fully, then smiling and saying: 「太香了！」 He must not speak with food visible inside his mouth. The narrator remains silent during both dialogue scenes.
+
+From 10.0–11.5 seconds, show an extreme macro close-up of a baozi opened in half, revealing fluffy dough and moist fully cooked pork-and-scallion filling. The narrator says: 「鲜香肉馅，汁水饱满。」
+
+From 11.5–13.0 seconds, show the family happily enjoying breakfast together. The young woman says: 「吃饱了，今天有精神！」 Only she speaks; the others respond silently with natural smiles.
+
+From 13.0–14.0 seconds, show wooden chopsticks gently lifting one baozi from the steaming basket. No dialogue or narration.
 ```
 
 

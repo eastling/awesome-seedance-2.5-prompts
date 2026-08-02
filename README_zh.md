@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-42-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-44-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,16 +17,16 @@
 
 ### 按使用场景
 
-- **创意实验** — 35
-- **影视与叙事** — 29
-- **品牌与营销** — 11
-- **产品演示** — 5
+- **创意实验** — 36
+- **影视与叙事** — 30
+- **品牌与营销** — 12
+- **产品演示** — 6
 - **教育与教程** — 2
 - **音乐与表演** — 2
 
 ### 按工作流
 
-- **文生视频** — 21
+- **文生视频** — 23
 - **图生视频** — 11
 - **多图参考** — 7
 - **多模态参考** — 2
@@ -1879,6 +1879,76 @@ PEOPLE: Historically accurate. Plain wool tunics in undyed cream, brown, rust. R
 
 ```text
 A 15 second urban fashion film shot on dynamic ultra wide fisheye lens capturing a trendy female model strutting through New York street corners. She wears a black crop top low rise baggy white cargo pants high top sneakers silver sunglasses and large over ear headphones around her neck. High energy camera movements include extreme low angle worm eye perspective fast tracking whip pans tilt ups and energetic jump cuts. Scene alternates between bright natural daylight along urban brick storefronts with graffiti shutter doors and moody evening streetlights featuring subtle neon glow. Fast motion city traffic blurred in background. Fluid transitions include quick lens light leaks digital HUD music player UI overlays dynamic trailing light effects and a triple visual echo effect of the model. Photorealistic skin texture natural movement crisp urban ambient audio synced with rhythmic electronic music beats 16 ratio high contrast cinematic grading.
+```
+
+---
+
+### 43. 水墨化身赛博朋克巨龙
+
+一个连续跟拍镜头将落下的墨滴变成活体书法、液态飘带、悬浮巨龙与霓虹涂鸦，最终让巨龙吞没镜头。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 创意实验 · 影视与叙事 |
+| 工作流 | 文生视频 |
+| 创作技法 | 一镜到底 · 运镜控制 · 视觉特效 |
+| 规格 | 30s · 16:9 |
+| 发布者 | Pan (@sebatheepan) |
+
+
+[观看成片](https://x.com/sebatheepan/status/2083877876550561800) · [原始来源](https://x.com/sebatheepan/status/2083877876550561800) · [提示词来源](https://x.com/sebatheepan/status/2083877878517670041)
+
+#### 提示词
+
+```text
+A single drop of black ink falls onto a blank sheet of paper in extreme close-up. It spreads into intricate calligraphy that rapidly forms into living brush strokes. The strokes lift off the paper, becoming three-dimensional liquid ribbons that whip through the air, wrapping around floating books and scrolls that open and dissolve into swirling galaxies of letters. The ribbons accelerate, weaving a massive floating calligraphy dragon that coils through a storm of flying pages. The dragon dives, smashing through the paper world into a neon-lit cyberpunk city where the same ink now crawls across skyscrapers as living graffiti, reforming into the dragon’s face that opens its mouth and swallows the camera into pure black, only for a single glowing character to appear and explode into light. Continuous tracking, accelerating camera, constant liquid morphing and particle chaos.
+```
+
+---
+
+### 44. 家庭包子早餐广告
+
+一支 15 秒竖屏食品广告，在保持四名家庭成员一致性的同时，协调产品微距镜头、中文旁白、角色对白和精确口型同步。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 品牌与营销 · 产品演示 |
+| 工作流 | 文生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 角色一致性 · 产品一致性 · 口型同步 · 多语言音频 · 声音设计 |
+| 规格 | 15s · 9:16 |
+| 发布者 | Kent Dhani (@kentdhani) |
+
+
+[观看成片](https://x.com/kentdhani/status/2083875538435985692) · [原始来源](https://x.com/kentdhani/status/2083875538435985692) · [提示词来源](https://x.com/kentdhani/status/2083875542663582142)
+
+#### 提示词
+
+```text
+Create a 15-second vertical 9:16 photorealistic Chinese baozi breakfast commercial in 4K at 24fps.
+
+Use the same four Chinese family members throughout: a young woman around 24 years old with shoulder-length dark hair, a cream blouse, and a pastel cardigan; a mother around 46 years old with a neat low bun and beige blouse; a father around 48 years old with short black hair and a light-gray shirt; and a young man around 22 years old wearing a light-blue overshirt over a white shirt. Preserve their exact faces, hairstyles, ages, clothing, and body proportions in every scene. Their acting must feel warm, restrained, believable, and naturally affectionate.
+
+The featured product is freshly steamed Chinese pork-and-scallion baozi with fluffy white dough, neat pleated tops, fully cooked juicy filling, and gentle realistic steam.
+
+From 0.0–2.0 seconds, show a wide establishing shot of the family seated around a bright round wooden table. A bamboo steamer filled with baozi sits at the center as morning sunlight enters through large windows. An off-screen Mandarin female narrator says: 「清晨，从一笼热气开始。」 Only the narrator speaks. All visible mouths remain still.
+
+From 2.0–4.0 seconds, cut to a medium close-up of the young woman presenting the bamboo steamer toward the camera with a friendly smile. She says clearly in Mandarin: 「刚出笼的包子，快尝尝！」 The narrator remains completely silent. Use precise Mandarin lip synchronization.
+
+From 4.0–6.0 seconds, show an extreme macro shot of a hand opening the bamboo-steamer lid as warm steam reveals several soft white baozi. The narrator says: 「皮薄松软，热气腾腾。」 No visible person speaks.
+
+From 6.0–8.0 seconds, show the family sharing baozi with wooden chopsticks. The father serves one to the mother and says: 「大家一起吃吧。」 Only the father speaks.
+
+From 8.0–10.0 seconds, show the young man taking one natural bite, swallowing fully, then smiling and saying: 「太香了！」 He must not speak with food visible inside his mouth. The narrator remains silent during both dialogue scenes.
+
+From 10.0–11.5 seconds, show an extreme macro close-up of a baozi opened in half, revealing fluffy dough and moist fully cooked pork-and-scallion filling. The narrator says: 「鲜香肉馅，汁水饱满。」
+
+From 11.5–13.0 seconds, show the family happily enjoying breakfast together. The young woman says: 「吃饱了，今天有精神！」 Only she speaks; the others respond silently with natural smiles.
+
+From 13.0–14.0 seconds, show wooden chopsticks gently lifting one baozi from the steaming basket. No dialogue or narration.
 ```
 
 
