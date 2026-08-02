@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-36-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-39-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,17 +17,17 @@
 
 ### 按使用场景
 
-- **创意实验** — 31
-- **影视与叙事** — 26
-- **品牌与营销** — 8
-- **产品演示** — 3
+- **创意实验** — 32
+- **影视与叙事** — 27
+- **品牌与营销** — 10
+- **产品演示** — 5
 - **教育与教程** — 2
 - **音乐与表演** — 2
 
 ### 按工作流
 
-- **文生视频** — 18
-- **图生视频** — 9
+- **文生视频** — 19
+- **图生视频** — 11
 - **多图参考** — 6
 - **多模态参考** — 2
 - **音频驱动** — 1
@@ -1590,6 +1590,137 @@ Later that night, the human falls asleep on the couch. The invisible being caref
 After a long sip, the being lets out a quiet, satisfied sigh and the camera slowly reveals a faint outline of a smile in the air.
 
 Warm apartment lighting, subtle visual effects for invisibility, cozy comedy tone, satisfying final shot.
+```
+
+---
+
+### 37. TALON 啤酒广告
+
+一支 30 秒高端啤酒广告，以时间轴快切、动感运镜、微距产品镜头、荒漠公路氛围和最终产品英雄镜头推进。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 图片 · 1 个参考素材 |
+| 使用场景 | 品牌与营销 · 产品演示 |
+| 工作流 | 图生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 运镜控制 · 产品一致性 · 硬切 · 声音设计 |
+| 规格 | 30s · 16:9 |
+| 发布者 | TechHalla (@techhalla) |
+
+
+[观看成片](https://x.com/techhalla/status/2083854169782325248) · [原始来源](https://x.com/techhalla/status/2083854169782325248)
+
+#### 提示词
+
+```text
+High-energy American premium beer commercial in the kinetic visual language of top Spanish beer ads (Águila-style dynamism): extremely fast rhythmic cutting, aggressive camera movement, constant forward energy, product always the absolute hero. Shot on anamorphic cinema lenses with rich contrast, warm golden highlights, deep blacks, subtle film grain, perfect motion blur, and hyper-detailed product beauty. Every frame feels alive, expensive, and addictive.
+
+Brand: TALON
+
+Logo: bold condensed American industrial sans-serif “TALON” in pure gold, with a sharp geometric falcon talon gripping a single hop cone integrated into the letter “A”.
+
+Bottle: tall elegant amber-glass longneck, matte black body label with the gold TALON logo centered, thin gold foil neck collar, embossed talon mark on the shoulder, heavy cold condensation beads, liquid a luminous deep-golden amber with dense creamy white head when poured.
+
+0-2s: [Extreme close-up, rapid whip-pan] Ice explodes as a hand yanks a freezing TALON bottle from a metal cooler. Condensation flies. Instant cut.
+
+2-4s: [Dynamic tracking, low angle] Bottle spins in slow-motion mid-air against a blazing desert sunset highway, gold logo catching the last light. Hard cut.
+
+4-6s: [Handheld kinetic] Young crew in a vintage convertible flying down an empty American desert road at golden hour, wind ripping through hair, laughing. Driver raises a cold TALON without looking away from the road. Cut on the laugh.
+
+6-8s: [Macro beauty, 120fps] Perfect pour: thick golden liquid cascades into a chilled glass, dense foam rising in ultra-slow motion, tiny bubbles racing upward, condensation racing down the glass. Sound of liquid is almost tactile.
+
+8-10s: [Fast montage, 4 cuts in 2 seconds] Rooftop at dusk – city lights ignite. Friends clink bottles hard. Foam overflows. A girl throws her head back laughing. A guy points at the sky. Every cut lands on the bottle or the foam.
+
+10-13s: [Steadicam push through crowd] Night football tailgate, American flags, smoke from grills, pure energy. Someone cracks a TALON, the distinctive sound cuts through the noise. Camera finds the bottle first, then the smiling faces around it.
+
+13-16s: [Ultra-close product sequence] Three rapid macro shots:
+– condensation drop sliding down the gold logo
+– thick white head collapsing slowly over the rim
+– bottle rotating under hard practical light, label flashing gold
+Hard rhythmic cuts timed like drum hits.
+
+16-19s: [Aerial + ground hybrid] Drone diving over a nighttime desert campfire circle. Friends sit around the flames, bottles in hand. Camera lands on one bottle standing upright in the sand, glowing from the firelight, logo sharp. Instant cut to a hand grabbing it.
+
+19-22s: [Aggressive handheld, pure chaos energy] Bar bathroom mirror selfie energy turns into a full dance-floor explosion. Bottles raised high above the crowd. Liquid flying. Faces pure joy. Camera never stops moving, always finding the TALON label in the chaos.
+
+22-25s: [Slow-motion climax beauty] Single perfect bottle of TALON held against a black background, spinning slowly. Gold logo catches every light. Then the same bottle is slammed down onto a wooden table in real time – foam erupts. Freeze on the eruption for half a second.
+
+25-28s: [Final product hero] Extreme close-up of the open bottle and a full glass side-by-side, both sweating, foam perfect, gold logo glowing. Soft anamorphic flare. The word “TALON” appears in the same gold type over the image.
+
+28-30s: [Hard cut to pure black] Gold TALON logo + talon icon slam on screen with the line: “TALON. Grip the night.” Hold for one beat of pure silence, then cut to black.
+
+Cinematic anamorphic look, rich golden color grade, deep contrast, aggressive rhythmic editing, constant kinetic camera energy, hyper-detailed product macro photography, perfect condensation and liquid physics, zero dead frames, pure American freedom energy filtered through European beer-commercial precision, no dialogue, pure visual and emotional momentum.
+
+Place your product as reference, tweak the prompt a bit and you are good to go!
+```
+
+---
+
+### 38. 时间戳香水广告
+
+一支 20 秒奢华香水广告，以 Omni Reference 人像和六段时间戳分镜控制人物一致性、节奏、运镜、产品揭示与台词。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 图片 · 1 个参考素材 |
+| 使用场景 | 品牌与营销 · 产品演示 |
+| 工作流 | 图生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 运镜控制 · 角色一致性 · 产品一致性 · 声音设计 |
+| 规格 | 20s · 16:9 |
+| 发布者 | Ege (@egeberkina) |
+
+
+[观看成片](https://x.com/egeberkina/status/2083845184891003156) · [原始来源](https://x.com/egeberkina/status/2083845184891003156)
+
+#### 提示词
+
+```text
+Use the provided Omni Reference image for the main character. Preserve his facial features, beard, clothing style, and overall identity consistently across every shot.
+
+Luxury fragrance commercial. Duration: 20 seconds. Cinematic. Film grain. Muted earthy colors. Soft overcast daylight. Shallow depth of field. Slow, elegant camera movement. Natural ambient sound mixed with subtle orchestral strings and deep cinematic bass. No logos, no existing brand references, no text overlays.
+
+[0-3s] Extreme close-up. The man adjusts the collar of his wool coat. His fingers briefly touch the side of his neck where fragrance would normally be applied, but nothing is shown. Natural fabric sounds. Slow inhale. Camera gently pushes in.
+
+[3-6s] Wide shot. He walks alone across an open countryside path. The wind moves his coat and flat cap. Everything feels calm and deliberate. No rush.
+
+[6-9s] As he passes an elderly gentleman, the man subtly pauses and smiles with quiet admiration. No dialogue. Just a respectful nod before continuing.
+
+[9-12s] A woman reading on a nearby bench instinctively looks up as he walks by. She follows him with her eyes for a brief moment, smiling naturally before returning to her book. No exaggerated reactions.
+
+[12-15s] A medium tracking shot from behind. A large dog notices him and calmly walks beside him for a few steps before stopping. Leaves move gently across the ground. The atmosphere feels effortless and magnetic.
+
+[15-18s] Interior. He enters a quiet, refined apartment. Golden evening light spills through the windows. He removes his flat cap and places a minimalist fragrance bottle onto a wooden shelf for the very first time. Only now is the product revealed. No label is visible.
+
+[18-20s] Hero close-up of the bottle beside him. The camera slowly racks focus from the bottle to his eyes. He looks directly into the lens with complete confidence. He quietly says: "You'll remember the scent. But never forget the man." Fade to black.
+
+Premium cinematic lighting. Ultra realistic. Natural facial animation. Elegant pacing. Luxury editorial photography aesthetic. Kodak Portra film look. 35mm anamorphic feel. High-end fragrance commercial quality.
+```
+
+---
+
+### 39. 摩洛哥沙漠骑手模型对比
+
+同一条 15 秒沙漠骑手一镜到底提示词分别测试 Seedance 2.5、Seedance 2.0 与 MiniMax H3，以固定侧向跟拍和持续变化的背景动作进行对比。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 创意实验 · 影视与叙事 |
+| 工作流 | 文生视频 |
+| 创作技法 | 一镜到底 · 运镜控制 · 角色一致性 · 视觉特效 |
+| 规格 | 15s · 16:9 |
+| 发布者 | shirish (@shiri_shh) |
+
+
+[观看成片](https://x.com/shiri_shh/status/2083647664152100999) · [原始来源](https://x.com/shiri_shh/status/2083647664152100999) · [提示词来源](https://x.com/shiri_shh/status/2083661898579693766)
+
+#### 提示词
+
+```text
+Continuous 15-second single unbroken take, hyperrealistic, 35mm film look, golden hour. Camera tracks sideways at constant speed alongside a lone rider on horseback galloping across Moroccan desert dunes, keeping the horse and rider perfectly framed in profile the entire duration. As they ride, the background continuously evolves: sandstone city walls give way to open dunes, a caravan of camels passes in the distance, dust devils swirl, and the sun sinks lower turning the light from gold to deep amber. A falcon swoops into frame, flies alongside them, and lands on the rider's outstretched glove without the camera ever changing position or speed. Sand kicks up in natural motion blur. No cuts, fixed lateral tracking shot from start to finish, consistent grade.
 ```
 
 

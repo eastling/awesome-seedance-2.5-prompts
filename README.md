@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-36-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-39-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,17 +17,17 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 31
-- **Film & Storytelling** — 26
-- **Brand & Marketing** — 8
-- **Product Demo** — 3
+- **Creative Experiment** — 32
+- **Film & Storytelling** — 27
+- **Brand & Marketing** — 10
+- **Product Demo** — 5
 - **Education & Tutorial** — 2
 - **Music & Performance** — 2
 
 ### By workflow
 
-- **Text to Video** — 18
-- **Image to Video** — 9
+- **Text to Video** — 19
+- **Image to Video** — 11
 - **Multi-image Reference** — 6
 - **Multimodal Reference** — 2
 - **Audio-driven** — 1
@@ -1590,6 +1590,137 @@ Later that night, the human falls asleep on the couch. The invisible being caref
 After a long sip, the being lets out a quiet, satisfied sigh and the camera slowly reveals a faint outline of a smile in the air.
 
 Warm apartment lighting, subtle visual effects for invisibility, cozy comedy tone, satisfying final shot.
+```
+
+---
+
+### 37. TALON Beer Commercial
+
+A 30-second premium beer spot uses rapid timecoded cuts, kinetic camera movement, macro product shots, desert-road energy, and a final product hero reveal.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Image · 1 reference |
+| Use case | Brand & Marketing · Product Demo |
+| Workflow | Image to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Camera Control · Product Consistency · Hard Cut · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | TechHalla (@techhalla) |
+
+
+[Watch result](https://x.com/techhalla/status/2083854169782325248) · [Original source](https://x.com/techhalla/status/2083854169782325248)
+
+#### Prompt
+
+```text
+High-energy American premium beer commercial in the kinetic visual language of top Spanish beer ads (Águila-style dynamism): extremely fast rhythmic cutting, aggressive camera movement, constant forward energy, product always the absolute hero. Shot on anamorphic cinema lenses with rich contrast, warm golden highlights, deep blacks, subtle film grain, perfect motion blur, and hyper-detailed product beauty. Every frame feels alive, expensive, and addictive.
+
+Brand: TALON
+
+Logo: bold condensed American industrial sans-serif “TALON” in pure gold, with a sharp geometric falcon talon gripping a single hop cone integrated into the letter “A”.
+
+Bottle: tall elegant amber-glass longneck, matte black body label with the gold TALON logo centered, thin gold foil neck collar, embossed talon mark on the shoulder, heavy cold condensation beads, liquid a luminous deep-golden amber with dense creamy white head when poured.
+
+0-2s: [Extreme close-up, rapid whip-pan] Ice explodes as a hand yanks a freezing TALON bottle from a metal cooler. Condensation flies. Instant cut.
+
+2-4s: [Dynamic tracking, low angle] Bottle spins in slow-motion mid-air against a blazing desert sunset highway, gold logo catching the last light. Hard cut.
+
+4-6s: [Handheld kinetic] Young crew in a vintage convertible flying down an empty American desert road at golden hour, wind ripping through hair, laughing. Driver raises a cold TALON without looking away from the road. Cut on the laugh.
+
+6-8s: [Macro beauty, 120fps] Perfect pour: thick golden liquid cascades into a chilled glass, dense foam rising in ultra-slow motion, tiny bubbles racing upward, condensation racing down the glass. Sound of liquid is almost tactile.
+
+8-10s: [Fast montage, 4 cuts in 2 seconds] Rooftop at dusk – city lights ignite. Friends clink bottles hard. Foam overflows. A girl throws her head back laughing. A guy points at the sky. Every cut lands on the bottle or the foam.
+
+10-13s: [Steadicam push through crowd] Night football tailgate, American flags, smoke from grills, pure energy. Someone cracks a TALON, the distinctive sound cuts through the noise. Camera finds the bottle first, then the smiling faces around it.
+
+13-16s: [Ultra-close product sequence] Three rapid macro shots:
+– condensation drop sliding down the gold logo
+– thick white head collapsing slowly over the rim
+– bottle rotating under hard practical light, label flashing gold
+Hard rhythmic cuts timed like drum hits.
+
+16-19s: [Aerial + ground hybrid] Drone diving over a nighttime desert campfire circle. Friends sit around the flames, bottles in hand. Camera lands on one bottle standing upright in the sand, glowing from the firelight, logo sharp. Instant cut to a hand grabbing it.
+
+19-22s: [Aggressive handheld, pure chaos energy] Bar bathroom mirror selfie energy turns into a full dance-floor explosion. Bottles raised high above the crowd. Liquid flying. Faces pure joy. Camera never stops moving, always finding the TALON label in the chaos.
+
+22-25s: [Slow-motion climax beauty] Single perfect bottle of TALON held against a black background, spinning slowly. Gold logo catches every light. Then the same bottle is slammed down onto a wooden table in real time – foam erupts. Freeze on the eruption for half a second.
+
+25-28s: [Final product hero] Extreme close-up of the open bottle and a full glass side-by-side, both sweating, foam perfect, gold logo glowing. Soft anamorphic flare. The word “TALON” appears in the same gold type over the image.
+
+28-30s: [Hard cut to pure black] Gold TALON logo + talon icon slam on screen with the line: “TALON. Grip the night.” Hold for one beat of pure silence, then cut to black.
+
+Cinematic anamorphic look, rich golden color grade, deep contrast, aggressive rhythmic editing, constant kinetic camera energy, hyper-detailed product macro photography, perfect condensation and liquid physics, zero dead frames, pure American freedom energy filtered through European beer-commercial precision, no dialogue, pure visual and emotional momentum.
+
+Place your product as reference, tweak the prompt a bit and you are good to go!
+```
+
+---
+
+### 38. Timestamped Fragrance Commercial
+
+A 20-second luxury fragrance film uses an Omni Reference portrait and a six-part timestamped storyboard to control identity, pacing, camera movement, product reveal, and dialogue.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Image · 1 reference |
+| Use case | Brand & Marketing · Product Demo |
+| Workflow | Image to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Camera Control · Character Consistency · Product Consistency · Sound Design |
+| Format | 20s · 16:9 |
+| Publisher | Ege (@egeberkina) |
+
+
+[Watch result](https://x.com/egeberkina/status/2083845184891003156) · [Original source](https://x.com/egeberkina/status/2083845184891003156)
+
+#### Prompt
+
+```text
+Use the provided Omni Reference image for the main character. Preserve his facial features, beard, clothing style, and overall identity consistently across every shot.
+
+Luxury fragrance commercial. Duration: 20 seconds. Cinematic. Film grain. Muted earthy colors. Soft overcast daylight. Shallow depth of field. Slow, elegant camera movement. Natural ambient sound mixed with subtle orchestral strings and deep cinematic bass. No logos, no existing brand references, no text overlays.
+
+[0-3s] Extreme close-up. The man adjusts the collar of his wool coat. His fingers briefly touch the side of his neck where fragrance would normally be applied, but nothing is shown. Natural fabric sounds. Slow inhale. Camera gently pushes in.
+
+[3-6s] Wide shot. He walks alone across an open countryside path. The wind moves his coat and flat cap. Everything feels calm and deliberate. No rush.
+
+[6-9s] As he passes an elderly gentleman, the man subtly pauses and smiles with quiet admiration. No dialogue. Just a respectful nod before continuing.
+
+[9-12s] A woman reading on a nearby bench instinctively looks up as he walks by. She follows him with her eyes for a brief moment, smiling naturally before returning to her book. No exaggerated reactions.
+
+[12-15s] A medium tracking shot from behind. A large dog notices him and calmly walks beside him for a few steps before stopping. Leaves move gently across the ground. The atmosphere feels effortless and magnetic.
+
+[15-18s] Interior. He enters a quiet, refined apartment. Golden evening light spills through the windows. He removes his flat cap and places a minimalist fragrance bottle onto a wooden shelf for the very first time. Only now is the product revealed. No label is visible.
+
+[18-20s] Hero close-up of the bottle beside him. The camera slowly racks focus from the bottle to his eyes. He looks directly into the lens with complete confidence. He quietly says: "You'll remember the scent. But never forget the man." Fade to black.
+
+Premium cinematic lighting. Ultra realistic. Natural facial animation. Elegant pacing. Luxury editorial photography aesthetic. Kodak Portra film look. 35mm anamorphic feel. High-end fragrance commercial quality.
+```
+
+---
+
+### 39. Moroccan Desert Rider Model Comparison
+
+The same 15-second one-take desert-rider prompt is tested across Seedance 2.5, Seedance 2.0, and MiniMax H3, with a fixed lateral tracking camera and evolving background action.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Creative Experiment · Film & Storytelling |
+| Workflow | Text to Video |
+| Techniques | One Take · Camera Control · Character Consistency · Visual Effects |
+| Format | 15s · 16:9 |
+| Publisher | shirish (@shiri_shh) |
+
+
+[Watch result](https://x.com/shiri_shh/status/2083647664152100999) · [Original source](https://x.com/shiri_shh/status/2083647664152100999) · [Prompt source](https://x.com/shiri_shh/status/2083661898579693766)
+
+#### Prompt
+
+```text
+Continuous 15-second single unbroken take, hyperrealistic, 35mm film look, golden hour. Camera tracks sideways at constant speed alongside a lone rider on horseback galloping across Moroccan desert dunes, keeping the horse and rider perfectly framed in profile the entire duration. As they ride, the background continuously evolves: sandstone city walls give way to open dunes, a caravan of camels passes in the distance, dust devils swirl, and the sun sinks lower turning the light from gold to deep amber. A falcon swoops into frame, flies alongside them, and lands on the rider's outstretched glove without the camera ever changing position or speed. Sand kicks up in natural motion blur. No cuts, fixed lateral tracking shot from start to finish, consistent grade.
 ```
 
 
