@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-49-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-50-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,8 +17,8 @@
 
 ### 按使用场景
 
-- **创意实验** — 40
-- **影视与叙事** — 35
+- **创意实验** — 41
+- **影视与叙事** — 36
 - **品牌与营销** — 13
 - **产品演示** — 6
 - **教育与教程** — 2
@@ -26,7 +26,7 @@
 
 ### 按工作流
 
-- **文生视频** — 27
+- **文生视频** — 28
 - **图生视频** — 11
 - **多图参考** — 8
 - **多模态参考** — 2
@@ -2215,6 +2215,40 @@ Sound design: colossal hybrid orchestral score, thunderous helicopter rotors, tu
 但这极其轻柔的一掌，蕴含的却是直接撕裂宇宙维度的恐怖纯物理震荡！“轰！”一股没有掺杂任何光影颜色的、极其纯粹的空间震荡波（Spatial Shockwave）猛烈爆发，直接将前方数百米范围的空气压缩成透明的音障云。镜头切入中焦段的标准电影特写（Cinematic Medium Close-up），坚决摒弃任何慢动作（Zero Slow-motion），保持极其凌厉、顺滑的 60 帧真实物理时间流速。黑衣女子以极其恐怖的速度向后倒飞。
 
 在她倒飞的轨迹上，沙漠的虚空壁垒像巨大的玻璃穹顶般被彻底坍缩，一个极度深邃的多元宇宙时空隧道。虫洞内部只有纯粹的黑暗与流转着扭曲重力场的引力波。最后镜头跟随表情震惊的黑衣女子的倒飞轨迹极速后拉，黑衣女子毫无反抗之力，被深渊般的恐怖引力无情吸入，身影在扭曲的时空中迅速缩小、彻底吞噬。
+```
+
+---
+
+### 50. 金色时刻屋顶跑者
+
+一段 30 秒时间轴屋顶短片，从静态环境建立镜头转入齐胯跟拍，最后环绕至跑者正面，以亮起灯光的城市天际线收束。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 一镜到底 · 时间轴分镜 · 运镜控制 · 角色一致性 · 声音设计 |
+| 规格 | 30s · 16:9 |
+| 发布者 | LudovicCreator (@LudovicCreator) |
+
+
+[观看成片](https://x.com/LudovicCreator/status/2083915958524031087) · [原始来源](https://x.com/LudovicCreator/status/2083915958524031087) · [提示词来源](https://x.com/LudovicCreator/status/2083915958524031087)
+
+#### 提示词
+
+```text
+[Global Setting]
+Base Environment & Texture: A city rooftop garden at golden hour, warm orange light raking across wet pavement from earlier rain, soft haze in the skyline behind, string lights beginning to flicker on.
+
+[Opening beat, 0–8s]: Wide shot. A runner in a grey hoodie jogs into frame along the rooftop path, breath visible in the cool evening air, camera holds static.
+
+[Mid beat, 8–22s]: Camera begins a slow tracking pan alongside the runner at hip height, matching pace. Passing shots of string lights, a couple sharing a bench, steam rising from a nearby vent. Light shifts from orange to a deeper blue as the sun dips further.
+
+[Closing beat, 22–30s]: Runner slows to a stop at the rooftop edge, camera arcs around to a three-quarter front view, city skyline fully lit behind them, runner catches breath and looks out over the view. Hold on final frame.
+
+Audio: Footsteps on wet concrete, distant city ambience, wind, no music.
 ```
 
 

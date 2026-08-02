@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-49-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-50-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,8 +17,8 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 40
-- **Film & Storytelling** — 35
+- **Creative Experiment** — 41
+- **Film & Storytelling** — 36
 - **Brand & Marketing** — 13
 - **Product Demo** — 6
 - **Education & Tutorial** — 2
@@ -26,7 +26,7 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By workflow
 
-- **Text to Video** — 27
+- **Text to Video** — 28
 - **Image to Video** — 11
 - **Multi-image Reference** — 8
 - **Multimodal Reference** — 2
@@ -2215,6 +2215,40 @@ A three-scene martial-arts fantasy comparison combines a folding cyber-inn mirro
 但这极其轻柔的一掌，蕴含的却是直接撕裂宇宙维度的恐怖纯物理震荡！“轰！”一股没有掺杂任何光影颜色的、极其纯粹的空间震荡波（Spatial Shockwave）猛烈爆发，直接将前方数百米范围的空气压缩成透明的音障云。镜头切入中焦段的标准电影特写（Cinematic Medium Close-up），坚决摒弃任何慢动作（Zero Slow-motion），保持极其凌厉、顺滑的 60 帧真实物理时间流速。黑衣女子以极其恐怖的速度向后倒飞。
 
 在她倒飞的轨迹上，沙漠的虚空壁垒像巨大的玻璃穹顶般被彻底坍缩，一个极度深邃的多元宇宙时空隧道。虫洞内部只有纯粹的黑暗与流转着扭曲重力场的引力波。最后镜头跟随表情震惊的黑衣女子的倒飞轨迹极速后拉，黑衣女子毫无反抗之力，被深渊般的恐怖引力无情吸入，身影在扭曲的时空中迅速缩小、彻底吞噬。
+```
+
+---
+
+### 50. Golden-hour Rooftop Runner
+
+A timecoded 30-second rooftop sequence follows a runner from a static establishing shot into a hip-height tracking move and a final arc against the illuminated city skyline.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | One Take · Timecoded Storyboard · Camera Control · Character Consistency · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | LudovicCreator (@LudovicCreator) |
+
+
+[Watch result](https://x.com/LudovicCreator/status/2083915958524031087) · [Original source](https://x.com/LudovicCreator/status/2083915958524031087) · [Prompt source](https://x.com/LudovicCreator/status/2083915958524031087)
+
+#### Prompt
+
+```text
+[Global Setting]
+Base Environment & Texture: A city rooftop garden at golden hour, warm orange light raking across wet pavement from earlier rain, soft haze in the skyline behind, string lights beginning to flicker on.
+
+[Opening beat, 0–8s]: Wide shot. A runner in a grey hoodie jogs into frame along the rooftop path, breath visible in the cool evening air, camera holds static.
+
+[Mid beat, 8–22s]: Camera begins a slow tracking pan alongside the runner at hip height, matching pace. Passing shots of string lights, a couple sharing a bench, steam rising from a nearby vent. Light shifts from orange to a deeper blue as the sun dips further.
+
+[Closing beat, 22–30s]: Runner slows to a stop at the rooftop edge, camera arcs around to a three-quarter front view, city skyline fully lit behind them, runner catches breath and looks out over the view. Hold on final frame.
+
+Audio: Footsteps on wet concrete, distant city ambience, wind, no music.
 ```
 
 
