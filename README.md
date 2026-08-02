@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-30-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-32-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,16 +17,16 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 25
-- **Film & Storytelling** — 21
+- **Creative Experiment** — 27
+- **Film & Storytelling** — 22
 - **Brand & Marketing** — 8
 - **Product Demo** — 3
 - **Education & Tutorial** — 2
-- **Music & Performance** — 1
+- **Music & Performance** — 2
 
 ### By workflow
 
-- **Text to Video** — 14
+- **Text to Video** — 16
 - **Image to Video** — 7
 - **Multi-image Reference** — 6
 - **Multimodal Reference** — 2
@@ -1334,6 +1334,94 @@ FINAL DIALOGUE (must match exactly):
 TECHNICAL SPECS:
 Duration 15 seconds exactly. Aspect ratio 16:9. No text overlays, no subtitles, no watermark, no on-screen captions. Continuous single POV take, no cuts until the final hard cut to black.
 Photorealistic lighting throughout, no physical violence, no striking or hitting — intimidation conveyed entirely through proximity, gaze, vocal tone, and blocking.
+```
+
+---
+
+### 31. High-Altitude POV Pole Jumps
+
+A chest-mounted single-take POV follows a sequence of skyscraper-edge pole jumps, including a near-fatal slip, with visceral wind, breathing, heartbeat, and metallic impacts.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | One Take · Camera Control · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | Martin (@martindacol) |
+
+
+[Watch result](https://x.com/martindacol/status/2083790529251496153) · [Original source](https://x.com/martindacol/status/2083790529251496153)
+
+#### Prompt
+
+```text
+A hyper-realistic, 8K resolution, adrenaline-fueled single-take POV action sequence. The camera is chest-mounted on a man wearing camouflage joggers and worn-out black-and-white sneakers. He stands on the dizzying edge of a rusted skyscraper, 1000 feet above a crystalline turquoise ocean. No clouds, no haze—just a sheer, terrifying vertical drop into the deep blue.
+
+[The Initial Freefall]
+The sequence begins with a sudden, heart-stopping leap into a 20-meter vertical freefall. The camera points directly at his feet as the sea surface rushes toward the lens. A deafening, high-pitched whistling 'Hyuo' wind screams past the microphone. Just before the impact, he catches a lower rusted horizontal bar with both hands—white wristband visible—and swings his body forward to land on a tiny vertical pole.
+
+[The Rhythmic Jumps & The Near-Death Slip]
+He immediately begins a rhythmic series of high-speed jumps:
+Jump 1: A clean, agile spring to a second vertical pole 2 meters away.
+Jump 2: A rapid leap to a thin, rusted horizontal pipe.
+Jump 3 (The Slip): As he jumps toward the third vertical pole, his right sneaker completely misses the mark and slides off the rusted metal. The camera tilts violently over the edge, staring straight down at the 1000-foot abyss. He lets out a sharp, panicked gasp. For a terrifying second, his body leans into the void, but he desperately claws at the pole with his fingers, his boots scrambling against the side until he manages to hook his leg and haul himself back up.
+Jump 4: Still trembling, he forces a frantic, heavy-breathing leap to the next bar to keep the momentum.
+Jump 5: A final, explosive long-distance jump to a swaying metal platform. He lands with a heavy, jarring metallic 'Clang', his body hunching low, gripping the vibrating metal for dear life.
+
+[The Ending]
+The camera remains in a low, fetal position on the final bar, shaking from the adrenaline. No dialogue. The audio is a visceral layer of the aggressive 'Hyuo' wind, his intense, ragged, and rapid gasping for air, and a loud, thumping heartbeat that resonates as if inside his chest. The harsh midday sun glints off the ocean waves far below, creating a blinding, beautiful, yet lethal glare. Cinematic materials, fluid 120fps motion, hyper-detailed rust and skin textures.
+```
+
+---
+
+### 32. Synchronized K-Pop Studio MV
+
+Two performers move through pink studios, blue spotlights, tinsel backdrops, glamour close-ups, and synchronized choreography in a tightly timecoded 30-second K-pop music video.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Music & Performance · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Multi-shot · Timecoded Storyboard · Character Consistency · Lip Sync · Camera Control |
+| Format | 30s · 16:9 |
+| Publisher | AqibAi (@Aqib__786Ai) |
+
+
+[Watch result](https://x.com/Aqib__786Ai/status/2083787627531034977) · [Original source](https://x.com/Aqib__786Ai/status/2083787627531034977)
+
+#### Prompt
+
+```text
+30-second ultra-realistic K-pop MV featuring two young East Asian women with flawless synchronization, cinematic lighting, glossy skin, realistic hair and fabric physics, natural body motion, and 4K live-action quality. Vibrant hot pink, electric blue, and silver color palette.
+
+0–2s: Wide shot in a bright circular pink studio with reflective floor. Pink-haired woman (left) and black-haired woman (right) perform energetic opening pose and synchronized dance.
+
+2–4s: Medium close-up of the black-haired woman on a blue spotlight stage, confidently pointing at the camera.
+
+4–6s: Pink-haired woman dances before shimmering blue-silver tinsel curtains, dramatic hair flip and fluid arm movements.
+
+6–8s: Back to the pink studio. Both perform synchronized choreography with sharp arm waves, hip sways, and strong formations.
+
+8–10s: Extreme close-up of both faces against a blue background, glossy makeup, subtle smiles, and direct eye contact.
+
+10–14s: Solo shots at the tinsel backdrop. Pink-haired woman mouths lyrics and gestures confidently, followed by the black-haired woman with relaxed jacket styling.
+
+14–18s: Pink studio. Coordinated jacket choreography, hair flips, powerful synchronized dance, ending hands-on-hips.
+
+18–22s: Glamour close-ups. Black-haired woman under glittering bokeh lights, then pink-haired woman with wind-blown hair against a soft pink background.
+
+22–24s: Blue spotlight stage. Mirrored black-haired performer effect with synchronized spins and flowing hair.
+
+24–26s: Both walk confidently toward the camera in front of shimmering tinsel curtains, reflections visible on the floor.
+
+26–29s: Final synchronized dance and ending pose in the pink circular studio, standing together and looking into the camera.
+
+Style: Hyper-realistic live action, Seedance 2.5-quality motion realism, perfect lip sync, natural weight shifts, flowing hair, realistic fabric simulation, polished K-pop music video cinematography.
 ```
 
 
