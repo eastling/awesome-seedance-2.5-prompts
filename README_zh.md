@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-35-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-36-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,8 +17,8 @@
 
 ### 按使用场景
 
-- **创意实验** — 30
-- **影视与叙事** — 25
+- **创意实验** — 31
+- **影视与叙事** — 26
 - **品牌与营销** — 8
 - **产品演示** — 3
 - **教育与教程** — 2
@@ -26,7 +26,7 @@
 
 ### 按工作流
 
-- **文生视频** — 17
+- **文生视频** — 18
 - **图生视频** — 9
 - **多图参考** — 6
 - **多模态参考** — 2
@@ -1549,6 +1549,47 @@ SOUND: No dialogue or subtitles. Daylight battle ambience, sword transients, 36 
 VFX: Local white-silver flashes cover only the princess during vanish and reveal. Green fluid begins only at sword contact. Render every effect with crisp edges and zero motion blur.
 
 EXCLUDE: Motion blur anywhere, whip pans, cuts, hidden cuts, lens changes, camera resets or teleports, visible transit, morphing, stretched limbs, extra or smeared anatomy, duplicates, multi-target strikes, low resolution, soft focus, haze, grain, compression artifacts, and night lighting.
+```
+
+---
+
+### 36. 隐形室友
+
+一名看不见的室友洗碗、做饭、偷吃薯条，为疲惫的人类盖好毯子，最后用一罐冰啤酒结束这段温馨的 30 秒喜剧短片。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 多镜头 · 视觉特效 · 角色一致性 |
+| 规格 | 30s · 16:9 |
+| 发布者 | Dheepan Ratnam (@Dheepanratnam) |
+
+
+[观看成片](https://x.com/Dheepanratnam/status/2083838244211376638) · [原始来源](https://x.com/Dheepanratnam/status/2083838244211376638) · [提示词来源](https://x.com/Dheepanratnam/status/2083838246459408833)
+
+#### 提示词
+
+```text
+The Invisible Roommate
+
+Concept: An invisible being lives with a human and tries to be helpful… but gets a bit too comfortable.
+
+Full Prompt:
+
+A small messy apartment in the late afternoon. A young man comes home, drops his keys, and goes to the kitchen. Unseen by him, an invisible figure is already there — only faint heat shimmers and subtle air movements reveal its presence.
+
+The invisible being starts helping: floating dishes clean themselves in the sink, the fridge door opens and ingredients float out, a pan starts cooking perfect food on its own. The human walks past, confused but too tired to question it.
+
+The invisible being grows bolder — it sits on the couch (cushion sinks), steals a fry from the plate, and even puts its “feet” up on the table.
+
+Later that night, the human falls asleep on the couch. The invisible being carefully pulls a blanket over him, then opens the fridge again, takes out a cold Budweiser, and sits in the armchair. The can opens by itself.
+
+After a long sip, the being lets out a quiet, satisfied sigh and the camera slowly reveals a faint outline of a smile in the air.
+
+Warm apartment lighting, subtle visual effects for invisibility, cozy comedy tone, satisfying final shot.
 ```
 
 
