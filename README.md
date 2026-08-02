@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-46-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-49-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,8 +17,8 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 37
-- **Film & Storytelling** — 32
+- **Creative Experiment** — 40
+- **Film & Storytelling** — 35
 - **Brand & Marketing** — 13
 - **Product Demo** — 6
 - **Education & Tutorial** — 2
@@ -26,9 +26,9 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By workflow
 
-- **Text to Video** — 25
+- **Text to Video** — 27
 - **Image to Video** — 11
-- **Multi-image Reference** — 7
+- **Multi-image Reference** — 8
 - **Multimodal Reference** — 2
 - **Audio-driven** — 1
 - **Video Editing** — 1
@@ -2019,6 +2019,202 @@ A timecoded 30-second action sequence keeps a blonde fighter in a fixed tactical
 0:28 - 0:30：定格特写镜头。她将武士刀垂于身侧，在废墟街道上闪烁的紫色残光中傲然伫立，镜头随之向后拉远。
 
 负面提示词（高级设置）：卡通、3D渲染、动漫风格、低分辨率。
+```
+
+---
+
+### 47. Medieval Shame Walk
+
+A timecoded 30-second medieval procession escalates from restrained public condemnation to an overwhelming wall of bells and chants while the central noblewoman's composure gradually breaks.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Camera Control · Character Consistency · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | TechHalla (@techhalla) |
+
+
+[Watch result](https://x.com/techhalla/status/2083908360118616268) · [Original source](https://x.com/techhalla/status/2083908360118616268) · [Prompt source](https://x.com/techhalla/status/2083908360118616268)
+
+#### Prompt
+
+```text
+[STYLE + CAMERA + ATMOSPHERE]
+Gritty high-end medieval television production look. Shot on ARRI Alexa XT with Cooke anamorphic lenses, mix of Steadicam tracking and handheld inside the crowd. Natural overcast daylight, desaturated dirty palette, visible film grain, realistic crowd physics and fabric movement. No modern polish.
+
+[CHARACTERS]
+Central figure: proud middle-aged noblewoman with roughly cropped short blonde hair, wearing a plain rough grey woolen penitential robe that fully covers her, barefoot, pale skin, rigid upright posture that slowly cracks under public condemnation. Stern middle-aged woman in plain brown religious robes walking just behind her, continuously ringing a large heavy iron handbell and chanting in a loud flat voice. Dense crowd of dirty medieval city dwellers of every age and class in period clothing packed on both sides and leaning from windows.
+
+[LOCATION]
+Narrow winding cobblestone streets of a medieval coastal city, high stone walls, arched doorways, wooden shutters, mud on the ground.
+
+[TIMELINE]
+0-6s: [Steadicam tracking medium-wide from the side] The woman in the plain robe walks steadily forward with forced dignity. The robed woman stays half a step behind ringing the bell and chanting “Shame. Shame. Shame.” Crowd begins to notice, first heads turn, early shouts of “Shame!” rise.
+
+6-12s: [Handheld inside the pack, pushing closer] Crowd presses tighter along the path. Faces show pure contempt. Children point and call out. The woman keeps her chin high but her eyes start to glaze. Bell never stops. Chant continues: “Shame. Shame. Shame.”
+
+12-18s: [Low tracking shot moving with her feet then tilting up to face] Bare feet slap wet cobblestones. A woman leans from a window and shouts “Shame!” The central woman’s jaw tightens, first tears form but she does not break stride. Crowd noise becomes a continuous wall of overlapping “Shame!” mixed with the bell.
+
+18-24s: [Medium close-up handheld, slight shake] Camera stays locked on her face as the controlled mask cracks. Tears finally fall. She stares straight ahead, breathing harder. Behind her the religious woman rings harder and keeps the flat chant. The plain robe shifts with every step under the weight of the stares.
+
+24-30s: [Pull-back Steadicam wide tracking] The full street is visible: wall of bodies on both sides, continuous shouting of “Shame! Shame! Shame!” mixed with the bell. The woman continues walking, posture still upright but now visibly broken, tears streaming, until the frame holds on her isolated figure moving through the condemnation.
+
+[STYLE & QUALITY BOOSTERS]
+Exact period production texture of a major series, coherent physics of every body and fabric movement, stable character continuity, natural motion blur, no modern digital cleanliness, no artificial enhancement.
+```
+
+---
+
+### 48. Attack Helicopter Assault
+
+A 30-second high-budget aerial combat sequence uses five-second timeline blocks, aggressive camera changes, speed ramps, tracer fire, missile runs, and a final golden-hour climb above the clouds.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Camera Control · Visual Effects · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | OscarAI (@Artedeingenio) |
+
+
+[Watch result](https://x.com/Artedeingenio/status/2083910367692910818) · [Original source](https://x.com/Artedeingenio/status/2083910367692910818) · [Prompt source](https://x.com/Artedeingenio/status/2083910371086139759)
+
+#### Prompt
+
+```text
+30-second cinematic combat helicopter assault, breathtaking high-budget military action film, ultra-dynamic editing, relentless aerial combat choreography, premium feature film quality, seamless kinetic camera movement, aggressive speed ramps, rapid match cuts, whip pans, rotating camera moves, dramatic perspective shifts, cinematic lens distortion, volumetric smoke, rotor wash, dust clouds, sparks, flying debris, golden sunset lighting, emotionally intense, no dialogue.
+
+0–5s
+Golden sunlight breaks through heavy storm clouds.
+A formation of attack helicopters flies low across an endless mountain valley.
+Rotor blades slice through the morning mist.
+Extreme close-ups.
+Pilot visor.
+Hands gripping the cyclic.
+Warning lights.
+Missile pods.
+The cockpit vibrates with engine power.
+The camera rapidly alternates between enormous aerial vistas, intimate cockpit shots and dramatic fly-bys only meters from the helicopters.
+Complete silence.
+
+5–10s
+The formation descends into the valley.
+Rotor wash sends dust, leaves and debris spiraling into the air.
+The helicopters weave between cliffs at incredible speed.
+The camera races alongside them before instantly switching to nose-mounted perspectives, overhead tracking shots, impossible low angles beneath the rotor blades and first-person cockpit views.
+Everything accelerates.
+
+10–15s
+An overwhelming aerial action montage.
+The helicopters skim over rivers.
+Bank sharply between rocky canyons.
+Rise above dense forests.
+Bright tracer streams illuminate the valley.
+The camera never stops moving: continuous orbit shots, rapid whip pans, crash zooms, rotating 360-degree movements and seamless transitions through smoke, dust and sunlight.
+Constant speed ramps amplify every maneuver.
+
+15–20s
+The lead helicopter dives toward an abandoned industrial complex.
+Missile trails streak across the landscape.
+Rotor blades narrowly clear rooftops and power lines.
+The camera follows in one uninterrupted shot beneath the helicopter before climbing above the formation into an enormous panoramic flyover.
+Every cut increases the spectacle.
+
+20–25s
+The formation splits into multiple attack runs.
+Helicopters cross paths only meters apart.
+Smoke rolls through the valley.
+Mountains echo with rotor thunder.
+The camera jumps between ultra-wide aerial compositions, spinning chase shots, cockpit close-ups, dramatic slow motion, impossible FPV movements and breathtaking crane-like flyovers.
+The pace becomes almost overwhelming.
+
+25–30s
+Everything suddenly slows.
+The helicopters climb through the clouds into brilliant golden sunlight.
+The valley disappears beneath drifting mist.
+The camera rapidly pulls thousands of feet upward into an immense aerial shot as the formation flies toward the horizon in perfect formation.
+Hard cut to black.
+
+Sound design: colossal hybrid orchestral score, thunderous helicopter rotors, turbine engines, rushing wind, distant explosions, metallic vibrations, cinematic fly-by whooshes, deep brass, taiko drums, powerful bass impacts, subtle radio chatter, overwhelming orchestral crescendo during the final climb.
+```
+
+---
+
+### 49. Mirror Dimension Duel
+
+A three-scene martial-arts fantasy comparison combines a folding cyber-inn mirror dimension, a snow-canyon transition, and a desert monster battle using three image references and match-cut editing.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text + Image · 3 references |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Multi-image Reference |
+| Techniques | Multi-shot · Match Cut · Camera Control · Character Consistency · Visual Effects · Sound Design |
+| Format | 49s · 16:9 |
+| Publisher | 探路AI (@TanLuAI) |
+
+
+[Watch result](https://x.com/TanLuAI/status/2083912044596830649) · [Original source](https://x.com/TanLuAI/status/2083912044596830649) · [Prompt source](https://x.com/TanLuAI/status/2083912049508417552)
+
+#### Prompt
+
+```text
+一段红衣女子与黑衣女子在镜像空间打斗的画面。画面必须呈现出极致逼真的电影级质感，完全消除任何 AI 生成的塑料感与平滑感。
+
+人物设定：红衣女子气质极度高贵、冷酷、从容不迫，能施展魔法和控制金属。黑衣女子：武器为手中的短刀，会武侠轻功，并使用意念控制短刀的飞行。客栈：图3。
+
+其他设定：画面有极强的电影感、节奏感，采用不同分镜和视角切换。画面动作有很强的冲击力。仅生成音效，不要生成背景音乐。
+
+【渲染引擎与画质基准】
+采用虚幻引擎 5.4（Unreal Engine 5.4）级别的物理演算标准，开启全景光线追踪（Ray Tracing）、路径追踪（Path Tracing）以及全局光照（Global Illumination）。画面分辨率锁定为原生 8K（7680 × 4320），无损 60fps 帧率输出。开启 Lumen 动态全局光照系统，确保所有间接光反射、色彩溢出达到最真实的物理状态。开启 Nanite 虚拟微多边形几何体系统，确保背景中每一块岩石、每一粒沙子、每一片雪花的几何切面都具有无限细节。
+
+【摄影机与光学镜头参数】
+全片采用 IMAX 70mm 胶片摄影机拍摄质感，模拟 ARRI Alexa 65 顶级数字电影机的色彩科学与宽容度。镜头群主要采用 Panavision Sphero 65 超广角与中焦段镜头。画面必须包含极其真实的电影级镜头缺陷，包括但不限于：轻微的边缘色散（Chromatic Aberration）、自然的镜头暗角（Vignetting）、高光区域的变形宽银幕拉丝眩光（Anamorphic Lens Flares）、以及随着动作极其自然过渡的动态运动模糊（Motion Blur）。景深控制（Depth of Field）需要根据主体的运动轨迹进行毫秒级的精准跟焦（Rack Focus），在特写镜头时呈现柔和且具有奶油般质感的焦外散景（Bokeh）。
+
+【全局色彩科学与调色预设】
+采用好莱坞史诗级大片的“Teal and Orange”（青橙色调）色彩空间作为基础，但在三个不同的场景中进行无缝的 LUT（色彩查找表）硬切转换。赛博客栈场景强调高对比度的冷雨青蓝色（Cyan）与霓虹洋红色（Magenta）、亮橙色（Neon Orange）的冲突；雪地峡谷场景剥离所有暖色，呈现极度冷酷、压抑的极地灰白（Polar Grey）、深邃的普鲁士蓝（Prussian Blue）与花岗岩黑（Granite Black）；荒原沙漠场景则被极度饱和的焦糖黄（Caramel Yellow）、烈日金（Sunburst Gold）与末日沙尘的赭石色（Ochre）所统治，最终在雷暴云的电光紫（Electric Purple）中达到色彩的高潮。
+
+每个画面内容的提示词（分开生成，组合在一起）：
+
+画面一：侧面近景视角，红衣女子微微笑了一下，极其优雅地抬起白皙的右手，在空气中极其轻柔地拨动了一下。就在这一绝对瞬间，极其恐怖的镜像空间（Mirror Dimension）维度法则瞬间降临！
+
+画面二：整个赛博客栈、漫天的雨水、交错的黑色电缆以及闪烁的霓虹灯牌，在这一秒钟如同一面被巨锤砸碎的万花筒，瞬间分崩离析。巨大粗壮的红木梁柱和整片的瓦片屋顶被不可抗拒的力量切割成无数的几何区块，并开始以极其夸张的角度向内塌陷、90 度翻转甚至倒置。物理重力彻底消失，呈现出极其宏大且荒诞的 M.C. 埃舍尔（M.C. Escher）矛盾空间。
+
+人物设定：红衣女子气质极度高贵、冷酷、从容不迫，能施展魔法和控制金属。黑衣女子：武器为手中的短刀，会武侠轻功，并使用意念控制短刀的飞行。客栈：图3。
+
+画面一：近景面部侧面，潜伏在客栈高处阴暗空间悬梁处的黑衣女子突然在空间折叠的瞬间被无形的力甩飞了出去，彻底失去了地心引力，表情震惊，身体向着深渊般的“天空”无重力、背部朝下、双手朝上，非常高速地坠落。巨大粗壮的红木梁柱和整片的瓦片屋顶被不可抗拒的力量切割成无数的几何区块，周围环境呈现出极其宏大且荒诞的 M.C. 埃舍尔（M.C. Escher）矛盾空间。
+
+画面二：高速跟拍下落。下落过程中，她左手腕部机括瞬间向空中弹射出一道半透明高强度细线。细线如触手般极其精准地缠绕在一块正在半空中疯狂翻滚的“客栈招牌”上。借着细线的拉力，黑衣女子高高拽住飞在镜像世界，通过发射细线和轻功，在多个建筑物间飞跃，如同武林高手结合忍者一样。
+
+画面一：借着细线的拉力，黑衣女子稳稳地落在了一段已经垂直翻转 90 度的墙壁外立面上。在这光怪陆离的镜像维度中，她那绝顶的轻功得到了极其恐怖的展现。她在垂直的、甚至倒置的木质墙板与悬浮的建筑碎片上如履平地般极速奔跑（飞檐走壁）。
+
+画面二：在高速的穿梭中，她意念一动，手中的短刀脱手而出。短刀飞速旋转，在扭曲的重力场中以极其刁钻的角度，飞向位于折叠空间中心的红衣女子。而红衣女子姿态优雅如初。面对刺来的飞刀，她不退反进，手指微微一勾。客栈废墟中极其大量的金属元素——生锈的铁钉、铜制的窗棂、排水管道的金属格栅，瞬间受到极其恐怖的磁场剥离，在半空中解体、熔炼，化作无数锋利的暗银色金属碎片。这些金属碎片如深海鱼群般在她周身极速环绕，瞬间交织成一面流线型的物理金属御守。飞刀击中金属墙，反弹回黑衣女子手中。
+
+镜头保持高速运动，采用极其硬朗的无缝转场（Match Cut），将极其繁复的建筑碎片瞬间替换为极其纯粹的自然风貌。红衣女子优雅地挥动指尖，那环绕在她周身的无数暗银色金属碎片瞬间汇聚成一个巨大的金属钻头，直接向上方极其暴烈地击碎了镜像维度的空间壁垒。
+
+伴随着玻璃碎裂般的清脆巨响，所有折叠的客栈木块、霓虹碎片在半空中毫无缝隙地溶解。周围的环境瞬间硬切为一个暴风雪肆虐的极地冰雪峡谷。这是一个极其短暂的过渡维度。狂风如刀，极其密集的六角形雪花粒子在画面中狂舞。两人在高达数千米的黑色冰封峭壁间高速穿越，随后坠入下一个空间。
+
+黑衣女子在滚烫的沙丘上极其敏捷地连续翻滚卸力。近景特写她起身的瞬间，沙漠的天空被暗紫色的雷暴云笼罩。前方沙丘轰然塌陷，一头体长超过 300 米的超巨型机械沙虫，带着震耳欲聋的金属轰鸣声破沙而出，巨口仿佛要吞噬天地；而在雷电交织的后方，一个身高超过 100 米的远古沙骸巨人在风暴中拔地而起，巨大的沙质手掌带着毁天灭地的威势拍下。
+
+然而，黑衣女子彻底无视了那足以令人精神崩溃的巨兽，双腿在沙地上猛然一蹬，高高跳起，挥动短刀，极其强硬地穿透了那头巨大的机械沙虫幻象（沙虫躯体如同被打散的光影般产生像素化溶解）。她冲破了一切魔法伪装，径直杀向站在沙丘最高处的红衣女子。
+
+真正的死斗在黄沙中引爆！极具压迫感的手摇肩部摄影（Shaky Handheld on Shoulder Level）强势介入，镜头极度贴近角色的面部表情与刀刃碰撞的微距特写（Macro Close-up），强调近身搏斗的极度危险与真实感。黑衣女子的动作凌厉到了极致，她的短刀，每一招都是冲着咽喉、心脏等致命要害部位而去的毒辣突刺与劈砍。
+
+反观红衣女子，面对这狂风骤雨般的近身刺杀，依然保持着那份令人绝望的从容与优雅。她的身姿如同在沙漠中漫步和瞬移，每一次漫不经心的格挡都妙到毫巅，并且非常巧妙地躲过黑衣女子的攻击，并多次重掌打中黑衣女子的面部。全程红衣女子都未曾受过哪怕一丝一毫的轻伤，连一根头发丝都未曾断裂。武林高手过招的电影感画面。
+
+面对黑衣女子拼尽全力的一记险恶直刺，红衣女子没有使用格挡，而是以一种近乎艺术般的优雅瞬移。就在黑衣女子因刺空而重心轻微前倾的绝对瞬间，红衣女子的右手以一种看似缓慢实则极速的诡异节奏极其轻柔地探出。没有绚丽的光影，这只白皙的手掌就那么极其安静、极其优雅地印在了黑衣女子打斗胸口上。
+
+但这极其轻柔的一掌，蕴含的却是直接撕裂宇宙维度的恐怖纯物理震荡！“轰！”一股没有掺杂任何光影颜色的、极其纯粹的空间震荡波（Spatial Shockwave）猛烈爆发，直接将前方数百米范围的空气压缩成透明的音障云。镜头切入中焦段的标准电影特写（Cinematic Medium Close-up），坚决摒弃任何慢动作（Zero Slow-motion），保持极其凌厉、顺滑的 60 帧真实物理时间流速。黑衣女子以极其恐怖的速度向后倒飞。
+
+在她倒飞的轨迹上，沙漠的虚空壁垒像巨大的玻璃穹顶般被彻底坍缩，一个极度深邃的多元宇宙时空隧道。虫洞内部只有纯粹的黑暗与流转着扭曲重力场的引力波。最后镜头跟随表情震惊的黑衣女子的倒飞轨迹极速后拉，黑衣女子毫无反抗之力，被深渊般的恐怖引力无情吸入，身影在扭曲的时空中迅速缩小、彻底吞噬。
 ```
 
 
