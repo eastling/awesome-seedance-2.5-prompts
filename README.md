@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-44-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-46-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,16 +17,16 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 36
-- **Film & Storytelling** — 30
-- **Brand & Marketing** — 12
+- **Creative Experiment** — 37
+- **Film & Storytelling** — 32
+- **Brand & Marketing** — 13
 - **Product Demo** — 6
 - **Education & Tutorial** — 2
 - **Music & Performance** — 2
 
 ### By workflow
 
-- **Text to Video** — 23
+- **Text to Video** — 25
 - **Image to Video** — 11
 - **Multi-image Reference** — 7
 - **Multimodal Reference** — 2
@@ -1949,6 +1949,76 @@ From 10.0–11.5 seconds, show an extreme macro close-up of a baozi opened in ha
 From 11.5–13.0 seconds, show the family happily enjoying breakfast together. The young woman says: 「吃饱了，今天有精神！」 Only she speaks; the others respond silently with natural smiles.
 
 From 13.0–14.0 seconds, show wooden chopsticks gently lifting one baozi from the steaming basket. No dialogue or narration.
+```
+
+---
+
+### 45. Forest Guardian Finds Beer
+
+A 30-second fantasy-comedy one-take follows an ancient forest spirit as he transforms into a man, joins a campsite, and delivers a mock-serious beer-commercial payoff.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Brand & Marketing |
+| Workflow | Text to Video |
+| Techniques | One Take · Character Consistency · Visual Effects · Lip Sync · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | Dheepan Ratnam (@Dheepanratnam) |
+
+
+[Watch result](https://x.com/Dheepanratnam/status/2083892598029078685) · [Original source](https://x.com/Dheepanratnam/status/2083892598029078685) · [Prompt source](https://x.com/Dheepanratnam/status/2083892601036345506)
+
+#### Prompt
+
+```text
+Deep in an ancient forest at dusk. The trees slowly part as a massive, majestic forest spirit rises from the earth — towering body made of living bark and moss, glowing green eyes, and large antlers formed from twisted branches. Birds fall silent. The ground gently trembles under its weight. It stands tall and powerful, looking like an ancient god. The forest spirit begins walking forward with slow, heavy steps, speaking in a deep, resonant voice: “For a thousand years I have guarded these woods… protected the balance… watched over every creature…” It suddenly stops mid-step. Its glowing eyes narrow. It sniffs the air. “…What is that smell?” It follows the scent through the trees, shrinking and transforming as it walks. Bark turns to skin, antlers disappear, until it becomes a rugged, normal-looking man in outdoor clothes. He steps out of the treeline into a small campsite where three friends are grilling food and laughing around a fire. The man walks up seriously and continues in the same deep voice: “I have seen empires rise and fall… I have felt the turning of ages…” He pauses, staring at the cooler next to the grill. “…Do you have any Beer?” The group stares at him in silence. One of them slowly nods and hands him a cold bottle. The man takes it, cracks it open, takes a long satisfied sip, then exhales deeply and says with complete sincerity: “This… is worth the wait.” The camera slowly pulls back as warm firelight glows on his face. A smooth, confident commercial voiceover comes in: “When you’ve been waiting a thousand years… make it count. Cinematic fantasy lighting in the forest that transitions into warm, golden campsite firelight. Epic presence that becomes casually human. Strong comedic timing. Clean, modern commercial feel on the final voiceover.
+```
+
+---
+
+### 46. Apocalyptic Monster Katana Battle
+
+A timecoded 30-second action sequence keeps a blonde fighter in a fixed tactical outfit while she chains acrobatic katana attacks through monsters and a dark-knight boss.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Camera Control · Character Consistency · Visual Effects |
+| Format | 30s · 16:9 |
+| Publisher | Trailsahead (@Linkinpark3Park) |
+
+
+[Watch result](https://x.com/Linkinpark3Park/status/2083885540076851290) · [Original source](https://x.com/Linkinpark3Park/status/2083885540076851290) · [Prompt source](https://x.com/Linkinpark3Park/status/2083885953626829071)
+
+#### Prompt
+
+```text
+[视觉风格与整体基调] 电影级科幻动作场面，写实真人风格，8K分辨率。场景设定在末日氛围下的城市商业街，时间为日落“黄金时刻”；街道上遍布混凝土瓦砾、破碎玻璃和废弃店面，背景中矗立着巨大的外星或奇幻风格怪物。
+
+0:00 - 0:03：自拍视角。金发主角手持镜头，自信微笑并比出“剪刀手”对着镜头说话，背景中废墟街道上隐约可见狰狞的怪物。
+
+0:03 - 0:07：动态攻击序列。她转身拔出武士刀，刀身拖曳着紫色光芒，随即挥出一记横斩，将一头长角的石像魔像击碎，使其化作飞溅的碎石与紫色粘液。
+
+0:07 - 0:10：低身闪避滑铲。一辆侧翻的汽车在她附近坠落，她迅速贴地滑铲穿过沥青路面，以此躲避袭来的攻击与飞溅的残骸。
+
+0:10 - 0:14：多重怪物连击。[服装一致性修正：严格锁定其修身黑色战术战斗服；战斗期间服装不得变形或改变]。她向前突进，挥出紫色能量弧光将一头体型巨大的怪物一分为二，随后转身踢飞一只多肢生物，将其撞穿商店的玻璃橱窗。
+
+0:14 - 0:17：氛围停顿。玻璃碎片与尘埃纷纷落下，她持剑戒备，注视着周围溅满紫色液体的破碎店面。
+
+0:17 - 0:21：BOSS登场镜头。一名身披重甲、手持巨型尖刺狼牙棒的黑暗骑士从天而降，重重砸向地面，巨大的冲击力使混凝土路面开裂。
+
+0:21 - 0:25：高速闪避镜头。重甲骑士猛烈挥舞巨型狼牙棒；她身形灵巧，在骑士双腿间穿梭，躲避重击与横扫攻势。
+
+0:25 - 0:28：高潮能量打击。她为武士刀注入强烈的紫色灵气，向着身披重甲的骑士颈部猛然挥出一记强力上挑斩，将这名首领级敌人彻底粉碎，化作一大团紫色能量与液体的混合物。
+
+0:28 - 0:30：定格特写镜头。她将武士刀垂于身侧，在废墟街道上闪烁的紫色残光中傲然伫立，镜头随之向后拉远。
+
+负面提示词（高级设置）：卡通、3D渲染、动漫风格、低分辨率。
 ```
 
 
