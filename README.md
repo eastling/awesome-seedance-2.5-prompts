@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-24-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-27-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,8 +17,8 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 20
-- **Film & Storytelling** — 15
+- **Creative Experiment** — 23
+- **Film & Storytelling** — 18
 - **Brand & Marketing** — 8
 - **Product Demo** — 3
 - **Education & Tutorial** — 1
@@ -26,7 +26,7 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By workflow
 
-- **Text to Video** — 8
+- **Text to Video** — 11
 - **Image to Video** — 7
 - **Multi-image Reference** — 6
 - **Multimodal Reference** — 2
@@ -1069,6 +1069,127 @@ Photorealistic 3:4 full-body luxury fashion portrait of an exceptionally beautif
 Seedance 2.5 workflow:
 
 Use one resulting 3:4 image as the sole image input. Leave the video prompt empty and generate a 10-second video.
+```
+
+---
+
+### 25. MiniDV Kite-Flying Vlog
+
+A cheerful woman records a casual kite-flying afternoon as a 30-second consumer-camcorder vlog with imperfect framing, quiet dialogue, and detailed outdoor ASMR.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Multi-shot · Timecoded Storyboard · Camera Control · Sound Design |
+| Format | 31s · 16:9 |
+| Publisher | 𝐌 (@Strength04_X) |
+
+
+[Watch result](https://x.com/Strength04_X/status/2083763307672981913) · [Original source](https://x.com/Strength04_X/status/2083763307672981913)
+
+#### Prompt
+
+```text
+CAMERA / LOOK: Handheld mini DV camcorder footage filmed by the subject herself. Slight hand shake, occasional focus hunting, imperfect framing, natural zoom adjustments, soft tape-like image quality, subtle grain, realistic auto-exposure shifts from bright open-sky daylight. Natural skin tones, mild motion blur, authentic consumer camcorder aesthetic rather than polished cinematic footage.
+
+STYLE: Cozy outdoor kite-flying vlog with gentle ASMR elements. Relaxed pacing, minimal dialogue, candid moments, natural pauses. Focus on satisfying everyday sounds: kite fabric flapping in the wind, string spool unwinding, grass rustling underfoot, light breeze against the microphone.
+
+SUBJECT: Young woman in her mid-20s, plain windbreaker, hair tied back in a loose ponytail, minimal jewelry, no visible logos or branded items. Cheerful, carefree energy on a breezy afternoon.
+
+SETTING: Small open field on a bright breezy afternoon. Wide open sky, plain grass field, no visible signage, buildings with branding, or logos anywhere in frame.
+
+STORYBOARD:
+→ (3s, propped medium shot) Places camera on a low tripod in the grass, unrolls a plain kite. "Perfect windy day for this."
+→ (3s, overhead shot) Unwinds the string spool, checking it's free of tangles.
+→ (3s, close-up) Attaches the string firmly to the kite frame.
+→ (3s, handheld shot) Walks backward a few steps, testing the wind direction. "Feels strong enough today."
+→ (3s, detail shot) Releases the kite gently into the air. No dialogue.
+→ (3s, medium shot) Watches it climb higher, letting the string out slowly. "There it goes."
+→ (3s, macro shot) Kite fabric flapping steadily against the open sky.
+→ (3s, propped shot) Sits down on the grass, holding the string loosely.
+→ (3s, warm ending shot) Looks up at the kite soaring, happy smile. "Love days like this."
+→ (5s, final shot) Reels the string in slowly, glances toward camera. "See you next time." Reaches down and covers the lens as recording ends.
+
+AUDIO NOTES: Natural outdoor ambience — kite flapping, string unwinding, breeze, grass rustling should be clearly audible. Dialogue quiet and casual, as if speaking to a small personal audience.
+
+REALISM NOTES: Authentic body language, natural blinking, genuine cheerful smiles, occasional pauses adjusting the string, imperfect framing, focus breathing, bright open-sky lighting shifts. No copyrighted characters, logos, brand names, or recognizable public figures anywhere in frame. Fully original personal vlog content, not AI-generated or commercial in style.
+```
+
+---
+
+### 26. Cleopatra Rejects Rome
+
+Cleopatra rejects a Roman peace offer and reveals her assembled army in a grounded 30-second historical epic with restrained acting, precise dialogue, and escalating scale.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Multi-shot · Timecoded Storyboard · Lip Sync · Character Consistency · Camera Control · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | Lincanvas (@AIcanvas_Frames) |
+
+
+[Watch result](https://x.com/AIcanvas_Frames/status/2083758894770540828) · [Original source](https://x.com/AIcanvas_Frames/status/2083758894770540828)
+
+#### Prompt
+
+```text
+30-second cinematic historical epic, 16:9. Photorealistic late Egyptian royal court with grounded human behavior, real skin texture, natural facial micro-expressions, historically inspired linen, bronze, gold, leather, horses, papyrus, firelight and stone. Preserve the queen in ivory and deep-blue gown, the kneeling Roman envoy in dark red cloak and bronze armor, the emerald-robed priestess, the enormous blue-and-gold throne hall, burning braziers, reflective black floor, and the Nile beyond the open arches.
+
+0-5s: [Slow low dolly from behind the kneeling Roman envoy toward the queen] The queen studies the Roman treaty in silence. Firelight flickers across her face; the envoy's hands are tense around the ivory tablet. Behind the throne, Egyptian palace guards stand still with bronze spears and large blue-and-gold shields. Envoy, restrained English: “Rome offers peace.”
+
+5-10s: [Medium close-up on the queen] She looks up slowly. Her expression is calm, intelligent, and cold rather than theatrical. Queen, clear English: “Rome offers surrender.” The envoy swallows, briefly losing his composure.
+
+10-15s: [Over-the-shoulder on the envoy, queen in focus behind him] He glances toward the open Nile archway. Envoy: “Their legions wait at the river.” The priestess watches the queen closely; only the flames and curtains move.
+
+15-21s: [Camera tracks alongside the queen as she rises and descends the throne steps] The queen hands the treaty to the priestess, who drops it into a bronze brazier. The papyrus burns naturally. The queen walks forward, her heavy blue train sliding across the black stone floor. Palace guards step apart in two disciplined lines, creating a path toward the open terrace. No magical effects, only fire, smoke, fabric, metal, and human tension.
+
+21-26s: [Camera follows behind her, then cranes upward over her shoulder] She reaches the vast palace terrace overlooking the Nile. Below, a real Egyptian royal army fills the riverbank and courtyard: rows of bronze-armored infantry, tall standards moving in hot wind, horse-drawn chariots, shield-bearing guards, priests carrying gold sun emblems, and long riverboats waiting beside the water. Dust hangs in the warm dawn light. The scale is enormous but physically believable.
+
+26-30s: [Low-angle close-up, army blurred behind her] The queen stops at the terrace edge. Wind lifts the edge of her blue train. She looks toward the Roman envoy, then toward her assembled army. Queen, low and final: “Then Rome will learn whom Egypt follows.” Hold on her face as the army below strikes spear shafts once against their shields in a single thunderous response.
+
+Grand historical scale, grounded realism, emotionally restrained acting, physically accurate crowd movement, detailed bronze armor, natural fire and smoke, believable horse and chariot motion, rich blue, gold, ivory and desert-stone palette, elegant stable camera movement, precise English lip sync. No magic, no supernatural symbols, no modern objects, no sci-fi effects, no random text, no logos, no extra main characters, no duplicate limbs, no warped faces or hands, no costume drift, no unstable architecture, no chaotic camera shake.
+```
+
+---
+
+### 27. Countryside Slice-of-Life Documentary
+
+A quiet European countryside day unfolds from sunrise to golden hour as a photorealistic observational documentary driven entirely by natural actions and environmental ASMR.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Multi-shot · Character Consistency · Camera Control · Sound Design |
+| Format | 28s · 16:9 |
+| Publisher | Nexora (@frametheory058) |
+
+
+[Watch result](https://x.com/frametheory058/status/2083751397070397910) · [Original source](https://x.com/frametheory058/status/2083751397070397910) · [Prompt source](https://x.com/frametheory058/status/2083751909605949754)
+
+#### Prompt
+
+```text
+Create a 30-second ultra-photorealistic cinematic slice-of-life film that is visually indistinguishable from real footage. Every frame should resemble a premium Netflix lifestyle documentary or luxury commercial, captured on a professional full-frame cinema camera using 50mm and 85mm prime lenses in true 8K HDR. Use physically accurate lighting, natural dynamic range, realistic optical lens characteristics, shallow depth of field, subtle film grain, authentic motion blur, lifelike skin with visible pores, realistic eye reflections, accurate fabric simulation, and natural environmental details. Avoid any CGI or AI-generated appearance.
+
+The film follows a 30-year-old European woman living a peaceful countryside life. She has naturally tied brown hair with loose flyaway strands, minimal makeup, expressive eyes, realistic skin texture, and wears comfortable linen clothing in warm neutral tones. Every movement should feel subconscious and naturally observed—never posed or performed. She never looks directly into the camera, and her expressions remain subtle and genuine.
+
+The story begins inside a cozy farmhouse at sunrise as warm morning light fills the bedroom. She wakes naturally, opens the wooden window, and breathes in the fresh countryside air while looking across mist-covered fields. She then prepares fresh bread in a rustic kitchen, kneading dough by hand, placing it into a traditional oven, and cleaning the wooden countertop with calm, deliberate movements. Next, she walks into her small garden, gently watering herbs, collecting ripe tomatoes, and brushing her fingers across fresh plants while sunlight creates soft natural lens flares. Afterwards, she pours fresh coffee into a handmade ceramic mug and quietly reads a book beside a large window as sunlight illuminates floating dust particles. The journey continues with a relaxed walk through a charming European village lined with stone cottages, flower-filled windows, bicycles, and narrow streets before she visits a small local market to purchase fresh flowers and seasonal fruit. The film ends during golden hour as she returns home, arranges the flowers in a glass vase, sits peacefully by the window overlooking the countryside, and the camera slowly pulls away before fading naturally to black.
+
+Performance Direction: Every action should feel authentic and unplanned. Include natural blinking, relaxed breathing, realistic eye movement, subtle posture adjustments, correct body weight shifts, accurate finger anatomy, believable hand interaction with objects, natural walking speed, realistic hair movement, and true-to-life fabric physics. Nothing should resemble acting or posing.
+
+Audio Design (Critical): No dialogue, no narration, no subtitles, and absolutely no background music. Tell the story entirely through immersive environmental ASMR. Synchronize every sound naturally with the visuals, including birds singing, gentle wind, wooden floor creaks, curtain movement, dough kneading, ceramic bowls, oven door, running water, leaves rustling, footsteps on grass and stone paths, distant village ambience, market sounds, paper bags, coffee pouring, spoon stirring, page turns, doors opening, evening insects, and quiet countryside room tone.
+
+Creative Goal: Deliver a calm, intimate, emotionally grounded slice-of-life film that feels as though it was captured by a real documentary filmmaker. The final result should be so realistic, natural, and immersive that viewers genuinely question whether it was filmed with a real camera rather than generated by AI.
 ```
 
 
