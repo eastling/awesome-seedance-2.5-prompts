@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-39-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-42-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,18 +17,18 @@
 
 ### 按使用场景
 
-- **创意实验** — 32
-- **影视与叙事** — 27
-- **品牌与营销** — 10
+- **创意实验** — 35
+- **影视与叙事** — 29
+- **品牌与营销** — 11
 - **产品演示** — 5
 - **教育与教程** — 2
 - **音乐与表演** — 2
 
 ### 按工作流
 
-- **文生视频** — 19
+- **文生视频** — 21
 - **图生视频** — 11
-- **多图参考** — 6
+- **多图参考** — 7
 - **多模态参考** — 2
 - **音频驱动** — 1
 - **视频编辑** — 1
@@ -1721,6 +1721,164 @@ Premium cinematic lighting. Ultra realistic. Natural facial animation. Elegant p
 
 ```text
 Continuous 15-second single unbroken take, hyperrealistic, 35mm film look, golden hour. Camera tracks sideways at constant speed alongside a lone rider on horseback galloping across Moroccan desert dunes, keeping the horse and rider perfectly framed in profile the entire duration. As they ride, the background continuously evolves: sandstone city walls give way to open dunes, a caravan of camels passes in the distance, dust devils swirl, and the sun sinks lower turning the light from gold to deep amber. A falcon swoops into frame, flies alongside them, and lands on the rider's outstretched glove without the camera ever changing position or speed. Sand kicks up in natural motion blur. No cuts, fixed lateral tracking shot from start to finish, consistent grade.
+```
+
+---
+
+### 40. 被选中的手作陶杯
+
+一只手作陶杯在完美的瓷杯后方等待被选择；这支 30 秒风格化 3D 短片使用三张参考图、严格限定的角色动画和 13 段情绪分镜。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 图片 · 3 个参考素材 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 多图参考 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 角色一致性 · 硬切 · 声音设计 |
+| 规格 | 30s · 2.35:1 |
+| 发布者 | Dheepan Ratnam (@Dheepanratnam) |
+
+
+[观看成片](https://x.com/Dheepanratnam/status/2083869160677704006) · [原始来源](https://x.com/Dheepanratnam/status/2083869160677704006) · [提示词来源](https://x.com/Dheepanratnam/status/2083869167791305173)
+
+#### 提示词
+
+```text
+[SCENE]
+A 30-second stylised 3D animated short. A handmade clay mug at the back of a kitchen cupboard waits to be chosen, while the perfect porcelain cups at the front are used every day. Warm, funny, quietly moving. 2.35:1.
+
+[REFERENCES]
+All three: reproduce 100%, appearance only, do not inherit the reference background, lighting or camera.
+
+<<<image_1@986ea8f7-24f6-4221-a537-b7b9b9885e83>>>
+PIP: a small lopsided handmade clay mug, wobbly uneven walls, rim not level, small crooked handle, patchy cornflower-blue glaze thick at the base and thin at the rim showing terracotta beneath, a thumbprint in one side. Alive — two large expressive eyes with glassy highlights, small simple mouth. No arms, no legs.
+
+<<<image_2@865a51f2-ef24-4faa-bf27-3a6c094df42c>>>
+CLIVE: a flawless white porcelain teacup with a fine gold band at rim and foot, perfectly symmetrical, thin-walled. Alive — two large expressive eyes, small refined mouth, serene and faintly superior. No arms, no legs.
+
+<<<image_3>>> the set@1b654fff-0b6e-4531-8cc4-61af3d39f6aa — cupboard interior, light and atmosphere ONLY: sage-green shelves with chipped paint, a front row of gold-rimmed cups, a dusty gap at the back, door ajar with a warm shaft of morning sun and dust motes.
+
+[TECHNICAL]
+High-end stylised 3D animated feature quality. Soft global illumination, physically based rendering, subsurface scattering in glaze and porcelain, warm colour science, shallow depth of field, volumetric light shaft. Beautiful CG animation — NOT photoreal, NOT live action, NOT stop-motion, NOT illustration, NOT anime.
+
+ANIMATION LAW: performance is eyes, mouth and tilt only. Neither has arms or legs. They rock, lean and settle on the shelf — never walk, hop or fly.
+
+[STRUCTURE]
+13 segments, 12 hard cuts. S1/S13 = 84° wide inside the cupboard · characters = 47° at 30-60cm · reactions = 35° close · one 18° macro on the hand. No zooming.
+
+[TIMELINE]
+0:00-0:03 — 84° wide. Inside the dark cupboard. The front row of gold-rimmed cups gleams. Far at the back, in shadow, <<<image_1>>> sits alone.
+
+0:03-0:05 — 35° close on <<<image_1>>>, eyes bright, leaning forward hopefully. PIP: "Today's the day."
+
+0:05-0:07 — 47°. <<<image_2>>> at the front of the shelf, not turning round. CLIVE: "You said that yesterday."
+
+0:07-0:09 — The cupboard door swings open. A shaft of morning light. Both squint. A hand reaches in and takes <<<image_2>>> from the front row.
+
+0:09-0:11 — 35° close on <<<image_1>>>, light fading from his face as the door closes. His shoulders drop. PIP: "Tomorrow, then."
+
+0:11-0:16 — MONTAGE, fast cuts on the same 84° angle: the door opens and closes six times, light shifting from morning gold to grey to evening amber to blue. Each time a hand takes a cup from the front. Each time <<<image_1>>> leans forward hopefully and settles back.
+
+0:16-0:18 — 35° close on <<<image_1>>> in the dark, eyes lowered, no longer leaning.
+
+0:18-0:20 — 47°. The door opens again. Grey rainy light this time, slower.
+
+0:20-0:22 — 18° macro. The hand comes in — and stops. It hovers over the front row. It doesn't take one.
+
+0:22-0:25 — 47°. The hand moves past the front row, reaching into the shadow at the back, and closes gently around <<<image_1>>>.
+
+0:25-0:27 — 35° close on <<<image_2>>>, eyes wide, entirely surprised. CLIVE: "...Huh."
+
+0:27-0:29 — 47°. <<<image_1>>> lifted out into the grey light, eyes enormous, overwhelmed. PIP: "Told you."
+
+0:29-0:30 — 84° wide from inside the cupboard, out through the open door: <<<image_1>>> on the counter in soft light, steam rising. Hold.
+
+[PHYSICS]
+Ceramic weight — both rock and settle with real mass, wobbling on their bases, never bouncing lightly. The clay is duller and heavier than the porcelain, which rings faintly. The door swings with real hinge weight. Steam rises and curls. Dust drifts slowly in the shaft.
+
+[LIGHTING]
+One warm shaft through the door as the only source, shifting colour through the montage. 60:30:10 — deep cupboard shadow 60% / the shaft 30% / accent gold rims and PIP's blue glaze 10%. The back is genuinely dark; PIP is barely lit until 0:22.
+
+[AUDIO]
+MUSIC: warm score, solo piano with light strings — a simple hopeful theme entering at 0:03, thinning through the montage, dropping to almost nothing at 0:16, blooming warmly at 0:22 and holding. No comedy stings, no plucked cuteness.
+
+SFX: door hinge and latch, ceramic settling on wood, the fine ring of porcelain, a distant kettle, rain on a window at 0:18, hot liquid pouring at 0:29.
+
+DIALOGUE: five short lines only, warm and understated, never shouted, never cartoonish.
+
+[LOCKS]
+Exactly two characters, both crockery — nothing else comes alive, no faces on any other object. No human is shown beyond a single hand and forearm — no face, no body. Neither character has arms, legs, or moves on its own. PIP is never repaired, never becomes perfect, never cruelly mocked. Nothing breaks, nothing is dropped. No text, labels, logos or watermarks. Never photoreal, never live action, never stop-motion.
+```
+
+---
+
+### 41. 古罗马泄露手机影像
+
+一支 30 秒竖屏一镜到底视频，将公元 80 年的古罗马拍成粗粝不稳的手机纪实影像，依次经过市场、奴隶交易、酒馆斗殴、军团和斗兽场。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 一镜到底 · 时间轴分镜 · 运镜控制 · 声音设计 |
+| 规格 | 30s · 9:16 |
+| 发布者 | TechieSA (@TechieBySA) |
+
+
+[观看成片](https://x.com/TechieBySA/status/2083864652388151426) · [原始来源](https://x.com/TechieBySA/status/2083864652388151426) · [提示词来源](https://x.com/TechieBySA/status/2083864656796422309)
+
+#### 提示词
+
+```text
+FORMAT: Vertical 9:16 smartphone video. 30 seconds of continuous handheld footage. A real modern person walking through ancient Rome, 80 AD, filming on their phone. NOT a film. NOT cinematic. NOT color graded. Raw casual smartphone footage — looks like genuinely leaked impossible footage someone reposted.
+
+CAMERA BEHAVIOR: Handheld, walking pace the entire time — camera bobs naturally with each step, micro-shaky, never stabilized. The filmer is exploring casually, phone half-raised, glancing the camera toward whatever catches their attention — never lingering more than a few seconds on anything. Autofocus hunts twice. Framing is instinctive and imperfect — tops of buildings get cut off, horizon tilts. One brief pixelated digital zoom. No deliberate composition ever.
+
+VISUAL TEXTURE: Compressed digital smartphone video. Slightly overexposed Mediterranean sky. Natural noise in shadows. Flat, ungraded phone-camera color in harsh midday sun. Bleached stone, dusty ochre, terracotta. Noon light, no mood lighting.
+
+SECONDS 0–5: Opens mid-stride, no intro. Walking through a packed Roman street market — vendors shouting in Latin, stalls of bread, olives, live chickens, amphorae. People brush past close to the lens. The camera sweeps across the chaos while walking, catching fragments — a merchant weighing coins, a woman haggling, a donkey. Keeps moving.
+
+SECONDS 5–10: The filmer turns a corner and passes a slave market — a raised wooden platform, a trader calling out in Latin, a line of men and women standing while buyers inspect them. The camera catches it in passing — a few seconds, slightly too long, the way you’d film something disturbing without stopping — then the filmer keeps walking. Crowd noise continues, nobody around reacts, it’s an ordinary sight to them.
+
+SECONDS 10–15: Shouting erupts ahead — two men are brawling outside a tavern, wrestling into a vegetable stall, produce scattering, the vendor screaming at them. A small crowd instantly forms, laughing and jeering. The camera swings toward it while still walking, gets a shaky half-view through the gathered onlookers’ shoulders, then the filmer pushes past and moves on. The shouting fades behind.
+
+SECONDS 15–21: The street opens up. A column of Roman legionaries marches directly across the filmer’s path — red tunics, segmented armor, shields, hobnailed sandals hammering the stone in unison. The filmer stops walking for a moment to let them pass, camera panning along the line. Loud, rhythmic, intimidating. The last soldier passes and the filmer immediately walks on.
+
+SECONDS 21–27: The filmer rounds a final corner and the Colosseum fills the frame — brand new, one year old, blinding white travertine, massive beyond the phone’s ability to capture it. Enormous crowds stream toward its arches. Colored awnings. Vendors selling food outside. The filmer tilts the phone up while walking toward it, trying to fit the full height — fails, cuts off the top. Tries the digital zoom on the upper arches — pixelates badly — pulls back out.
+
+SECONDS 27–30: Still walking closer, camera on the arches and the crowds funneling in. A muffled roar erupts from inside the arena — tens of thousands of voices at once. The camera instinctively jerks up toward the sound. Cuts off abruptly mid-motion. No resolution.
+
+AUDIO: Constant walking footsteps on stone. Wind buffeting the mic. Overlapping Latin everywhere — vendors, arguments, the slave trader’s calls, the brawl crowd jeering, marching boots in unison, and finally the massive interior roar of the Colosseum crowd. No music. No narration.
+
+PEOPLE: Historically accurate. Plain wool tunics in undyed cream, brown, rust. Real weathered Mediterranean faces. No Hollywood Romans, no togas on commoners. Nobody performs for the camera. Everyone mid-task, mid-transaction, mid-argument. A real living city.
+```
+
+---
+
+### 42. 鱼眼纽约街头时尚
+
+一支高能量城市时尚短片，以超广角鱼眼镜头跟随模特穿行纽约，结合极低机位、甩镜、跳切、光轨和音乐播放器界面叠加。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 品牌与营销 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 运镜控制 · 多镜头 · 角色一致性 · 硬切 · 视觉特效 · 声音设计 |
+| 规格 | 20s · 16:9 |
+| 发布者 | BMX (@bmx_ai13) |
+
+
+[观看成片](https://x.com/bmx_ai13/status/2083863629590352329) · [原始来源](https://x.com/bmx_ai13/status/2083863629590352329)
+
+#### 提示词
+
+```text
+A 15 second urban fashion film shot on dynamic ultra wide fisheye lens capturing a trendy female model strutting through New York street corners. She wears a black crop top low rise baggy white cargo pants high top sneakers silver sunglasses and large over ear headphones around her neck. High energy camera movements include extreme low angle worm eye perspective fast tracking whip pans tilt ups and energetic jump cuts. Scene alternates between bright natural daylight along urban brick storefronts with graffiti shutter doors and moody evening streetlights featuring subtle neon glow. Fast motion city traffic blurred in background. Fluid transitions include quick lens light leaks digital HUD music player UI overlays dynamic trailing light effects and a triple visual echo effect of the model. Photorealistic skin texture natural movement crisp urban ambient audio synced with rhythmic electronic music beats 16 ratio high contrast cinematic grading.
 ```
 
 
