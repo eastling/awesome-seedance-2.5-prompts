@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-61-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-64-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,18 +17,18 @@
 
 ### 按使用场景
 
-- **创意实验** — 51
-- **影视与叙事** — 43
-- **品牌与营销** — 15
+- **创意实验** — 54
+- **影视与叙事** — 46
+- **品牌与营销** — 16
 - **产品演示** — 7
 - **教育与教程** — 2
 - **音乐与表演** — 2
 
 ### 按工作流
 
-- **文生视频** — 37
-- **图生视频** — 13
-- **多图参考** — 8
+- **文生视频** — 38
+- **图生视频** — 14
+- **多图参考** — 9
 - **多模态参考** — 2
 - **音频驱动** — 1
 - **视频编辑** — 1
@@ -2990,6 +2990,169 @@ A catastrophic collision between two massive space stations in low Earth orbit. 
 
 ```text
 Keep the central person completely motionless and frozen like a statue. Animate only the surrounding background and people with fast-paced movement and heavy motion blur, creating a dynamic time-lapse effect around the static subject. The camera must remain perfectly fixed.
+```
+
+---
+
+### 62. 东京多维自由落体
+
+一名男子从东京摩天楼坠落，穿越浮世绘、鸟居、樱花星云等日式梦境，最终跌回涩谷十字路口，全程锁定面部与身体比例。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 + 图片 · 1 个参考素材 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 图生视频 |
+| 创作技法 | 时间轴分镜 · 运镜控制 · 角色一致性 · 视觉特效 · 多镜头 · 硬切 |
+| 规格 | 30s · 16:9 |
+| 发布者 | Martin (@martindacol) |
+
+
+[观看成片](https://x.com/martindacol/status/2084145439176036502) · [原始来源](https://x.com/martindacol/status/2084145439176036502) · [提示词来源](https://x.com/martindacol/status/2084145439176036502)
+
+#### 提示词
+
+```text
+A 30-second cinematic, ultra-wide photorealistic sequence. The camera dynamically orbits the subject, changing angles and trajectories every 2 seconds for continuous engagement. The focus strictly locks onto the character's full facial details, ensuring zero distortion to his face or body proportions throughout the chaotic motion.
+
+[0-3 Seconds: The Accidental Fall]
+The Asian man from the attached image (wearing round glasses, a black t-shirt, black athletic shorts, black socks, and black sneakers) walks casually atop a skyscraper overlooking Tokyo’s twilight Shibuya Crossing. He accidentally trips, gasps silently, and tumbles backward over the edge into free fall.
+
+[3-25 Seconds: The Orbital Dreamscape Plunge]
+As gravity accelerates his fall, he thrashes instinctively. The camera continuously orbits him every 2 seconds, tracking his undistorted expressions of terror as he crashes through rapid spatial rifts:
+
+Ukiyo-e Abyss: Plunging through glowing, liquid-ink Hokusai waves and geometric indigo voids.
+Torii Corridor: Orbiting through infinitely folding vermilion gates and darting golden-eyed phantom foxes.
+Sakura Nebula: Tumbling through weightless pink blossoms, Edo-period gold clouds, and shattered Mount Fuji ice.
+Noh Kaleidoscope: Spinning amid a ringed array of floating Noh and Kabuki masks that blink and trail ghostly afterimages.
+Koi Galaxy: Hurtling through infinite bamboo forests interlaced with liquid galaxies and luminous giant koi.
+Shinkansen Vortex: Reaching terminal velocity within a multidimensional spiral of glowing train tracks and flickering neon Japanese station signs.
+
+[25-30 Seconds: The Reality Crash]
+A 2-second frenzy of high-frequency flash cuts (sushi, Daruma, neon signs) assaults the background while the man remains perfectly frozen in focus. He shatters the final rift, violently crashing back into reality. His immense inertia halts instantly as he lands perfectly on his feet at the center of the Shibuya Crossing crowds. The camera snaps to a stable, frontal extreme close-up of his face—sweating, panting, and in shock (features fully preserved and undistorted). Surrounding pedestrians in earbuds walk by indifferently, ending abruptly on the stark contrast between his surreal panic and their mundane reality.
+```
+
+---
+
+### 63. 云朵牧羊人
+
+一段 30 秒的奇趣 3D 动画：牧羊人在浮空岛上放牧会变形的云羊，并与羊群一起躲避一朵暴躁的雷雨云。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 运镜控制 · 角色一致性 · 口型同步 · 声音设计 · 视觉特效 |
+| 规格 | 30s · 16:9 |
+| 发布者 | Dheepan Ratnam (@Dheepanratnam) |
+
+
+[观看成片](https://x.com/Dheepanratnam/status/2084145160875651566) · [原始来源](https://x.com/Dheepanratnam/status/2084145160875651566) · [提示词来源](https://x.com/Dheepanratnam/status/2084145163694129428)
+
+#### 提示词
+
+```text
+{
+  "title": "Cloud Shepherd",
+  "style": "3D Pixar family animation. Floating islands, pastel sky, fluffy cloud-sheep with little legs, golden morning light, whimsical.",
+  "shots": [
+    {"time":"00:00-00:03","type":"EXTREME WIDE","action":"Crane shot down through cotton-candy clouds. Shepherd whistles, herding cloud-sheep with feather-duster staff.","camera":"Crane descending. Sun flares.","dialogue":"(whistling)"},
+    {"time":"00:03-00:06","type":"WIDE","action":"One cloud-sheep drifts away, forms T-rex, then bicycle. Other clouds confused. Shepherd's shoulders drop.","camera":"Static.","dialogue":"Shepherd: 'Bramble, stop becoming a dinosaur! You are a sheep!'"},
+    {"time":"00:06-00:09","type":"CLOSE-UP","action":"Cloud-sheep shifts into heart shape, floats down, nuzzles shepherd's cheek. She gets slightly damp.","camera":"Macro. Water droplets on freckles.","dialogue":"Shepherd: (giggles, softening) 'Okay, one dinosaur.'"},
+    {"time":"00:09-00:13","type":"TRACKING","action":"Shepherd chases flock to wooden pen. Cloud-sheep becomes slide, duck, then sheep again, hops inside.","camera":"Side-tracking, fast. Vapor trails.","dialogue":"Shepherd: 'Then we go inside.'"},
+    {"time":"00:13-00:17","type":"WIDE","action":"Dark grumpy-faced storm cloud approaches. Shepherd looks up worried. Opens tiny umbrella.","camera":"Low angle. Thunder rumbles.","dialogue":"(none)"},
+    {"time":"00:17-00:23","type":"MEDIUM","action":"Cloud-sheep huddle under tiny umbrella, spilling out. Bramble becomes umbrella shape to help cover.","camera":"High angle. Rain falls golden around them, not on them.","dialogue":"(rain patter, contented baaing)"},
+    {"time":"00:23-00:27","type":"CLOSE-UP","action":"Shepherd hugs Bramble. Feels like warm cotton. Rainbows in vapor. Eyes closed peaceful.","camera":"Extreme close-up.","dialogue":"(soft humming)"},
+    {"time":"00:27-00:30","type":"WIDE","action":"Storm passes. Sun returns. Shepherd and flock walk across rainbow bridge to next island, perfectly in line.","camera":"Pull back. Pastel sky.","dialogue":"(whistling resumes)"}
+  ]
+}
+```
+
+---
+
+### 64. 坠落穿越 Instagram 信息流
+
+一名定格动画创作者连续坠入五条“活起来”的 Instagram 帖子，由滚动界面遮挡每次无缝转场，最终落入自己完成的广告片中。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 + 图片 · 6 个参考素材 |
+| 使用场景 | 品牌与营销 · 影视与叙事 · 创意实验 |
+| 工作流 | 多图参考 |
+| 创作技法 | 一镜到底 · 时间轴分镜 · 运镜控制 · 角色一致性 · 视觉特效 · 声音设计 |
+| 规格 | 15s · 9:16 |
+| 发布者 | Jan (@janmexico) |
+
+
+[观看成片](https://x.com/janmexico/status/2084140258396946606) · [原始来源](https://x.com/janmexico/status/2084140258396946606) · [提示词来源](https://x.com/janmexico/status/2084140262310166813)
+
+#### 提示词
+
+```text
+Style: Playful cinematic stop motion, slightly choppy, exaggerated physical comedy
+Output frame rate: 24 frames per second, but animate the character with a deliberate 5 frames-per-second stop-motion rhythm
+
+CHARACTER IDENTITY LOCK
+The man in every scene is the same man from reference image 1: tall and slim, lean build, short dark hair, round red glasses that never leave his face, black t-shirt, black jeans, white sneakers. His eyes are completely natural, symmetrical human eyes with normal pupils; the red glasses have thin clear lenses that do NOT magnify, bend, distort or blur his eyes in any frame. Stable facial identity and consistent body proportions across all posts.
+
+REFERENCE IMAGES (in upload order)
+Bedroom post: reference image 1 (man asleep in bed Instagram post)
+Coffee post: reference image 2 (espresso machine kitchen Instagram post)
+Studio post: reference image 3 (creative studio with monitors Instagram post)
+AI generation post: reference image 4 (giant screen with GENERAR button Instagram post)
+Commercial set post: reference image 5 (empty cinematic spotlight set Instagram post)
+Final commercial frame: reference image 6 (the man frozen in hero pose in the spotlight)
+
+Create one continuous vertical Instagram feed where the same man secretly moves between different Instagram posts. The entire 9:16 frame is a single continuous Instagram feed. Do not treat each reference image as a separate scene or separate shot. Only the photo area inside each Instagram post becomes alive. The black Instagram headers, captions, icons, usernames, likes and comments remain visible and behave like fixed foreground interface layers. The character must always remain behind the Instagram interface. He must never overlap the caption, icons, usernames or engagement area.
+
+CRITICAL SWIPE TRANSITION ENGINE
+Every transition must visibly look like the Instagram feed is being swiped to the next post. Do not cut directly from one completed post to another completed post.
+
+For every transition:
+The man jumps downward inside the current post. His body reaches the bottom edge of the photo area. The black caption section passes in front of him and hides him. While he is hidden behind the black interface, the entire Instagram feed physically slides upward in one continuous movement. The current post moves upward and partially leaves the screen. The next post rises into view from the bottom. For several frames, both the outgoing post and incoming post must be visible together in the same 9:16 frame. The man immediately continues the same downward movement, reappearing from behind the upper black edge of the incoming post. He lands inside the next photo area without resetting his pose or speed.
+
+Do not show a finger. Maintain the same screen-space horizontal position of the man throughout the jump. His downward momentum before disappearing must match his downward momentum when he reappears. Each swipe should last approximately 0.35 to 0.5 seconds.
+
+During every swipe: no hard cut, no sudden replacement, no crossfade, no dissolve, no flash frame, no black frame, no full-screen blur, no teleportation, no camera repositioning, no instant background change, no separate establishing shot of the next post. The Instagram interface, outgoing post and incoming post must all move together as one long vertically stacked feed. Use slight vertical motion blur only on the moving feed during the fastest part of the swipe. The character and interface must remain readable.
+
+0.0 TO 2.5 SECONDS POST 1: THE SLEEPING CREATOR WAKES
+Start with: reference image 1
+Hold the post completely still for 0.3 seconds so it appears to be an ordinary Instagram image. The sleeping man's eyes open behind his red glasses. He blinks. His eyebrows rise: an idea has arrived. He sits up suddenly, pushes off the duvet, grabs the notebook from the nightstand and tucks it under his arm. He tiptoes toward the bottom edge of the photo with clear stop-motion poses and brief holds. He crouches deeply and jumps straight downward from inside the photo. He does not jump toward the camera. As he crosses the bottom edge, the black Instagram caption section moves in front of him and progressively hides his body. At the same time, begin the Instagram swipe. The bedroom post slides upward, the coffee post rises from the bottom, both briefly visible together. He continues falling and reappears from behind the coffee post's upper black boundary.
+Sound effects: duvet rustle, floor creak, spring compression, continuous vertical swipe sound
+
+2.5 TO 4.7 SECONDS POST 2: THE COFFEE STOP
+Reveal: reference image 2
+The kitchen remains empty of other people. The man lands on the kitchen counter beside the espresso machine. Cups and plates rattle. He grabs the freshly poured espresso cup and takes one large exaggerated gulp. Steam puffs. His eyes widen with energy, he does a satisfied full-body shake, now fully awake. He sets the cup down, crawls quickly to the counter edge and performs another downward jump. The black caption panel hides his body while the coffee post slides upward and the studio post rises from the bottom, both visible together. He reappears from behind the studio post's upper black edge and continues falling without pause.
+Sound effects: ceramic clink, espresso hiss, huge gulp, energized exhale, continuous vertical swipe
+
+4.7 TO 7.3 SECONDS POST 3: THE CREATION FRENZY
+Reveal: reference image 3
+The man lands seated directly into the rolling ergonomic chair, which rolls fast across the studio. He plants his feet, scoots the chair to the desk and types furiously in exaggerated stop-motion bursts. The monitors flicker with storyboards and video timelines. Sticky notes flutter off the wall. He scribbles one storyboard frame, holds it up, gives a satisfied nod. He pushes off the desk, the chair spins once, and he leaps from the spinning chair diving down through the bottom edge of the photo. The black footer hides him while the studio post slides upward and the AI generation post rises from the bottom, both visible together. He reappears from behind the incoming post's upper black edge, continuing the same headfirst fall.
+Sound effects: chair wheels rolling, frantic keyboard clacks, paper flutter, chair spin whoosh, continuous vertical swipe
+
+7.3 TO 10.4 SECONDS POST 4: THE GENERATE CLICK
+Reveal: reference image 4
+The man lands in front of the giant wall screen and looks up at the huge glowing GENERAR button. One dramatic held beat. He slaps the button with his open palm. The interface floods with light: a progress bar races across the screen and the preview frame flashes bright. Light and wind from the screen blow his clothes and hair back. He shields his eyes, grins, steps back and dives down through the bottom edge of the photo while the glow intensifies. The interface hides his body while the AI post slides upward and the commercial set post rises from the bottom, both visible together. He reappears from behind the commercial post's upper black boundary, still falling.
+Sound effects: deep UI click, rising electronic hum, whoosh of light, continuous vertical swipe
+
+10.4 TO 15.0 SECONDS POST 5: INSIDE HIS OWN COMMERCIAL
+Reveal: reference image 5
+The set is empty when he arrives. No crew, no people. The man falls into the cinematic set and lands inside the spotlight beam. Haze swirls around him. He stands, adjusts his black t-shirt, and walks to the center mark leaving the haze curling behind him. The camera performs a smooth continuous forward push toward him. No cut. He plants his feet and straightens into a confident hero pose.
+
+CRASH ZOOM: a rapid continuous camera push within the same unbroken shot. Do not hide a cut inside the crash zoom. No blur frame, no flash, no different image at the zoom peak. During the crash zoom the lighting perfects itself, the teal and amber commercial grade settles, and all of his movement gradually stops. He freezes in the final hero pose.
+
+End matching: reference image 6. The final frame must emerge from the exact same continuous shot. No cut to the reference image, no instant replacement. At the end he remains frozen as the finished commercial frame. Only his eyes briefly glance sideways, then return to stillness.
+Sound effects: spotlight buzz, footsteps on glossy floor, cinematic braam, crash-zoom impact, sudden silence
+
+MOTION STYLE
+Use deliberate stop-motion movement: choppy pose-to-pose animation, brief held reaction frames, strong anticipation before jumps, squash and stretch during landings, exaggerated scrambling, fast but readable actions, slightly reduced movement sampling, minimal motion blur outside the feed swipes, stable facial identity, consistent body proportions. The man's round red glasses stay on his face in every scene, and his eyes always stay natural, sharp and undistorted behind the lenses.
+
+STRICT NEGATIVE INSTRUCTIONS
+Do not hard-cut between posts. Do not show a completed empty post followed by a completed new post. Do not make the incoming post appear instantly. Do not zoom into a post to hide the transition. Do not fade between reference images. Do not teleport the man. Do not reset his falling pose between posts. Do not let him overlap captions, icons or usernames. Do not distort, warp, cross or enlarge his eyes at any moment. Do not create any magical portal, glow ring or ripple when he enters the commercial set. Do not cut during the crash zoom. The complete video must feel like one long Instagram feed physically scrolling upward while the man continuously falls downward through each post.
 ```
 
 
