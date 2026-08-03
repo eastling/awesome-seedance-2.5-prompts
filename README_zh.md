@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-54-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-61-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,8 +17,8 @@
 
 ### 按使用场景
 
-- **创意实验** — 44
-- **影视与叙事** — 38
+- **创意实验** — 51
+- **影视与叙事** — 43
 - **品牌与营销** — 15
 - **产品演示** — 7
 - **教育与教程** — 2
@@ -26,7 +26,7 @@
 
 ### 按工作流
 
-- **文生视频** — 30
+- **文生视频** — 37
 - **图生视频** — 13
 - **多图参考** — 8
 - **多模态参考** — 2
@@ -2785,6 +2785,211 @@ Visual Quality: Photorealistic, cinematic image quality with highly accurate flu
     }
   ]
 }
+```
+
+---
+
+### 55. 地中海 16 毫米纪录片漫步
+
+一段 15 秒档案纪录片风格短片，以不完美的手持跟拍、自然生活互动和 4:3 海边收尾，记录年轻女子漫步地中海滨小镇的过程。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 运镜控制 · 角色一致性 |
+| 规格 | 15s · 4:3 |
+| 发布者 | Cherry (@hey_am_cherry) |
+
+
+[观看成片](https://x.com/hey_am_cherry/status/2083561941004685471) · [原始来源](https://x.com/hey_am_cherry/status/2083561941004685471) · [提示词来源](https://x.com/hey_am_cherry/status/2083562105186418695)
+
+#### 提示词
+
+```text
+Style: Authentic late-1970s Mediterranean documentary captured on vintage 16mm Kodak film, naturally faded colors, subtle film grain, real optical imperfections, slight gate weave, shoulder-mounted handheld camera with imperfect human movement, soft vintage lenses, warm afternoon sunlight, realistic skin texture, no cinematic polish, feels like forgotten archival footage discovered decades later.
+
+0–3 seconds: A close handheld tracking shot follows a young woman in her 20s walking slowly through a narrow seaside alley lined with whitewashed houses, hanging linen curtains gently moving in the ocean breeze. She wears a simple linen dress, a woven shoulder bag, and naturally messy hair with no makeup. Instead of posing, she lightly brushes her fingertips across the textured walls while quietly observing everyday life around her.
+
+3–7 seconds: The camera naturally falls slightly behind her as she enters a tiny open courtyard where local people casually gather. An elderly man repairs a bicycle, someone waters colorful plants from a balcony above, laundry sways overhead, and a sleepy orange cat crosses directly in front of the lens. The camera subtly adjusts to avoid the cat, creating an authentic human reaction.
+
+7–11 seconds: A young child runs toward a rolling wooden toy that passes close to her feet. She instinctively bends down, catches it with one hand, smiles warmly, and hands it back without stopping her walk. The child laughs and runs away. No one performs for the camera; everything feels naturally observed.
+
+11–15 seconds: She reaches a small overlook facing the sparkling sea. Instead of stopping dramatically, she casually rests one elbow on an old stone railing while watching distant fishing boats. A gust of wind lifts loose strands of hair across her face. She gently moves them aside and continues walking out of frame as the handheld camera hesitates for a second before slowly following behind.
+
+Image Quality: Ultra-photorealistic vintage documentary, authentic analog exposure, realistic human motion, organic focus breathing, imperfect framing, Kodak 16mm archival texture, subtle light leaks, soft highlight bloom, natural skin pores, no AI smoothness, 4:3 aspect ratio.
+```
+
+---
+
+### 56. 生物机械末日 FPV
+
+一段高速 FPV 镜头穿越被有机体吞噬的生物科技废城，攀爬活体高楼、旋转进入破裂内部，并在酸雨与发光碎片中俯冲重返战场。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 运镜控制 · 视觉特效 |
+| 规格 | 12s · 16:9 |
+| 发布者 | yes& (@yesand_ai) |
+
+
+[观看成片](https://x.com/yesand_ai/status/2084129973682753965) · [原始来源](https://x.com/yesand_ai/status/2084129973682753965) · [提示词来源](https://x.com/yesand_ai/status/2084129973682753965)
+
+#### 提示词
+
+```text
+In a ruined biotech city overtaken by organic growth, a hyper-speed FPV camera blasts forward through streets consumed by biomechanical structures; mutated soldiers clash with armored squads as acid rain streaks diagonally across the frame; the camera snaps into vertical climbs along living skyscraper walls, spins through ruptured interiors pulsing with bioluminescent veins, then dives back into open combat zones filled with explosions and collapsing terrain; organic particles and debris smear into luminous trails, creating a nightmarish fusion of technology, decay, and relentless motion.
+```
+
+---
+
+### 57. 城市街头滑板 POV
+
+一条精简的 15 秒第一人称滑板提示词穿行城市街道，并以墙面品牌涂鸦作为最终视觉落点。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 一镜到底 · 运镜控制 |
+| 规格 | 15s · 16:9 |
+| 发布者 | yes& (@yesand_ai) |
+
+
+[观看成片](https://x.com/yesand_ai/status/2084129980351656404) · [原始来源](https://x.com/yesand_ai/status/2084129980351656404) · [提示词来源](https://x.com/yesand_ai/status/2084129980351656404)
+
+#### 提示词
+
+```text
+Skateboarding city streets POV, 15s. The video should end with a wall featuring a doodle that says “yes&”.
+```
+
+---
+
+### 58. 地下车库猫咪 FPV 追逐
+
+一台超广角微距 FPV 摄影机紧贴逃跑猫咪的局部特写，在潮湿地下车库中高速追逐，并从猛烈加速切入 120fps 打滑细节，最终完成脱险。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 一镜到底 · 运镜控制 · 视觉特效 · 声音设计 |
+| 规格 | 15s · 16:9 |
+| 发布者 | yes& (@yesand_ai) |
+
+
+[观看成片](https://x.com/yesand_ai/status/2084129984202096937) · [原始来源](https://x.com/yesand_ai/status/2084129984202096937) · [提示词来源](https://x.com/yesand_ai/status/2084129984202096937)
+
+#### 提示词
+
+```text
+Ultra-wide-angle macro FPV body-hugging tracking shot chasing a cat. The subject is never shown fully, only fragmented close-ups pass the lens: the tip of an ear, whiskers, the edge of a paw, fur on the back brushing across the camera. The image performs rapid focus shifts between the trembling ear/whiskers and nearby environmental obstacles. 120fps high-frame-rate cinematography captures the high-frequency vibration and subtle tremors when the cat runs and lands.
+
+Setting: an underground parking garage. Rough concrete floor, numbered pillars with unreadable markings, puddles and tire tracks reflecting light. The air is filled with fine dust and condensation mist. Distant headlights and cold white ceiling LEDs create sweeping contrast lighting. The space echoes, empty, oppressive, and cavernous.
+
+Movement dynamics are highly irregular. The cat follows a nonlinear predator path through narrow gaps between pillars and parked cars, sharp 90° turns, explosive ground-level acceleration, tight lateral rolls skimming past door seams and guardrail edges. The camera follows with high-frequency vibration synchronized with the rhythm of the cat’s footsteps, producing forced micro-shakes. Exaggerated motion parallax makes pillars and wheels rapidly enlarge and streak past the lens.
+
+Key physical interaction moment: An invisible downwash gust (from a passing vehicle and ventilation airflow) whips loose parking tickets, thin plastic bags, and fine dust from the ground into a spiraling tunnel. As the cat bursts through, scraps of paper stretch into radial speed lines under fisheye distortion. A tire rolls through a puddle, splashing fine droplets; water beads create realistic refraction and caustics in front of the lens.
+
+Climactic moment: A car headlight suddenly sweeps across the scene. The wet ground flashes like a mirror. The cat’s paws slip briefly into a chaotic spiral loss of control, not injured, just a dangerous skid. The footage instantly switches to 120fps slow motion: claws gripping the ground, fur trembling, droplets flinging outward in arcs, surface tension stretching the water into threads. Immediately afterward the motion returns to extreme speed. The cat sprints along the edge of a ramp, hugging the wall, and precisely darts into a half-open maintenance door / narrow fence gap, escaping.
+
+Atmosphere: claustrophobic, frantic, life-or-death tension—but ultimately a successful escape. Sound design suggests sharp rushing wind, echoing tire-water splashes, and metallic vibrations as guardrails whip past. The scene ends as the cat leaps into a safe shadowy corner, while the camera’s residual vibrations slowly settle into stillness.
+```
+
+---
+
+### 59. 微缩雪村雪崩片场
+
+一条竖屏手机一镜到底短片记录微缩电影片场：画外口令触发雪崩，吞没村庄并冲过镜头，最后在安静的“停机”口令中结束。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 一镜到底 · 时间轴分镜 · 运镜控制 · 视觉特效 · 声音设计 |
+| 规格 | 15s · 9:16 |
+| 发布者 | yes& (@yesand_ai), prompt credited to Assh sensei |
+
+
+[观看成片](https://x.com/yesand_ai/status/2084129987003912503) · [原始来源](https://x.com/yesand_ai/status/2084129987003912503) · [提示词来源](https://x.com/yesand_ai/status/2084129987003912503)
+
+#### 提示词
+
+```text
+Vertical 9:16 handheld phone video, 15 seconds, one unbroken take, no cuts. Close, high, looking down onto a miniature snow village. White powder snow with tiny wooden chalets and a frozen lake on the right. Miniature <ENTER CITY/TOWN NAME> — At the very bottom of the frame, the back of a woman's head and shoulders in a black "EFFECTS CREW" hoodie, cropped by the frame edge, very close to the lens. A black crane arm hangs into the upper right corner, a fine mist of fake snow drifting from it.
+
+0–2s — Village silent, snow falling softly. An unseen voice calls out across the stage, echoing: "…and — ACTION!"
+
+2–4s — A sharp mechanical crack: pneumatic release, metal pin dropping, deep rumble building underground. A wall of white powder begins sliding from the mountain slope above.
+
+4–9s — The avalanche crashes down over the village. Loud roaring snow-rush. Over the roar, shouted instructions: "Camera two — push in on the chalets!" Snow buries the rooftops, tiny pine trees snap and vanish, the frozen lake cracks and swallows a chalet whole.
+
+9–13s — The wave of snow pours over the near foreground edge, spraying past the lens; the crew member's shoulder flinches back instinctively.
+
+13–15s — Sudden silence. Snow settles into a smooth white blanket over the ruined village. A beat of stillness, then a second voice, calmer, off-frame: "…cut it there."
+```
+
+---
+
+### 60. 《地心引力》式空间站碰撞
+
+两座巨型轨道空间站发生灾难性碰撞，金属撕裂、大气结晶、太阳能板破碎、残骸翻滚，一名宇航员从镜头前失控飞过。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 运镜控制 · 视觉特效 |
+| 规格 | 10s · 16:9 |
+| 发布者 | yes& (@yesand_ai) |
+
+
+[观看成片](https://x.com/yesand_ai/status/2084130823054201207) · [原始来源](https://x.com/yesand_ai/status/2084130823054201207) · [提示词来源](https://x.com/yesand_ai/status/2084130823054201207)
+
+#### 提示词
+
+```text
+A catastrophic collision between two massive space stations in low Earth orbit. Metal shears apart in slow motion as the stations grind into each other, sending a hailstorm of debris spiraling outward. Entire modules crumple like tin cans. Pressurized compartments blow out in violent bursts of crystallizing atmosphere. Solar panels shatter and cartwheel into the void. The camera tumbles through the wreckage as an astronaut ragdolls past, arms flailing. Explosions ripple down the station spine. Earth looms enormous in the background, serene and indifferent. Hyper-realistic, catastrophic scale, ISO debris field, 8k, Gravity collision sequence energy.
+```
+
+---
+
+### 61. 静止人物延时流动
+
+固定机位让中央人物如雕像般完全静止，同时周围人群与环境加速成具有强烈运动模糊的延时流动。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 运镜控制 · 视觉特效 |
+| 规格 | 5s · 16:9 |
+| 发布者 | yes& (@yesand_ai) |
+
+
+[观看成片](https://x.com/yesand_ai/status/2084129993052021093) · [原始来源](https://x.com/yesand_ai/status/2084129993052021093) · [提示词来源](https://x.com/yesand_ai/status/2084129993052021093)
+
+#### 提示词
+
+```text
+Keep the central person completely motionless and frozen like a statue. Animate only the surrounding background and people with fast-paced movement and heavy motion blur, creating a dynamic time-lapse effect around the static subject. The camera must remain perfectly fixed.
 ```
 
 
