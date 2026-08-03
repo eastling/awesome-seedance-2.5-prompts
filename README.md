@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-68-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-72-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,18 +17,18 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 55
-- **Film & Storytelling** — 49
-- **Brand & Marketing** — 19
-- **Product Demo** — 8
-- **Education & Tutorial** — 3
+- **Creative Experiment** — 58
+- **Film & Storytelling** — 51
+- **Brand & Marketing** — 20
+- **Product Demo** — 9
+- **Education & Tutorial** — 4
 - **Music & Performance** — 2
 
 ### By workflow
 
-- **Text to Video** — 40
+- **Text to Video** — 43
 - **Image to Video** — 15
-- **Multi-image Reference** — 10
+- **Multi-image Reference** — 11
 - **Multimodal Reference** — 3
 - **Video Editing** — 2
 - **Video Reference** — 2
@@ -3403,6 +3403,230 @@ After an intense final clash, she unleashes one decisive attack that defeats the
 She picks up her phone, laughs softly, waves at the camera, and says, "Everything's okay now. See you next time!"
 
 The video should feel like a high-budget live-action film with realistic physics, consistent character appearance, natural human movement, cinematic lighting, detailed visual effects, and no subtitles, logos, or watermarks.
+```
+
+---
+
+### 69. Fresh Flower Pressing Vlog
+
+A cozy mini-DV-style craft vlog follows a young woman pressing fresh flowers, revealing a finished specimen, and arranging it on a card with tactile ASMR sound design.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Education & Tutorial · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Camera Control · Lip Sync · Sound Design |
+| Format | 31s · 16:9 |
+| Publisher | 𝐌 (@Strength04_X) |
+
+
+[Watch result](https://x.com/Strength04_X/status/2084269139556761919) · [Original source](https://x.com/Strength04_X/status/2084269139556761919) · [Prompt source](https://x.com/Strength04_X/status/2084269139556761919)
+
+#### Prompt
+
+```text
+CAMERA / LOOK:
+Handheld mini DV camcorder footage filmed by the subject herself. Slight hand shake, occasional focus hunting, imperfect framing, natural zoom adjustments, soft tape-like image quality, subtle grain, realistic auto-exposure shifts from bright natural daylight. Natural skin tones, mild motion blur, authentic consumer camcorder aesthetic.
+
+STYLE:
+Cozy flower-pressing vlog with gentle ASMR elements. Relaxed pacing, minimal dialogue, candid moments. Focus on satisfying sounds: petals rustling, paper pages turning, book weight settling, tweezers picking up petals, gentle smoothing.
+
+SUBJECT:
+Young woman in her early 20s, plain linen dress, hair loose, minimal jewelry, no visible logos or branded items. Calm, gentle energy while preserving flowers.
+
+SETTING:
+Small table near a window on a bright afternoon. Soft daylight, a plain heavy book, freshly picked flowers laid out, no visible brand names or packaging in frame.
+
+STORYBOARD:
+→ (3s, propped medium shot) Places camera on the table, lays out a few fresh flowers. "Pressing some flowers today."
+→ (3s, overhead shot) Arranges petals flat between two sheets of plain paper.
+→ (3s, close-up) Uses tweezers to gently position a delicate petal.
+→ (3s, handheld shot) Closes the paper carefully over the flowers. "Just need to keep them flat."
+→ (3s, detail shot) Places the paper between the pages of a heavy book. No dialogue.
+→ (3s, medium shot) Stacks a few more books on top for weight. "That should do it."
+→ (3s, macro shot) A previously pressed flower being lifted out, delicate and flat.
+→ (3s, propped shot) Arranges the pressed flowers onto a small card.
+→ (3s, warm ending shot) Admires the finished arrangement, soft smile. "So delicate and pretty."
+→ (5s, final shot) Sets the card on the windowsill, reaches toward camera. "See you next batch." Hand covers lens as recording ends.
+
+AUDIO NOTES:
+Natural ambience — petals rustling, paper turning, book settling should be clearly audible. Dialogue quiet and casual.
+
+REALISM NOTES:
+Authentic body language, natural blinking, genuine soft smiles, occasional gentle pauses, imperfect framing, focus breathing, bright daylight shifts. No copyrighted characters, logos, brand names, or recognizable public figures anywhere in frame. Fully original personal vlog content, not AI-generated or commercial in style.
+```
+
+---
+
+### 70. Grocery Shopping UGC Vlog
+
+A polished creator-style grocery vlog moves from a selfie entrance through product picks, cart POVs, and fresh-produce close-ups to a warm checkout finish.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Brand & Marketing · Product Demo |
+| Workflow | Text to Video |
+| Techniques | Multi-shot · Camera Control · Product Consistency · Sound Design |
+| Format | 20s · 16:9 |
+| Publisher | Synthia (@AIwithSynthia) |
+
+
+[Watch result](https://x.com/AIwithSynthia/status/2084264050717045019) · [Original source](https://x.com/AIwithSynthia/status/2084264050717045019) · [Prompt source](https://x.com/AIwithSynthia/status/2084264050717045019)
+
+#### Prompt
+
+```text
+A realistic UGC-style from lifestyle grocery shopping vlog filmed vertically on a smartphone with natural handheld movement and subtle camera shake. The video opens with the young woman entering a modern premium organic grocery store with warm ambient lighting, clean wooden shelves, fresh produce, and a bright minimalist interior. She holds the phone in selfie mode, smiles naturally, and gestures for viewers to follow her. She walks toward the refrigerated drinks section, scans the shelves, and picks up a green cold-pressed juice bottle, turning it slowly so the label faces the camera. Cut to a cinematic close-up as she twists the cap open and takes a refreshing sip beside a large sunlit window, smiling with a satisfied expression. Transition to a POV shot from inside a shopping cart as she pushes it through wide grocery aisles, occasionally looking down into the cart and smiling. Follow with an over-the-shoulder walking shot through beautifully organized shelves filled with premium groceries. Close-up of her hand selecting fresh oranges, gently inspecting one before placing it into the cart. End with a close-up of her picking up a vibrant dragon fruit, rotating it naturally in her hand while admiring its color before placing it into the cart. Finish with her walking toward the checkout while smiling at the camera, pushing the cart under warm golden lighting. Ultra-realistic, authentic creator content, premium grocery aesthetic, natural body language, realistic facial expressions, soft cinematic lighting, shallow depth of field, smooth transitions, realistic store ambience, subtle background music, 4K HDR, 24fps, clean color grading, lifestyle commercial quality.
+```
+
+---
+
+### 71. Flour Puff Baking Mishap
+
+A painterly 3D kitchen short turns a quiet bread-making morning into a flour-cloud mishap, then lands on a warm comedic bite and grin.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Camera Control · Character Consistency · Visual Effects · Sound Design · Hard Cut |
+| Format | 15s · 21:9 |
+| Publisher | Jay Nwabueze (@jaynwabueze) |
+
+
+[Watch result](https://x.com/jaynwabueze/status/2084266008366178701) · [Original source](https://x.com/jaynwabueze/status/2084266008366178701) · [Prompt source](https://x.com/jaynwabueze/status/2084266012908601826)
+
+#### Prompt
+
+```text
+Stylized 3D animated short film, indie art-house animation aesthetic. Semi-realistic painterly 3D render, naturalistic slender proportions with elegant elongated limbs, NOT cartoon, NOT oversized heads. Soft painterly skin with heavy subsurface scattering, visible freckles across nose and cheeks, natural blush. Hair rendered in thick painterly clumps with warm rim light. Hazy golden diffused lighting, heavy soft bloom, shallow depth of field, dust motes suspended in light beams. Warm dusty palette. NOT photorealistic, NOT live action.
+
+CHARACTER: a young woman, early 20s, thick wavy auburn hair falling past her shoulders, freckled face, soft features, a loose sage-green blouse tucked into a warm terracotta linen skirt, barefoot.
+
+LOCATION: a cozy cluttered sunlit kitchen. Open wooden shelves crowded with glass jars, copper pots, dried herbs hanging, a worn enamel stove, linen curtains glowing with morning light, flour dusting the counter.
+
+COLOR 60:30:10 — 60% warm cream and dusty rose / 30% muted terracotta wood and copper / 10% accent of sage green and her auburn hair.
+
+0–4s: medium shot, she stands at the counter kneading dough, humming to herself, sleeves pushed up, a smudge of flour on her cheek. Golden light pours through the curtains behind her, dust motes drifting.
+
+4–7s: she turns to the oven, crouches, and opens the door with a small proud smile, leaning in to check on her bread.
+
+7–9s: a huge soft puff of flour and steam erupts from the oven directly into her face. Whip-cut to a close-up as she recoils, eyes squeezed shut, her whole face and hair now dusted completely white.
+
+9–12s: slow motion as the flour cloud billows outward around her in the golden light, particles catching every sunbeam, her auburn hair lifting and settling, expression frozen in stunned stillness.
+
+12–15s: back to real time. She slowly opens her eyes, blinks twice, looks down at the slightly burnt but very round loaf in her hands. A beat. Then she breaks into a delighted grin, tears off a corner, and eats it anyway. Hold on her happy flour-covered face.
+
+CAMERA: warm medium shot on the kneading, low angle at the oven, whip-cut to close-up on the puff, slow drifting push-in through the flour cloud, static close hold on the final grin.
+
+AUDIO: gentle morning ambience, birds outside, soft humming, dough kneading, an oven door creak, a soft whoosh on the puff, then quiet suspended silence during the slow motion with only faint drifting sound, a small cough, then a warm little laugh and a crisp bread crunch.
+
+FORBIDDEN: no named studio references, no readable text or logos, no photorealistic rendering, no oversized cartoon heads, no design drift, no harsh lighting, no saturated primary colors.
+```
+
+---
+
+### 72. Waltz Through Four Art Worlds
+
+Two reference-locked dancers perform one continuous waltz while four referenced ballrooms transform around them from illuminated manuscript to Egyptian mural, East Asian ink, and watercolor.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text + Image · 6 references |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Multi-image Reference |
+| Techniques | One Take · Timecoded Storyboard · Camera Control · Character Consistency · Visual Effects · Sound Design |
+| Format | 30s · 9:16 |
+| Publisher | Faith.Aifilm (@FaithAifilm) |
+
+
+[Watch result](https://x.com/FaithAifilm/status/2084267201385918753) · [Original source](https://x.com/FaithAifilm/status/2084267201385918753) · [Prompt source](https://x.com/FaithAifilm/status/2084267201385918753)
+
+#### Prompt
+
+```text
+0:00–0:01 Scene Opening Camera Wide symmetrical establishing shot. 24mm lens. Eye-level. Very slow cinematic dolly forward. The ballroom fills the frame. Alex and Lia stand perfectly centered. Actor Blocking Alex already stands in classic Waltz lead posture. Weight evenly balanced. Left hand relaxed. Right hand prepared for ballroom frame. Lia stands three steps away facing Alex. Hands lowered. Gentle anticipation. Facial Expressions Alex Quiet confidence. Small natural inhale. Soft eyes. Lia Warm smile. Relaxed eyes. Slight excitement. Foley Large empty ballroom ambience. Very faint chandelier resonance. Natural breathing. Soft clothing movement. Environment
+
+medieval_illuminated_manuscript_ballroom_environment
+
+The Medieval Illuminated Ballroom is completely still. Nothing moves.
+
+0:01–0:02 Camera Continue slow push-in. Blocking Alex calmly walks three measured steps toward Lia. Heel-toe ballroom walk. Natural posture. Lia remains still. She watches Alex approach. Facial Expression Alex Tiny smile. Lia Eyes soften. Dialogue None. Foley Three leather shoe steps. Soft fabric movement. Environment Still unchanged.
+
+0:02–0:03 Camera Medium-wide. 35mm lens feel. Blocking Alex raises left hand naturally. Palm open. Invitation. Lia gently raises her right hand. Hands meet naturally. No exaggerated flourish. Dialogue Alex (soft) "May I?" Lia smiles. "Always." Foley Finger contact. Light sleeve movement. Quiet breathing. Environment No transition.
+
+0:03–0:04 Blocking Alex places right hand naturally onto Lia's shoulder blade. Lia places left hand on Alex's upper arm. Proper ballroom frame established. Facial Expression Both maintain comfortable eye contact. Neither smiles excessively. Camera Camera slowly circles 15 degrees clockwise. Foley Fabric settling. Shoes adjusting.
+
+0:04–0:05 Waltz Begins Blocking Alex begins classic Waltz Box. Forward Left Side Right Close Left Lia mirrors naturally. Perfect rise and fall. Camera Slow dolly continues. Foley Leather glides. Dress swish. Natural breathing. Environment Medieval ballroom remains stable.
+
+0:05–0:06 First Natural Turn Camera Begins slow orbit. Blocking Alex leads Natural Turn. Clockwise. No sudden acceleration. Environment Transition Only background changes. Stone walls slowly flatten. Ancient manuscript textures peel away like turning illuminated pages. Characters remain untouched. Foley Paper flutter. Soft magical room shift.
+
+0:06–0:07 Blocking Turn continues. Lia follows naturally. Dress swings from momentum. Camera Orbit continues. Environment Medieval architecture gradually becomes Egyptian painted walls. No effect touches the dancers. Foley Stone ambience fades. Temple ambience grows.
+
+0:07–0:08 Blocking Natural Turn completes. Both continue gliding. Facial Expression Alex Focused. Lia Gentle admiration. Dialogue Lia "It feels different..." Alex "Keep following." Foley Heel pivot. Fabric sweep.
+
+0:08–0:09 Environment
+
+ancient_egyptian_mural_ballroom_environment
+
+Egyptian ballroom fully formed. Columns. Hieroglyphs. Warm sunlight. Characters unchanged. Camera Wide orbit.
+
+0:09–0:10 Blocking Progressive Waltz movement. Smooth diagonal travel. Foley Soft shoes. Dress movement. Temple room tone.
+
+0:10–0:11 Underarm Turn Begins Alex gently releases left hand upward. Lia prepares naturally. Camera Moves closer. Medium shot. Dialogue Alex "Trust me."
+
+0:11–0:12 Blocking Lia performs one elegant underarm turn. No excessive spin speed. Environment Egyptian murals begin dissolving into flowing ink strokes. Characters remain completely realistic. Foley Brush sweep. Fabric swirl.
+
+0:12–0:13 Camera Pulls back slightly. Blocking Turn continues. Alex waits calmly. Facial Expression Lia smiles. Alex watches with quiet affection.
+
+0:13–0:14 Environment
+
+east_asian_ink_ballroom_environment
+
+Ink-painted columns appear. Lanterns emerge. Wood replaces stone. Only background transforms. Foley Wood resonance. Silk ambience.
+
+0:14–0:15 Blocking Hands reconnect naturally. Closed frame restored. Dialogue Lia "Beautiful..." Alex "We're not finished."
+
+0:15–0:16 Camera Wide shot. Blocking Continue slow Waltz. Foley Dress layers. Shoes. Breathing.
+
+0:16–0:17 Environment East Asian ballroom complete. Camera Begins close orbit.
+
+0:17–0:18 Continuous Left Rotation Alex leads Left Turning Waltz. Blocking Natural rise and fall. Close frame. Environment Ink lines begin dissolving into watercolor pigments. Only architecture transforms. Foley Soft airy shimmer.
+
+0:18–0:19 Camera Orbit continues around faces. Facial Expression Long eye contact. Quiet affection. Dialogue None.
+
+0:19–0:20 Environment
+
+watercolor_grand_ballroom_environment
+
+Columns become marble. Windows appear. Sunlight grows warmer. Foley Chandelier resonance. Marble ambience.
+
+0:20–0:21 Blocking Left Turn continues. Natural ballroom travel. Camera Slow pull-back.
+
+0:21–0:22 Environment Watercolor ballroom nearly complete. Foley Dress brushing polished floor.
+
+0:22–0:23 Blocking Alex prepares final figure. Dialogue Alex "One last step."
+
+0:23–0:24 Blocking Lia nods softly. Camera Moves slightly lower. Elegant cinematic framing.
+
+0:24–0:25 Final Dip Alex supports Lia securely. No exaggerated lean. Professional ballroom finish. Environment Watercolor ballroom fully complete. Golden sunlight fills room. Foley Soft shoe slide. Dress settles.
+
+0:25–0:26 Camera Slow push toward faces. Facial Expression Lia Gentle smile. Alex Quiet tenderness. Dialogue Lia "Where will we dance next?"
+
+0:26–0:27 Camera Closer. Faces remain perfectly sharp. Dialogue Alex "Wherever the next step leads." Foley Breathing. Soft room tone.
+
+0:27–0:28 Blocking Alex slowly helps Lia rise from the dip. They return to a graceful closed ballroom hold. No abrupt movements. Environment Warm afternoon light intensifies through the watercolor ballroom windows, creating soft reflections across the polished floor while the architecture remains stable. Foley Gentle fabric rustle. Quiet shoe adjustment. Subtle chandelier shimmer.
+
+0:28–0:29 Camera The camera eases backward into a balanced wide composition, revealing the couple centered within the grand ballroom. Blocking Alex and Lia take one final synchronized Waltz step together and come to a poised, elegant finish, maintaining eye contact. Dialogue None. Foley Single synchronized foot glide. Soft dress movement. Calm room ambience.
+
+0:29–0:30 Episode Ending / Transition to Episode 02 Camera The camera slowly cranes upward while continuing its gentle pull-back, leaving Alex and Lia standing motionless in perfect ballroom frame at the center of the floor. Blocking Neither character moves. They hold the final pose naturally, breathing softly. Environmental Transition A subtle breeze stirs the ballroom curtains. Tiny watercolor pigments drift upward near the far windows, and a faint hint of a new architectural silhouette begins to appear beyond the ballroom doors. The current environment does not transform yet; it only foreshadows another world waiting beyond, providing a seamless visual bridge into Episode 02. Dialogue Alex (softly) "Our next dance has already begun." Lia gives a small smile without replying. Foley Soft curtain movement. Distant ambient breeze. Faint chandelier resonance. Leather shoes settling. Gentle breathing. No music. End Frame Fade to black over one second, holding the quiet ballroom ambience until silence. No text, logos, or subtitles appear. The final image leaves anticipation for the next background transformation while preserving the continuity of Alex and Lia's appearance, wardrobe, and emotional connection.
 ```
 
 
