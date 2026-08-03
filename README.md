@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-52-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-54-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 A source-linked Seedance 2.5 prompt library organized for discovery, comparison, and reproduction. Every entry keeps its provenance, result, input workflow, and multi-axis classification.
@@ -17,8 +17,8 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By use case
 
-- **Creative Experiment** — 42
-- **Film & Storytelling** — 36
+- **Creative Experiment** — 44
+- **Film & Storytelling** — 38
 - **Brand & Marketing** — 15
 - **Product Demo** — 7
 - **Education & Tutorial** — 2
@@ -26,7 +26,7 @@ Classification uses independent axes instead of forcing each prompt into one rig
 
 ### By workflow
 
-- **Text to Video** — 28
+- **Text to Video** — 30
 - **Image to Video** — 13
 - **Multi-image Reference** — 8
 - **Multimodal Reference** — 2
@@ -2662,6 +2662,129 @@ From 10.0–11.5 seconds, reveal the completed premium bowl with springy noodles
 Use a bright and friendly native Japanese female narrator during the first six scenes. The narration is: “明るい食卓に、みんなの笑顔。” from 0.2–1.7 seconds; “インドミー・ソトアヤムで、インドネシアの味を。” from 2.2–3.7 seconds; “ふっくら、もちもちの麺を茹でて。” from 4.1–5.7 seconds; “香り豊かな特製スパイスを加えます。” from 6.1–7.6 seconds; “鶏のうまみが広がる、黄金色のスープ。” from 8.1–9.6 seconds; and “心まであたたまる、おいしい一杯。” from 10.0–11.0 seconds. The narrator remains off-screen and stops completely at 11.0 seconds. Narrator and model must never overlap, all other people remain silent, and no human voice continues after 13.8 seconds.
 
 From 14.0–15.0 seconds, finish with a clean premium hero shot of one green Indomie Soto Ayam package standing upright beside the completed noodle bowl. Display only “インドミー・ソトアヤム,” “INDOMIE SOTO AYAM,” and “おうちで、インドネシアの味。” Hold the final composition steadily for the final 0.4 second.
+```
+
+---
+
+### 53. Tokyo Ramen Shop Time Freeze and Rewind
+
+A 30-second photorealistic ramen-shop sequence freezes a chaotic collision at the peak of a spill, orbits suspended broth and noodles, then rewinds the accident before ending on a knowing close-up.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Camera Control · Character Consistency · Visual Effects · Hard Cut |
+| Format | 30s · 16:9 |
+| Publisher | Oogie (@oggii_0) |
+
+
+[Watch result](https://x.com/oggii_0/status/2084118983507312869) · [Original source](https://x.com/oggii_0/status/2084118983507312869) · [Prompt source](https://x.com/oggii_0/status/2084118983507312869)
+
+#### Prompt
+
+```text
+Style: Photorealistic cinematic realism. A cramped, atmospheric late-night Tokyo ramen shop — steam curling off broth pots, red paper lanterns, worn wooden counter, dangling bulb lighting, condensation on the windows, rain-slicked street glowing outside, subtle handheld camera movement, rich analog film grain.
+
+0–4s: Medium-wide shot. A young woman in an oversized denim jacket sits alone at the counter, composed with the faintest hint of amusement, slowly slurping noodles with chopsticks. Behind her, a young cook crosses the narrow kitchen carrying two steaming bowls of ramen in one hand and a full kettle of hot broth in the other. Near the entrance, an elderly regular begins to rise from his stool to leave.
+
+4–8s: Dynamic tracking shot. The elderly man stumbles backward and collides heavily with the cook. The bowls, noodles, broth, and kettle explode upward into the air. Broth stretches into long steaming ribbons with suspended droplets, noodles frozen mid-arc, steam curling in slow motion. The camera immediately performs a smooth orbital move around the collision as time freezes at the exact peak of the spill. Every face is locked in an expression of shock. Only the young woman at the counter continues moving naturally, calmly lifting another bite to her mouth.
+
+8–17s: Slow 360-degree orbit. The camera gracefully circles the frozen shop. Broth hangs in midair like molten glass ribbons and floating spheres, noodles suspended in delicate loops, steam frozen into soft drifting clouds. The bowls, kettle, and chopsticks drift weightlessly in suspended time. The woman takes another slow bite, her eyes half-closed with an almost bored expression. Then the frozen world begins to rewind elegantly. Every droplet, every noodle, and every person moves backward with perfect precision, returning toward their original positions.
+
+17–24s: Medium shot. The rewind ends flawlessly. The cook is once again carrying the bowls and kettle steadily. The woman looks up and casually raises two fingers, softly calling the cook by name. The cook turns his head at exactly the right moment, stepping around the elderly man as he rises. The collision never happens. A subtle, private smile flickers across the cook's face.
+
+24–30s: Extreme close-up. Hard cut to the woman's face. She takes one final slow slurp with a knowing smile, her eyes almost completely closed. Very shallow depth of field. The red lanterns behind her melt into soft, warm bokeh.
+
+Visual Quality: Photorealistic, cinematic image quality with highly accurate fluid and steam simulation, realistic gravity and collisions, motion blur only on moving objects, stable character consistency, seamless cinematic temporal continuity, natural facial performances, and premium filmic color grading.
+```
+
+---
+
+### 54. Moonlight Bakery
+
+A structured 30-second text-to-video prompt tells a warm late-night story about a sleepy mouse and a grumpy owl through eight timed shots, generated dialogue, recurring characters, and a gentle visual punchline.
+
+| Field | Details |
+|---|---|
+| Evidence | `Creator-confirmed` |
+| Inputs | Text |
+| Use case | Film & Storytelling · Creative Experiment |
+| Workflow | Text to Video |
+| Techniques | Timecoded Storyboard · Multi-shot · Camera Control · Character Consistency · Lip Sync · Sound Design |
+| Format | 30s · 16:9 |
+| Publisher | Dheepan Ratnam (@Dheepanratnam) |
+
+
+[Watch result](https://x.com/Dheepanratnam/status/2084120407662031331) · [Original source](https://x.com/Dheepanratnam/status/2084120407662031331) · [Prompt source](https://x.com/Dheepanratnam/status/2084120410140893413)
+
+#### Prompt
+
+```text
+{
+  "title": "Moonlight Bakery",
+  "style": "3D Pixar family animation. Cobblestone alley at 2 AM, glowing bakery window, purple and amber tones, flour dust sparkling.",
+  "shots": [
+    {
+      "time": "00:00-00:03",
+      "type": "EXT. WIDE",
+      "action": "Empty cobblestone alley. Single window glows warm. 'OWL & CROISSANT' sign.",
+      "camera": "Static, slight breeze. Leaf rolls.",
+      "dialogue": "(none)"
+    },
+    {
+      "time": "00:03-00:05",
+      "type": "INT. CLOSE-UP",
+      "action": "Owl locks cash register. A bell tings.",
+      "camera": "Over-shoulder. Flour dust catches light.",
+      "dialogue": "Owl: (sighs)"
+    },
+    {
+      "time": "00:05-00:08",
+      "type": "LOW ANGLE",
+      "action": "Door creaks. Mouse in striped pajamas shuffles in, eyes closed, swaying.",
+      "camera": "Push-in. Mouse shadow huge and wobbly.",
+      "dialogue": "Mouse: 'Mmm... one dream. Warm. With stars.'"
+    },
+    {
+      "time": "00:08-00:11",
+      "type": "TWO-SHOT",
+      "action": "Owl stares. Mouse sways into display case. Owl catches falling macaron with one wing.",
+      "camera": "Slight comedy zoom. Owl eyes widen.",
+      "dialogue": "Owl: 'We're closed, little one.'"
+    },
+    {
+      "time": "00:11-00:15",
+      "type": "CLOSE-UP",
+      "action": "Owl pulls out croissant with tiny star-shaped sesame seeds. Blows flour; it sparkles.",
+      "camera": "Macro.",
+      "dialogue": "Owl: 'This one's on the house. But you have to eat it here.'"
+    },
+    {
+      "time": "00:15-00:20",
+      "type": "WIDE",
+      "action": "Mouse takes one bite, eyes closed. Curls up on flour sack. Crumbs form constellation.",
+      "camera": "High angle, gentle.",
+      "dialogue": "(contented sigh)"
+    },
+    {
+      "time": "00:20-00:25",
+      "type": "CLOSE-UP",
+      "action": "Owl tucks tea towel over mouse. Turns 'CLOSED' sign around. Back says 'NAPPING.'",
+      "camera": "Focus pull from mouse to sign.",
+      "dialogue": "Owl: (soft hoot)"
+    },
+    {
+      "time": "00:25-00:30",
+      "type": "EXT. WIDE",
+      "action": "Owl dims lights. Through window, mouse belly rises and falls. Stray cat curls by door.",
+      "camera": "Pull back through window. Bakery light becomes small star.",
+      "dialogue": "(none)"
+    }
+  ]
+}
 ```
 
 
