@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/eastling/awesome-seedance-2.5-prompts?style=social)](https://github.com/eastling/awesome-seedance-2.5-prompts)
-[![Prompts](https://img.shields.io/badge/prompts-72-blue)](#prompt-collection)
+[![Prompts](https://img.shields.io/badge/prompts-78-blue)](#prompt-collection)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 一个围绕信息整理构建的 Seedance 2.5 提示词库：保留原始来源、成片、输入方式和多轴分类，方便查找、比较与复现。
@@ -17,17 +17,17 @@
 
 ### 按使用场景
 
-- **创意实验** — 58
-- **影视与叙事** — 51
-- **品牌与营销** — 20
-- **产品演示** — 9
+- **创意实验** — 62
+- **影视与叙事** — 56
+- **品牌与营销** — 22
+- **产品演示** — 10
 - **教育与教程** — 4
 - **音乐与表演** — 2
 
 ### 按工作流
 
-- **文生视频** — 43
-- **图生视频** — 15
+- **文生视频** — 46
+- **图生视频** — 18
 - **多图参考** — 11
 - **多模态参考** — 3
 - **视频编辑** — 2
@@ -3627,6 +3627,252 @@ Columns become marble. Windows appear. Sunlight grows warmer. Foley Chandelier r
 0:28–0:29 Camera The camera eases backward into a balanced wide composition, revealing the couple centered within the grand ballroom. Blocking Alex and Lia take one final synchronized Waltz step together and come to a poised, elegant finish, maintaining eye contact. Dialogue None. Foley Single synchronized foot glide. Soft dress movement. Calm room ambience.
 
 0:29–0:30 Episode Ending / Transition to Episode 02 Camera The camera slowly cranes upward while continuing its gentle pull-back, leaving Alex and Lia standing motionless in perfect ballroom frame at the center of the floor. Blocking Neither character moves. They hold the final pose naturally, breathing softly. Environmental Transition A subtle breeze stirs the ballroom curtains. Tiny watercolor pigments drift upward near the far windows, and a faint hint of a new architectural silhouette begins to appear beyond the ballroom doors. The current environment does not transform yet; it only foreshadows another world waiting beyond, providing a seamless visual bridge into Episode 02. Dialogue Alex (softly) "Our next dance has already begun." Lia gives a small smile without replying. Foley Soft curtain movement. Distant ambient breeze. Faint chandelier resonance. Leather shoes settling. Gentle breathing. No music. End Frame Fade to black over one second, holding the quiet ballroom ambience until silence. No text, logos, or subtitles appear. The final image leaves anticipation for the next background transformation while preserving the continuity of Alex and Lia's appearance, wardrobe, and emotional connection.
+```
+
+---
+
+### 73. 热带海滩俱乐部蒙太奇
+
+一支快节奏度假村蒙太奇，从泳池酒瓶托盘和舞动宾客切换到鸡尾酒微距、热闹海滩酒吧、棕榈树与面朝大海的 DJ 收尾。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 品牌与营销 · 影视与叙事 |
+| 工作流 | 文生视频 |
+| 创作技法 | 多镜头 · 运镜控制 · 产品一致性 · 声音设计 |
+| 规格 | 28s · 16:9 |
+| 发布者 | BMX (@bmx_ai13) |
+
+
+[观看成片](https://x.com/bmx_ai13/status/2085313433281478886) · [原始来源](https://x.com/bmx_ai13/status/2085313433281478886) · [提示词来源](https://x.com/bmx_ai13/status/2085313433281478886)
+
+#### 提示词
+
+```text
+A cinematic tropical beach club montage shot on a 35mm lens with bright summer lighting. A young smiling woman in an orange one shoulder swimsuit stands in a turquoise swimming pool managing a floating tray of orange liquor bottles. Quick cuts to resort guests warmly hugging and dancing under a thatched palapa roof on white sand. A tattooed DJ in a black shirt and cap mixes music on modern decks. Macro close up of sparkling wine pouring into a large glass filled with ice followed by bright orange liquor poured from a metal jigger with bright sunlight catching the liquid and creating lens flares. A lively shaded beach bar with guests laughing at wooden tables and a waiter walking past carrying a tray of colorful cocktails. Tilt up to green palm trees strung with warm lightbulbs against a bright sky. People relax at tables facing the ocean in the background. The scene ends with a soft focus fade on the DJ. Fast paced dynamic tracking shots shallow depth of field vibrant teal and orange color grading high energy music video style cinematic lighting photorealistic highly detailed 8k resolution.
+```
+
+---
+
+### 74. 东京手机旅行 Vlog
+
+一位通过参考图锁定形象的旅行者，以真实手机 Vlog 记录机场值机、起飞、抵达以及初到东京街头的全过程。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 + 图片 · 1 个参考素材 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 图生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 运镜控制 · 角色一致性 · 口型同步 · 声音设计 |
+| 规格 | 30s · 16:9 |
+| 发布者 | Sania (@saniaspeaks_) |
+
+
+[观看成片](https://x.com/saniaspeaks_/status/2085307691937767921) · [原始来源](https://x.com/saniaspeaks_/status/2085307691937767921) · [提示词来源](https://x.com/saniaspeaks_/status/2085307691937767921)
+
+#### 提示词
+
+```text
+Preserve the exact face, hairstyle, identity, skin tone, and body proportions from @image1 throughout.
+
+A 30-second photorealistic smartphone travel vlog filmed entirely like a real mobile phone recording with natural handheld movement, subtle hand shake, realistic autofocus, slight exposure shifts, authentic smartphone stabilization, and true-to-life colors. No cinematic camera moves, no beauty filters, no CGI look.
+
+Scene 1 (0:00–0:04) – Airport entrance. She pulls a small suitcase toward the check-in counter, smiles at the selfie camera, and says, "Today's a travel day!"
+
+Scene 2 (0:04–0:07) – Airport terminal. She holds up her boarding pass while walking toward the departure gate, excitedly showing the busy terminal.
+
+Scene 3 (0:07–0:11) – Airplane window seat. She records the plane taking off, then turns the camera toward herself with the clouds visible through the window, smiling with excitement.
+
+Scene 4 (0:11–0:15) – Landing. The aircraft touches down smoothly, and she captures her first glimpse of Tokyo through the airplane window.
+
+Scene 5 (0:15–0:19) – Arrival hall. She walks through the airport with her suitcase, following the exit signs, looking excited for the adventure.
+
+Scene 6 (0:19–0:24) – First moments in Tokyo. She steps outside into the lively streets, filming colorful signs, passing trains, cafés, and busy crosswalks while saying, "I finally made it!"
+
+Scene 7 (0:24–0:28) – Exploring the city. She strolls through the streets, records the atmosphere, smiles at the camera, and points toward the city ahead.
+
+Scene 8 (0:28–0:30) – Final selfie. She stops, gives a cheerful wave, smiles brightly, and says, "Let's explore!" before reaching toward the phone to end the recording.
+
+Audio: Natural ambience only—airport announcements, rolling suitcase wheels, airplane cabin sounds, engine noise during takeoff and landing, footsteps, city traffic, train sounds, people talking, and light wind. No background music, no subtitles, no logos, and no watermarks. The entire video should feel exactly like a genuine smartphone travel vlog with natural human movement and consistent appearance throughout.
+```
+
+---
+
+### 75. 金色时刻山路摩托骑行
+
+一辆黑色运动摩托在蜿蜒山路上加速，跟拍、车载 POV、侧向追踪与最终航拍拉远共同突出速度感和山谷尺度。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 运镜控制 · 声音设计 |
+| 规格 | 30s · 16:9 |
+| 发布者 | LudovicCreator (@LudovicCreator) |
+
+
+[观看成片](https://x.com/LudovicCreator/status/2085304972208468260) · [原始来源](https://x.com/LudovicCreator/status/2085304972208468260) · [提示词来源](https://x.com/LudovicCreator/status/2085304994790510822)
+
+#### 提示词
+
+```text
+[Global Setting]
+
+Base Environment & Texture: A winding mountain road at golden hour, asphalt curves cutting through forested landscape, warm amber light raking across the road, distant valley visible below, slight atmospheric haze, road markings sharp and clear, realistic motorcycle cinematography aesthetic.
+
+[Character/Subject Identity Lock]
+
+A skilled rider on a sleek black sport bike (Kawasaki Ninja style), wearing a black leather jacket, dark helmet with gold visor reflecting light, leaned forward in aggressive riding position. The bike is low-slung, aggressive stance, chrome details catching sunlight.
+
+[Opening beat, 0–4s]: Static wide shot of the empty mountain road at golden hour. Wind rustles trees. Suddenly, the distant sound of a powerful engine approaching. The black sport bike appears at the horizon, small at first, accelerating toward camera. Engine sound grows louder.
+
+[Mid beat, 5–22s]: Dynamic action. Camera cuts to close follow-cam mounted on the bike, the road curves sharply left, lean angle increases, camera tilts with the physics, asphalt rushing past, trees blur. The rider carves the curve with precision, throttle down, engine screaming. Onboard POV shot looking over the rider's shoulder handlebars, speedometer climbing (120, 130, 140 kph visible), the road ahead snaking through forest. Cut to a tracking shot alongside the bike low angle, camera pacing the bike, rider's silhouette against the sky, leather jacket flapping with wind. The bike accelerates harder into a straightaway, camera pulls back to show the full scale bike tiny on the vast mountain road. Quick sequence of curves, each one tighter, each one faster, camera orbits around the bike's arc. The rider is completely in control, smooth inputs, confidence visible in the body position. Golden light catches the chrome, sunlight flashes through trees as speed increases.
+
+[Closing beat, 22–30s]: One final sweeping curve, ultra-wide shot from above, the bike traces a perfect line through the mountain road like a brushstroke. Camera pulls back higher and higher, revealing the entire valley below, the road winding into the distance. The bike becomes a small silhouette against the vast landscape. Engine note fades as the bike accelerates away into the sunset. Aerial wide shot, the road, the forest, the golden light, the freedom. Hold on the expansive landscape with the bike a distant speck.
+
+Audio: Motorcycle engine starting low and steady (idle), builds to a growl, throttle rolls create a rising mechanical roar, wind noise increases with speed, engine whine at high RPM through mid-beat, tire grip sounds on the curves (subtle grip and release), exhaust note snappy and powerful throughout, minimal music one sustained orchestral note at the very end as the view pulls back, wind and engine fade to silence.
+```
+
+---
+
+### 76. 法拉利梦想礼物广告
+
+一位参考图锁定的男主揭开车罩发现红色敞篷跑车，随后通过触摸细节、内饰镜头、车顶收折与最终英雄姿态完成高端广告叙事。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 + 图片 · 1 个参考素材 |
+| 使用场景 | 品牌与营销 · 产品演示 |
+| 工作流 | 图生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 运镜控制 · 角色一致性 · 产品一致性 · 视觉特效 · 声音设计 |
+| 规格 | 30s · 16:9 |
+| 发布者 | Heisenberg (@rovvmut_) |
+
+
+[观看成片](https://x.com/rovvmut_/status/2085304872522698838) · [原始来源](https://x.com/rovvmut_/status/2085304872522698838) · [提示词来源](https://x.com/rovvmut_/status/2085304876939272526)
+
+#### 提示词
+
+```text
+Hyper-detailed cinematic 30-second luxury car commercial.
+
+Clean modern white minimalist garage: seamless white walls, polished light-gray concrete floor with soft reflections, large grid of bright square LED ceiling panels giving even high-key studio lighting and clean specular highlights. Pure controlled environment, commercial-grade polish.
+
+Character lock: A young handsome man in @image1, mid-20s, dark messy hair, well groomed beard wearing stylish sunglasses, calm confident expression that softens into quiet pride. Crisp off-white short-sleeve button-up shirt (collar slightly open), beige chinos, black-and-white Nike Dunk-style sneakers, black smartwatch on left wrist. Natural skin and fabric texture.
+
+Car lock: Exact Rosso Corsa red Ferrari Portofino convertible. Glossy mirror paint, black soft-top, dual central chrome exhausts, yellow calipers, multi-spoke alloys, prancing-horse badges, black grille, red mirrors. Dubai plate “DUBAI EE 67554”. Large elegant purple satin gift bow with long ribbons centered on the hood (appears after initial reveal). Perfect ceiling-grid reflections on every panel.
+
+Shot-by-shot timeline:
+
+0.0–2.5s Wide slightly low-angle establishing. The red Ferrari sits fully under a black car wrap/cover on the left side of the empty white garage. Man enters from the right, back to camera, walks slowly and confidently toward the car. As he approaches, the black wrap begins to slide and peel off the car in a slow, elegant motion, gradually revealing the glossy red body underneath. Soft footsteps. Camera dollies forward and tracks left with him. Ceiling lights create geometric floor reflections.
+
+2.5–5.0s Medium tracking. He reaches driver’s side, turns, looks at the car with a subtle almost-smile, places right hand gently on roof/A-pillar and slides it along the body. Low-angle close-up of face and hand on glossy red paint. Soft overhead key + gentle rim light.
+
+5.0–7.5s Medium-wide. Purple satin bow now perfectly on hood. Man walks around the front from right to left, hands in pockets, stops at driver’s door and opens it smoothly. Camera slowly orbits front three-quarter as door opens.
+
+7.5–12.5s Intimate interior sequence. Low angle from passenger side as he steps in. Settles into red leather driver’s seat, grips red Ferrari steering wheel with both hands, adjusts slightly, looks down then forward with quiet intensity. Realistic body weight shift. Red interior, black soft-top above, ceiling grid visible through windshield. Camera stays inside, gentle push-in toward face and hands.
+
+12.5–15.5s Dramatic low front close-up of aggressive fascia, headlights and purple bow. Slow subtle push-in. Perfect light reflections on paint.
+
+15.5–17.5s Low rear three-quarter tracking of dual exhausts and circular taillights. Camera slowly rises and orbits left, revealing more side profile.
+
+17.5–20.5s Elevated wide shot. Man outside again, leaning forward carefully wiping front hood badge with his finger. Stands, walks around front toward passenger side, hands in pockets, calm and proud. Smooth cinematic orbit following him.
+
+20.5–23.0s Medium of him beside open driver’s door looking at the car, then clean close-up of Ferrari prancing-horse badge on front fender with glossy red paint and ceiling reflections.
+
+23.0–26.0s Wide side profile. Black soft-top retracts automatically — rear deck opens, roof folds and disappears into rear compartment. Man already seated inside looking toward camera. Camera slowly arcs around driver’s side as top fully opens.
+
+26.0–28.0s Intimate medium close-up through open driver’s side. Man sits in red leather seat, one hand on wheel, looks directly at camera with composed, slightly proud expression. Soft light on face, red body framing him.
+
+28.0–30.0s Final hero wide. Man stands casually leaning against driver’s side of fully open-top Ferrari, left hand in pocket, looking toward camera with quiet confidence. Purple bow still on hood. Perfect composition in bright white garage. Slow gentle push-in. Hold final beat.
+
+Style & technical: Photorealistic cinematic commercial, 24fps filmic motion, shallow-to-medium DOF, ultra-clean high-end grade (rich reds, pure whites, soft neutrals). Perfect material response: mirror paint, soft satin bow, realistic leather and cotton. Smooth professional moves only (dollies, orbits, gentle push-ins). Exact character and car consistency every shot. Emotional tone: quiet luxury, personal achievement, understated joy of a dream gift.
+
+Negative: blurry faces, deformed hands, extra people, text, watermarks, low quality, cartoon proportions, oversaturated colors, dark lighting, shaky cam.
+```
+
+---
+
+### 77. 二战装甲列车突袭
+
+一列巨型装甲列车在 30 秒战争史诗蒙太奇中冲过欧洲废墟城市，以高速追踪、贴轨视角、桥梁穿越、烟尘碎屑和最终航拍揭示制造压迫感。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 文生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 匹配剪辑 · 运镜控制 · 视觉特效 · 声音设计 · 硬切 |
+| 规格 | 30s · 16:9 |
+| 发布者 | OscarAI (@Artedeingenio) |
+
+
+[观看成片](https://x.com/Artedeingenio/status/2085300093599592686) · [原始来源](https://x.com/Artedeingenio/status/2085300093599592686) · [提示词来源](https://x.com/Artedeingenio/status/2085300097072423051)
+
+#### 提示词
+
+```text
+30-second cinematic World War II armored train sequence, breathtaking high-budget war epic, ultra-dynamic editing, relentless cinematic action, massive armored train assault, premium feature film quality, seamless kinetic camera movement, aggressive speed ramps, rapid match cuts, whip pans, rotating camera moves, dramatic perspective shifts, cinematic lens distortion, volumetric smoke, steam, dust, sparks, flying debris, colossal scale, emotionally intense, no dialogue.
+
+0–5s A ruined European city lies beneath heavy storm clouds. An enormous armored train slowly emerges from thick smoke. Steam billows from the locomotive. Close-ups. Steel wheels. Massive pistons. Boiler pressure gauges. Crew members inside the armored locomotive. The camera rapidly alternates between breathtaking aerial shots and intimate mechanical details. Absolute silence.
+
+5–10s The locomotive accelerates. Smoke pours into the sky. The train bursts through a collapsed railway station. The camera races alongside the locomotive before instantly switching to overhead tracking shots, impossible low angles beneath the wheels, FPV shots above the tracks and dramatic crane dives.
+
+10–15s An overwhelming montage. The armored train roars across shattered bridges. Smoke engulfs entire streets. Buildings crumble nearby. Escort aircraft streak overhead. The camera never stops moving: continuous orbit shots, whip pans, crash zooms, rotating camera moves and seamless transitions through steam, sparks and collapsing masonry.
+
+15–20s The train reaches maximum speed. It charges through narrow streets lined with ruined buildings. The camera follows inches above the rails before diving underneath the locomotive and rising through clouds of smoke into a spectacular aerial view. Every cut increases the scale.
+
+20–25s The entire city shakes. The train crosses an enormous iron bridge. Columns of smoke rise everywhere. Aircraft sweep across the skyline. The editing becomes increasingly frantic with ultra-wide aerial shots, ground tracking, spinning perspectives and dramatic slow motion.
+
+25–30s Everything suddenly slows. The armored train disappears into a mountain tunnel. Steam fills the valley. The camera cranes thousands of feet upward revealing the entire ruined city beneath dramatic skies. Hard cut to black.
+
+Sound design: colossal hybrid orchestra, thunderous steam locomotive, steel wheels, deep brass, roaring engines, rushing steam, metallic echoes, distant aircraft, collapsing masonry, cinematic whooshes, overwhelming orchestral finale.
+```
+
+---
+
+### 78. 餐厅碰撞冻结时间
+
+一位参考图锁定的餐厅客人撞上服务员，在冻结的早餐与咖啡爆炸现场中穿行，并在抵达门口时迎来时间和重力的突然恢复。
+
+| 字段 | 信息 |
+|---|---|
+| 证据等级 | `作者确认` |
+| 输入 | 文本 + 图片 · 1 个参考素材 |
+| 使用场景 | 影视与叙事 · 创意实验 |
+| 工作流 | 图生视频 |
+| 创作技法 | 时间轴分镜 · 多镜头 · 运镜控制 · 角色一致性 · 视觉特效 · 声音设计 |
+| 规格 | 30s · 16:9 |
+| 发布者 | TechHalla (@techhalla) |
+
+
+[观看成片](https://x.com/techhalla/status/2085200942060691807) · [原始来源](https://x.com/techhalla/status/2085200942060691807) · [提示词来源](https://x.com/techhalla/status/2085200942060691807)
+
+#### 提示词
+
+```text
+Photorealistic cinematic 1990s American diner, red vinyl booths, neon signs, chrome details, checkerboard floor, soft natural window light mixed with warm practicals, subtle handheld texture, rich lived-in period detail, heavy film grain. Shot with modern realism and precise temporal control.
+
+Use the provided reference image as the exact character lock for the bald bearded man in black sunglasses and dark hoodie. Maintain perfect facial structure, beard, head shape, skin texture and clothing consistency at all times.
+
+0–5s: [Medium Wide] The bald man sits in a red vinyl booth. He stands up, turns, and collides hard into a waitress carrying a full breakfast tray (eggs, bacon, toast, coffee pot). Impact is sudden and physical.
+
+5–12s: [Dynamic Tracking into Super Slow-Motion] Collision detonates. Tray, plate, eggs, bacon strips and coffee pot explode upward. Coffee erupts into long liquid ribbons and perfect suspended droplets. Camera orbits smoothly around the impact. Time locks completely at the peak of the spill. Every face freezes in pure shock. Only the bald man remains free to move. He freezes for one beat with a clear “I fucked up” expression, then quickly grabs two bacon strips and a fried egg from the floating debris.
+
+12–22s: [Tracking Shot] Still inside the frozen diner, he walks toward the exit door while taking deliberate bites of bacon then egg. All patrons, waitress and flying food stay perfectly suspended in mid-air.
+
+22–27s: [Medium Shot] Just as he reaches the door and is about to push it open, time snaps back to normal speed. Everything that was floating crashes down at once — plates, eggs, bacon, tray and coffee slam onto the floor with a loud chaotic impact. The waitress and patrons react in sudden real-time shock.
+
+27–30s: [Medium Close-Up] He pauses, turns slightly, raises his eyebrows and gives a small casual “it is what it is” shrug with a quiet half-smile of acceptance, still holding the remaining food.
+
+Photorealistic, ultra-detailed fluid and object physics, perfect volume and surface tension on liquids, sharp motion blur only on moving elements, stable character, cinematic lighting, heavy natural film grain, no artifacts, movie-level temporal coherence, high rewatch value.
 ```
 
 
